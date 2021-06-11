@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Raleway-Italic-VariableFont_wght.ttf";
+  src: url("fontfamily/Raleway-Italic-VariableFont_wght.ttf");
+  src: url("fontfamily/Raleway-Italic-VariableFont_wght.ttf?#iefix")
+      format("fontfamily/Raleway-Italic-VariableFont_wght.ttfembedded-opentype"),
+    url("fontfamily/Raleway-Italic-VariableFont_wght.ttf") format("woff"),
+    url("fontfamily/Raleway-Italic-VariableFont_wght.ttf") format("truetype"),
+    url("fontfamily/Raleway-Italic-VariableFont_wght.ttf") format("svg");
+}
+p {
+  font-family: "Raleway-Italic-VariableFont_wght.ttf";
+}
+
+@font-face {
+  font-family: "Raleway-Bold.ttf";
+  src: url("fontfamily/Raleway-Bold.ttf");
+  src: url("fontfamily/Raleway-Bold.ttf?#iefix")
+      format("fontfamily/Raleway-Bold.ttfembedded-opentype"),
+    url("fontfamily/Raleway-Bold.ttf") format("woff"),
+    url("fontfamily/Raleway-Bold.ttf") format("truetype"),
+    url("fontfamily/Raleway-Bold.ttf") format("svg");
+}
+
+h1 {
+  font-family: "Raleway-Bold.ttf";
+}
