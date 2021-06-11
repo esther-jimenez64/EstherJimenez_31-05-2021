@@ -1,18 +1,15 @@
 @font-face {
-  font-family: "Raleway-Italic-VariableFont_wght.ttf";
-  src: url("fontfamily/Raleway-Italic-VariableFont_wght.ttf");
-  src: url("fontfamily/Raleway-Italic-VariableFont_wght.ttf?#iefix")
-      format("fontfamily/Raleway-Italic-VariableFont_wght.ttfembedded-opentype"),
-    url("fontfamily/Raleway-Italic-VariableFont_wght.ttf") format("woff"),
-    url("fontfamily/Raleway-Italic-VariableFont_wght.ttf") format("truetype"),
-    url("fontfamily/Raleway-Italic-VariableFont_wght.ttf") format("svg");
-}
-p {
-  font-family: "Raleway-Italic-VariableFont_wght.ttf";
+  font-family: "Raleway-ExtraLight.ttf";
+  src: url("fontfamily/Raleway-ExtraLight.ttf");
+  src: url("fontfamily/Raleway-ExtraLight.ttf?#iefix")
+      format("fontfamily/Raleway-ExtraLight.ttfembedded-opentype"),
+    url("fontfamily/Raleway-ExtraLight.ttf") format("woff"),
+    url("fontfamily/Raleway-ExtraLight.ttf") format("truetype"),
+    url("fontfamily/Raleway-ExtraLight.ttf") format("svg");
 }
 
 @font-face {
-  font-family: "Raleway-Bold.ttf";
+  font-family: "Raleway-Bold.ttf"; /*font de la page */
   src: url("fontfamily/Raleway-Bold.ttf");
   src: url("fontfamily/Raleway-Bold.ttf?#iefix")
       format("fontfamily/Raleway-Bold.ttfembedded-opentype"),
@@ -21,6 +18,31 @@ p {
     url("fontfamily/Raleway-Bold.ttf") format("svg");
 }
 
+body {
+  width: auto;
+  margin: auto; /*config corps*/
+}
+
+/*  header */
+
+#logo img {
+  width: 95px;
+  height: 50px;
+}
+
 h1 {
   font-family: "Raleway-Bold.ttf";
+  font-size: 20x;
+}
+
+#centre {
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  top: -12px;
+  /* premier p   */
+}
+
+.Recherche {
+  border-color: #0065fc;
+  border-radius: 20px / 10px;
 }
