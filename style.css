@@ -21,6 +21,8 @@
 body {
   width: auto;
   margin: auto; /*config corps*/
+  padding-left: 20px;
+  height: 1080px;
 }
 
 /*  header */
@@ -32,17 +34,56 @@ body {
 
 h1 {
   font-family: "Raleway-Bold.ttf";
-  font-size: 20x;
+  font-family: "Raleway-Bold.ttf"; /*Trouvez votre hébergement */
+  font-size: 25px;
 }
 
 #centre {
   font-family: "Raleway", sans-serif;
   position: relative;
   top: -12px;
+  left: 10px;
+
   /* premier p   */
 }
 
 .Recherche {
-  border-color: #0065fc;
-  border-radius: 20px / 10px;
+  border-radius: 10px/20px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #0065fc; /* le background de recherche   */
+  height: 20px;
+  width: 8%;
+  text-align: center;
+  padding: 15px;
+  font-family: "Raleway-Bold.ttf";
+  position: absolute;
+  left: 335px;
+}
+.Recherche a {
+  /* le a premier lien pour rendre cliquable la barre recherche   */
+  text-decoration: none;
+  color: white;
+}
+
+form {
+  position: absolute;
+  left: 70px;
+  top: 135px;
+}
+
+.location {
+  background-color: #f2f2f2;
+  width: 2%;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  text-align: center;
+  height: 30px;
+  /*     icon location                         */
+}
+#pseudo {
+  font-size: 17px;
+  height: 20px;
+  font-family: "Raleway-Bold.ttf";
+  text-decoration: none;
+  font-weight: bold;
 }
