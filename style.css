@@ -68,19 +68,12 @@ h1 {
   font-family: "Raleway-Bold.ttf";
   position: absolute;
   left: 339px;
-  top: 148px;
+  top: 150px;
 }
 .Recherche a {
   /* le a premier lien pour rendre cliquable la barre recherche   */
   text-decoration: none;
   color: white;
-}
-
-form {
-  position: absolute;
-  left: 70px;
-  top: 135px;
-  text-decoration: none;
 }
 
 .location {
@@ -98,7 +91,7 @@ form {
   font-family: "Raleway-ExtraBold.ttf";
   width: 260px;
   position: absolute;
-  left: 1px;
-  top: 14px;
+  left: 71px;
+  top: 150px;
   text-decoration: none;
 }
