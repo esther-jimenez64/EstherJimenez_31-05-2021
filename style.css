@@ -1,4 +1,14 @@
 @font-face {
+  font-family: "Raleway-ExtraBold.ttf";
+  src: url("fontfamily/Raleway-ExtraBold.ttf");
+  src: url("fontfamily/Raleway-ExtraBold.ttf?#iefix")
+      format("fontfamily/Raleway-ExtraBold.ttfembedded-opentype"),
+    url("fontfamily/Raleway-ExtraBold.ttf") format("woff"),
+    url("fontfamily/Raleway-ExtraBold.ttf") format("truetype"),
+    url("fontfamily/Raleway-ExtraBold.ttf") format("svg");
+}
+
+@font-face {
   font-family: "Raleway-ExtraLight.ttf";
   src: url("fontfamily/Raleway-ExtraLight.ttf");
   src: url("fontfamily/Raleway-ExtraLight.ttf?#iefix")
@@ -49,15 +59,16 @@ h1 {
 
 .Recherche {
   border-radius: 10px/20px;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 15px 15px 0px;
   background-color: #0065fc; /* le background de recherche   */
   height: 20px;
-  width: 8%;
+  width: 7%;
   text-align: center;
-  padding: 15px;
+  padding: 17px;
   font-family: "Raleway-Bold.ttf";
   position: absolute;
-  left: 335px;
+  left: 339px;
+  top: 148px;
 }
 .Recherche a {
   /* le a premier lien pour rendre cliquable la barre recherche   */
@@ -69,6 +80,7 @@ form {
   position: absolute;
   left: 70px;
   top: 135px;
+  text-decoration: none;
 }
 
 .location {
@@ -83,7 +95,10 @@ form {
 #pseudo {
   font-size: 17px;
   height: 47px;
-  font-family: "Raleway-Bold.ttf";
+  font-family: "Raleway-ExtraBold.ttf";
+  width: 260px;
+  position: absolute;
+  left: 1px;
+  top: 14px;
   text-decoration: none;
-  font-weight: bold;
 }
