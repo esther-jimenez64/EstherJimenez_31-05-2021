@@ -288,3 +288,25 @@ h1 {
   top: 330px;
   left: 8px;
 }
+
+/*section Hébergements*/
+
+#titreHébergements {
+  font-family: "Raleway-Bold.ttf";
+  position: absolute;
+  top: 400px;
+  right: 1167px;
+}
+
+.marcus {
+  position: absolute;
+  width: 18%;
+  clip: rect(20px, 800px, 160px, 20px);
+  top: 450px;
+  right: 1200px;
+  border: red;
+} /*image hébergements marcus loke*/
+
+img .marcus {
+  border: 2px solid #000000;
+}
