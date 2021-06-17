@@ -296,17 +296,12 @@ h1 {
   position: absolute;
   top: 400px;
   right: 1167px;
+  background-color: #f2f2f2;
+  background-size: 200px;
 }
 
 .marcus {
-  position: absolute;
-  width: 18%;
-  clip: rect(20px, 800px, 160px, 20px);
-  top: 450px;
-  right: 1200px;
-  border: red;
-} /*image hébergements marcus loke*/
-
-img .marcus {
-  border: 2px solid #000000;
+  object-position: 2px 20px;
+  width: 250px;
+  height: 150px;
 }
