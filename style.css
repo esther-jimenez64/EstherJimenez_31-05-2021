@@ -301,7 +301,15 @@ h1 {
 }
 
 .marcus {
-  object-position: 2px 20px;
-  width: 250px;
-  height: 150px;
+  object-position: 2px 50px;
+  object-position: left top;
+
+  border: solid black;
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  padding: bottom 100px;
+  width: 245px;
+  height: 140px;
+  position: absolute;
+  top: 500px;
 }
