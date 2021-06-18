@@ -67,6 +67,7 @@ h1 {
   position: absolute;
   left: 339px;
   top: 150px;
+  cursor: pointer;
 }
 .Recherche a {
   text-decoration: none; /* le a premier lien pour rendre cliquable la barre recherche   */
@@ -91,21 +92,23 @@ h1 {
   top: 150px;
   text-decoration: none;
   text-decoration-color: black;
+  border: transparent;
 }
 
 .Filtres {
   font-family: "Raleway-ExtraBold.ttf"; /*paragraphe filtres*/
   width: 16px;
   position: absolute;
-  bottom: 440px;
+  bottom: 380px;
   font-size: 19px;
 }
 
-.Économique a {
+.Economique a {
   border-radius: 10px/20px;
   border-radius: 40px 40px 40px 40px;
-  border-style: groove;
-  border-color: white;
+  border-top: 2.5px solid #d1d0d0;
+  border-bottom: 2.5px solid #d1d0d0;
+  border-right: 3px solid #d1d0d0;
   text-decoration: none; /*Economique forme ronde et background  */
   font-family: "Raleway-Bold.ttf";
   font-size: 20px;
@@ -119,7 +122,7 @@ h1 {
   cursor: pointer;
   text-align: right;
 }
-.Économique a:hover {
+.Economique a:hover {
   color: white; /*  économique lorsqu'elle devient cliquable   */
   background-color: #0065fc;
 }
@@ -145,8 +148,9 @@ h1 {
 .Familial a {
   border-radius: 10px/20px;
   border-radius: 40px 40px 40px 40px;
-  border-style: groove;
-  border-color: white; /*Familial forme ronde et background  */
+  border-top: 2.5px solid #d1d0d0;
+  border-bottom: 2.5px solid #d1d0d0;
+  border-right: 3px solid #d1d0d0;
   text-decoration: none;
   font-family: "Raleway-Bold.ttf";
   font-size: 20px;
@@ -187,9 +191,10 @@ h1 {
 .Romantique a {
   border-radius: 10px/20px;
   border-radius: 40px 40px 40px 40px;
-  border-style: groove;
-  border-color: white; /*Romantique forme ronde et background  */
-  text-decoration: none;
+  border-top: 2.5px solid #d1d0d0;
+  border-bottom: 2.5px solid #d1d0d0;
+  border-right: 3px solid #d1d0d0;
+  text-decoration: none; /*Romantique forme ronde et background  */
   font-family: "Raleway-Bold.ttf";
   font-size: 20px;
   color: black;
@@ -214,6 +219,7 @@ h1 {
   left: 540px;
   border-radius: 10px/20px;
   border-radius: 30px 30px 30px 30px; /*icon d'un ceour pour Romantique*/
+
   height: -110px;
   width: 15px;
   padding: 14px;
@@ -229,9 +235,10 @@ h1 {
 .Animaux a {
   border-radius: 10px/20px;
   border-radius: 40px 40px 40px 40px;
-  border-style: groove;
-  border-color: white; /*Animaux forme ronde et background  */
-  text-decoration: none;
+  border-top: 2.5px solid #d1d0d0;
+  border-bottom: 2.5px solid #d1d0d0;
+  border-right: 3px solid #d1d0d0;
+  text-decoration: none; /*Animaux forme ronde et background  */
   font-family: "Raleway-Bold.ttf";
   font-size: 20px;
   color: black;
@@ -313,3 +320,16 @@ h1 {
   position: absolute;
   top: 500px;
 }
+
+/*** Section hotel   ***/
+
+#Hotel {
+  display: flex;
+  justify-content: space-around;
+}
+/*     
+.fa-star {
+  color: blue;
+  font-size: 0.8em;
+}
+*/
