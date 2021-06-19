@@ -343,6 +343,10 @@ h1 {
 }
 .Auberge {
   color: black;
+  font-family: "Raleway-Bold.ttf";
+  position: relative;
+  top: 130px;
+  left: 12px;
 }
 .nuitAuberge {
   color: black;
