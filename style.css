@@ -300,12 +300,14 @@ h1 {
   left: 20px;
 }
 
-/*section Hébergements*/
+/*** Section hotel   ***/
+
+/*Hébergements à marseile*/
 
 #titreMarseille {
   font-family: "Raleway-Bold.ttf";
   position: absolute;
-  top: 400px; /*hebergements a marseile*/
+  top: 430px; /*hebergements a marseile*/
   right: 1155px;
   background-color: #f2f2f2;
   background-size: 200px;
@@ -314,16 +316,13 @@ h1 {
 .marcus {
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
-
   padding: bottom 100px;
   width: 235px;
   height: 140px;
   position: absolute;
-  top: 465px;
+  top: 510px;
   right: 1217px;
 }
-
-/*** Section hotel   ***/
 
 #Hotel {
   display: flex;
@@ -351,15 +350,15 @@ h1 {
 .nuitAuberge {
   color: black;
   position: absolute;
-  top: 615px;
+  top: 660px;
   right: 1295px;
   font-family: "Raleway", sans-serif;
 }
 #Marseille {
   background-color: #ece9e9;
   margin-top: 260px;
-  height: 600px;
-  width: 800px;
+  height: 600px; /*background d'hébergements à marseille*/
+  width: 950px;
   border-radius: 20px/20px;
   border-radius: 30px 30px 30px 30px;
   border-top: 2.5px solid#ece9e9;
@@ -371,15 +370,57 @@ figure {
   border-radius: 20px/20px;
   border-radius: 30px 30px 30px 30px;
   border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef;
-  margin-top: 50px;
+  border-bottom: 7px solid #f3efef; /*contour de l'image marcus*/
+  margin-top: 95px;
   width: 235px;
   height: 220px;
   background-color: rgb(252, 249, 252);
 }
 #etoile .fa-star {
-  color: rgb(223, 221, 221);
+  color: rgb(223, 221, 221); /*l'étoile gris*/
   position: relative;
   top: 121px;
   left: 90px;
+}
+
+/* Hôtel du port*/
+.fred {
+  border-radius: 20px/20px;
+  border-radius: 26px 26px 0px 0px;
+  padding: bottom 100px; /*image Hôtel du port*/
+  width: 235px;
+  height: 140px;
+  position: absolute;
+
+  right: 668px;
+}
+#Port {
+  position: relative;
+  bottom: 330px; /*contour de l'image fred*/
+  left: 290px;
+}
+.hotelDuPort {
+  color: black;
+  font-family: "Raleway-Bold.ttf";
+  position: relative;
+  top: 135px;
+  left: 10px;
+}
+
+.nuitPort {
+  position: relative;
+  top: 122px;
+  left: 10px;
+  font-family: "Raleway", sans-serif;
+}
+#starsPort {
+  position: relative; /*etoile bleu*/
+  bottom: 30px;
+}
+
+#starsgrey .fa-star {
+  color: rgb(223, 221, 221); /*l'étoile gris*/
+  position: relative;
+  top: 120px;
+  left: 88px;
 }
