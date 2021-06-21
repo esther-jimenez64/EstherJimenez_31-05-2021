@@ -688,7 +688,7 @@ figure {
   height: 160px;
   /*contour de l'image emile Soleil*/
   position: relative;
-  right: 340px;
+  right: 10px;
   bottom: 70px;
   cursor: pointer;
 }
@@ -697,7 +697,7 @@ figure {
   font-family: "Raleway-Bold.ttf";
   position: relative;
   bottom: 20 px;
-  left: 70px;
+  left: 50px;
   cursor: pointer;
 }
 
