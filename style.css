@@ -397,7 +397,7 @@ figure {
 #Port {
   position: relative;
   bottom: 330px; /*contour de l'image fred*/
-  left: 290px;
+  left: 280px;
   cursor: pointer;
 }
 .hotelDuPort {
@@ -445,7 +445,7 @@ figure {
 #lesMouettes {
   position: relative;
   bottom: 660px; /*contour de l'image reisetopia*/
-  left: 566px;
+  left: 560px;
   cursor: pointer;
 }
 
@@ -473,6 +473,56 @@ figure {
 }
 
 #starsgrise .fa-star {
+  color: rgb(223, 221, 221); /*l'étoile gris*/
+  position: relative;
+  top: 120px;
+  left: 88px;
+  cursor: pointer;
+}
+
+/*Hôtel de la mer*/
+
+.annie {
+  border-radius: 20px/20px;
+  border-radius: 26px 26px 0px 0px;
+  padding: bottom 100px;
+  width: 235px;
+  height: 140px;
+  position: absolute;
+  bottom: 84px;
+  right: 647px;
+  cursor: pointer; /*image la mer*/
+}
+#LaMer {
+  position: relative;
+  bottom: 730px; /*contour de l'image annie la mer*/
+  left: 5px;
+  cursor: pointer;
+}
+
+.hotelDeLaMer {
+  font-family: "Raleway-Bold.ttf";
+  position: relative;
+  top: 135px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.nuitMer {
+  position: relative;
+  top: 123px;
+  left: 10px;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+
+#starsMer {
+  position: relative; /*etoile bleu*/
+  bottom: 30px;
+  cursor: pointer;
+}
+
+#starssilver .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
   position: relative;
   top: 120px;
