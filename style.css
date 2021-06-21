@@ -355,7 +355,7 @@ h1 {
   font-family: "Raleway", sans-serif;
 }
 #Marseille {
-  background-color: #ece9e9;
+  background-color: #eeeaea;
   margin-top: 260px;
   height: 680px; /*background d'hébergements */
   width: 930px;
@@ -638,6 +638,7 @@ figure {
   left: 50px;
   font-family: "Raleway-Bold.ttf";
   font-size: 19px;
+  cursor: pointer;
 }
 
 /***Aside POPULAIRE**/
