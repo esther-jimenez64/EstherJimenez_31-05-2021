@@ -357,7 +357,7 @@ h1 {
 #Marseille {
   background-color: #ece9e9;
   margin-top: 260px;
-  height: 600px; /*background d'hébergements */
+  height: 680px; /*background d'hébergements */
   width: 930px;
   border-radius: 20px/20px;
   border-radius: 30px 30px 30px 30px;
@@ -528,4 +528,184 @@ figure {
   top: 120px;
   left: 88px;
   cursor: pointer;
+}
+
+/*Auberge Le Panier*/
+
+.nicate {
+  border-radius: 20px/20px;
+  border-radius: 26px 26px 0px 0px;
+  padding: bottom 100px;
+  width: 235px;
+  height: 140px;
+  position: absolute;
+  bottom: 84px;
+  right: 647px;
+  cursor: pointer; /*image le Panier nicate*/
+}
+
+#LePanier {
+  position: relative;
+  bottom: 1059px; /*contour de l'image Panier nicate*/
+  left: 282px;
+  cursor: pointer;
+}
+
+.AubergePanier {
+  font-family: "Raleway-Bold.ttf";
+  position: relative;
+  top: 135px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.nuitPanier {
+  position: relative;
+  top: 123px;
+  left: 10px;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+
+#starsPanier {
+  position: relative; /*etoile bleu*/
+  bottom: 30px;
+  cursor: pointer;
+}
+
+#starsgrisito .fa-star {
+  color: rgb(223, 221, 221); /*l'étoile gris*/
+  position: relative;
+  top: 120px;
+  left: 88px;
+  cursor: pointer;
+}
+
+/*Hôtel chez Amina*/
+
+.AminaFabien {
+  border-radius: 20px/20px;
+  border-radius: 26px 26px 0px 0px;
+  padding: bottom 100px;
+  width: 235px;
+  height: 140px;
+  position: absolute;
+  bottom: 84px;
+  right: 648px;
+  cursor: pointer; /*image le Amina Fabien*/
+}
+
+#Amina {
+  position: relative;
+  bottom: 1388px; /*contour de l'image Amina Fabien*/
+  left: 558px;
+  cursor: pointer;
+}
+.ChezAmina {
+  font-family: "Raleway-Bold.ttf";
+  position: relative;
+  top: 135px;
+  left: 15px;
+  cursor: pointer;
+}
+
+.nuitAmina {
+  position: relative;
+  top: 123px;
+  left: 15px;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+
+#starsAmina {
+  position: relative; /*etoile bleu*/
+  bottom: 30px;
+  cursor: pointer;
+}
+#starsgriis .fa-star {
+  color: rgb(223, 221, 221); /*l'étoile gris*/
+  position: relative;
+  top: 120px;
+  left: 88px;
+  cursor: pointer;
+}
+
+/*Afficher plus*/
+
+.AfficherPlus {
+  position: relative;
+  bottom: 1375px;
+  left: 50px;
+  font-family: "Raleway-Bold.ttf";
+  font-size: 19px;
+}
+
+/***Aside POPULAIRE**/
+
+#populaire {
+  background-color: #ece9e9;
+  margin-bottom: 700px;
+  margin-left: 1000px;
+  position: relative;
+  right: 15px;
+  bottom: 684px;
+  height: 674px; /*background Populaire */
+  width: 400px;
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 2.5px solid#ece9e9;
+  border-bottom: 2.5px solid #ece9e9;
+  border-right: 3px solid #ece9e9;
+  flex: 1.2;
+}
+
+.LesPlusPopulaires {
+  font-family: "Raleway-Bold.ttf"; /*titre populaire*/
+  position: relative;
+  top: 20px;
+  left: 45px;
+}
+.fa-chart-line {
+  font-size: 18px; /*icon a coter du titre populaire*/
+  position: relative;
+  bottom: 21px;
+  left: 340px;
+}
+
+.emile {
+  border-radius: 20px/20px;
+  border-radius: 26px 0px 0px 26px;
+  padding: bottom 100px;
+  width: 140px;
+  height: 158px;
+  position: absolute;
+  top: 1px;
+  right: 20px px;
+  cursor: pointer; /*image emile SOLEIL*/
+}
+#Soleil {
+  width: 300px;
+  height: 160px;
+  /*contour de l'image emile Soleil*/
+  position: relative;
+  right: 340px;
+  bottom: 70px;
+  cursor: pointer;
+}
+
+.soleilDuMatin {
+  font-family: "Raleway-Bold.ttf";
+  position: relative;
+  bottom: 20 px;
+  left: 70px;
+  cursor: pointer;
+}
+
+.nuitSoleil {
+}
+
+#starsSoleil {
+}
+
+#starsgriisita {
 }
