@@ -651,7 +651,7 @@ figure {
   right: 15px;
   bottom: 684px;
   height: 674px; /*background Populaire */
-  width: 450px;
+  width: 430px;
   border-radius: 20px/20px;
   border-radius: 30px 30px 30px 30px;
   border-top: 2.5px solid#ece9e9;
@@ -667,10 +667,10 @@ figure {
   left: 45px;
 }
 .fa-chart-line {
-  font-size: 18px; /*icon a coter du titre populaire*/
+  font-size: 25px; /*icon a coter du titre populaire*/
   position: relative;
-  bottom: 21px;
-  left: 340px;
+  bottom: 290px;
+  left: 365px;
 }
 
 .emile {
@@ -685,12 +685,12 @@ figure {
   cursor: pointer; /*image emile SOLEIL*/
 }
 #Soleil {
-  width: 300px;
+  width: 350px;
   height: 160px;
   /*contour de l'image emile Soleil*/
   position: relative;
   right: 10px;
-  bottom: 70px;
+  bottom: 50px;
   cursor: pointer;
 }
 
@@ -698,15 +698,75 @@ figure {
   font-family: "Raleway-Bold.ttf";
   position: relative;
   bottom: 20 px;
-  left: 50px;
+  left: 150px;
   cursor: pointer;
 }
 
 .nuitSoleil {
+  position: relative;
+  bottom: 5px;
+  left: 150px;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
 }
 
 #starsSoleil {
+  cursor: pointer;
+  position: relative;
+  bottom: 115px;
+  left: 145px;
 }
 
-#starsgriisita {
+/*Au coeur de l'eau Chambres d'hôtes*/
+
+.creative {
+  border-radius: 20px/20px;
+  border-radius: 26px 0px 0px 26px;
+  padding: bottom 100px;
+  width: 140px;
+  height: 158px;
+  position: absolute;
+  top: 1px;
+  right: 210px;
+  cursor: pointer; /*image chambre aux ceour de l'eau*/
 }
+
+#AuCeourDeLeau {
+  width: 350px;
+  height: 160px;
+  position: relative;
+  right: 10px;
+  bottom: 150px;
+  cursor: pointer; /*contour de l'image chambre au ceour de l'eau*/
+}
+
+.chambreAuCeour {
+  font-family: "Raleway-Bold.ttf";
+  position: relative;
+  bottom: 20 px;
+  left: 150px;
+  cursor: pointer;
+}
+.nuitAuCeour {
+  position: relative;
+  bottom: 5px;
+  left: 150px;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+
+#starsCeour {
+  cursor: pointer;
+  position: relative; /*etoile bleu*/
+  bottom: 115px;
+  left: 145px;
+}
+#starsgreyy .fa-star {
+  color: rgb(223, 221, 221); /*l'étoile gris*/
+  position: relative;
+  top: 120px;
+  left: 88px;
+  cursor: pointer;
+}
+
+/*Hôtel Tout bleu et Blanc*/
