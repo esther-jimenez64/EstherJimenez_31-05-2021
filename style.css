@@ -41,18 +41,57 @@ body {
   width: 95px;
   height: 50px;
 }
+/* Navigation */
+
+#navigation {
+  position: relative;
+  bottom: 50px;
+  left: 1010px;
+}
+
+.Sinscrire {
+  font-family: "Raleway-Bold.ttf";
+  color: #0065fc;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  position: relative;
+  left: 1100px;
+  right: 400px;
+}
+
+nav li {
+  margin-right: 40px;
+}
+
+nav a {
+  font-size: 1em;
+  color: #181818;
+  padding-bottom: 3px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+}
+
+nav a:hover {
+  color: #0065fc;
+  border-bottom: 3px solid#0065fc;
+}
 
 h1 {
   font-family: "Raleway-Bold.ttf";
   font-family: "Raleway-Bold.ttf"; /*Trouvez votre hébergement */
   font-size: 25px;
+  position: relative;
+  bottom: 35px;
 }
 
 #centre {
   font-family: "Raleway", sans-serif; /* premier p   */
   position: relative;
-  top: -12px;
-  left: 10px;
+  top: -45px;
+  left: 5px;
 }
 
 .Recherche {
@@ -320,7 +359,7 @@ h1 {
   width: 235px;
   height: 140px;
   position: absolute;
-  top: 510px;
+  top: 545px;
   right: 1217px;
 }
 
@@ -350,7 +389,7 @@ h1 {
 .nuitAuberge {
   color: black;
   position: absolute;
-  top: 660px;
+  top: 695px;
   right: 1295px;
   font-family: "Raleway", sans-serif;
 }
