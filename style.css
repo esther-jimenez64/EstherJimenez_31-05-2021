@@ -45,7 +45,7 @@ body {
 
 #navigation {
   position: relative;
-  bottom: 50px;
+  bottom: 30px;
   left: 1010px;
 }
 
@@ -76,7 +76,8 @@ nav a {
 
 nav a:hover {
   color: #0065fc;
-  border-bottom: 3px solid#0065fc;
+  border-top: 3px solid#0065fc;
+  padding-top: 32px;
 }
 
 h1 {
@@ -346,7 +347,7 @@ h1 {
 #titreMarseille {
   font-family: "Raleway-Bold.ttf";
   position: absolute;
-  top: 430px; /*hebergements a marseile*/
+  top: 465px; /*hebergements a marseile*/
   right: 1155px;
   background-color: #f2f2f2;
   background-size: 200px;
@@ -437,7 +438,6 @@ figure {
   position: relative;
   bottom: 330px; /*contour de l'image fred*/
   left: 280px;
-  cursor: pointer;
 }
 .hotelDuPort {
   color: black;
@@ -485,7 +485,6 @@ figure {
   position: relative;
   bottom: 660px; /*contour de l'image reisetopia*/
   left: 560px;
-  cursor: pointer;
 }
 
 .hotelDesMouettes {
@@ -536,7 +535,6 @@ figure {
   position: relative;
   bottom: 730px; /*contour de l'image annie la mer*/
   left: 5px;
-  cursor: pointer;
 }
 
 .hotelDeLaMer {
@@ -580,14 +578,13 @@ figure {
   position: absolute;
   bottom: 84px;
   right: 647px;
-  cursor: pointer; /*image le Panier nicate*/
+  /*image le Panier nicate*/
 }
 
 #LePanier {
   position: relative;
   bottom: 1059px; /*contour de l'image Panier nicate*/
   left: 282px;
-  cursor: pointer;
 }
 
 .AubergePanier {
@@ -595,7 +592,6 @@ figure {
   position: relative;
   top: 135px;
   left: 10px;
-  cursor: pointer;
 }
 
 .nuitPanier {
@@ -603,7 +599,6 @@ figure {
   top: 123px;
   left: 10px;
   font-family: "Raleway", sans-serif;
-  cursor: pointer;
 }
 
 #starsPanier {
@@ -638,7 +633,6 @@ figure {
   position: relative;
   bottom: 1388px; /*contour de l'image Amina Fabien*/
   left: 558px;
-  cursor: pointer;
 }
 .ChezAmina {
   font-family: "Raleway-Bold.ttf";
@@ -859,3 +853,57 @@ figure {
   left: 88px;
   cursor: pointer;
 }
+
+/***Section   Activités à Marseille  **/
+
+#titreActivité {
+  position: relative;
+  bottom: 1540px;
+  left: 10px;
+  font-family: "Raleway-Bold.ttf";
+}
+
+#activite {
+  display: flex;
+  flex-direction: column;
+}
+.port {
+}
+#sectionActivite {
+  display: flex;
+}
+
+/*Vieu Port*/
+
+.Bateaux {
+  object-fit: cover;
+  border-radius: 20px/20px;
+  border-radius: 26px 26px 0px 0px;
+  padding: bottom 100px;
+  width: 330px; /*image vieux port*/
+  height: 500px;
+  position: relative;
+  bottom: 10px;
+  right: 4px;
+  cursor: pointer;
+}
+
+#BateauxVieuPort {
+  width: 340px;
+  height: 550px;
+  position: relative;
+  bottom: 1610px;
+  right: 40px; /*contour image port*/
+  cursor: pointer;
+  box-shadow: 5px 2px 5px #fbfdfd;
+}
+
+.VieuxPort {
+  font-family: "Raleway-Bold.ttf";
+  cursor: pointer;
+  position: relative;
+  left: 25px;
+  bottom: 10px;
+}
+
+/*Fort de Pomègues*/
