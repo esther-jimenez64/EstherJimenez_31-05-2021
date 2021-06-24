@@ -881,7 +881,7 @@ figure {
   border-radius: 26px 26px 0px 0px;
   padding: bottom 100px;
   width: 330px; /*image vieux port*/
-  height: 500px;
+  height: 430px;
   position: relative;
   bottom: 10px;
   right: 4px;
@@ -890,9 +890,9 @@ figure {
 
 #BateauxVieuPort {
   width: 325px;
-  height: 550px;
+  height: 475px;
   position: relative;
-  bottom: 1610px;
+  bottom: 1630px;
   right: 40px; /*contour image port*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -920,7 +920,7 @@ figure {
   width: 295px;
   height: 250px;
   position: relative;
-  bottom: 2285px;
+  bottom: 2235px;
   left: 330px; /*contour image fort*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -948,7 +948,7 @@ figure {
   width: 295px;
   height: 180px;
   position: relative;
-  bottom: 2300px;
+  bottom: 2315px;
   left: 330px; /*contour image de l'ile*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
