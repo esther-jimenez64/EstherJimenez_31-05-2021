@@ -823,6 +823,7 @@ figure {
   left: 975px;
   bottom: 1600px;
   cursor: pointer; /*contour de l'image hotel bleu et blanc*/
+  background-color: #181818;
 }
 
 .HotelToutBleuEtBlanc {
@@ -867,7 +868,7 @@ figure {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 110px;
+  top: 310px;
   right: 5px;
 }
 .port {
@@ -1028,4 +1029,35 @@ figure {
   position: relative;
   left: 20px;
   bottom: 10px;
+}
+
+/*Parc Longchamp*/
+
+.PaulinParcLongchamp {
+  object-fit: cover;
+  border-radius: 20px/20px;
+  border-radius: 26px 26px 0px 0px;
+  width: 340px; /*image Parc Longchamp*/
+  height: 180px;
+  position: relative;
+  bottom: 15px;
+  right: 4px;
+}
+
+#Longchamp {
+  width: 340px;
+  height: 220x;
+  position: relative;
+  bottom: 3560px;
+  left: 1065px; /*contour image Parc LONG champ*/
+  cursor: pointer;
+  box-shadow: 5px 2px 5px #fbfdfd;
+}
+
+.ParcLongchamp {
+  font-family: "Raleway-Bold.ttf";
+  cursor: pointer;
+  position: relative;
+  left: 20px;
+  bottom: 5px;
 }
