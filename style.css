@@ -889,7 +889,7 @@ figure {
 }
 
 #BateauxVieuPort {
-  width: 340px;
+  width: 325px;
   height: 550px;
   position: relative;
   bottom: 1610px;
@@ -907,3 +907,57 @@ figure {
 }
 
 /*Fort de Pomègues*/
+
+.PaulFort {
+  object-fit: cover;
+  border-radius: 20px/20px;
+  border-radius: 26px 26px 0px 0px;
+  width: 300px; /*image fort*/
+  height: 200px;
+}
+
+#FortDePomegues {
+  width: 295px;
+  height: 250px;
+  position: relative;
+  bottom: 2285px;
+  left: 330px; /*contour image fort*/
+  cursor: pointer;
+  box-shadow: 5px 2px 5px #fbfdfd;
+}
+
+.FortPomegues {
+  font-family: "Raleway-Bold.ttf";
+  cursor: pointer;
+  position: relative;
+  left: 10px;
+  bottom: 5px;
+}
+
+/*Île du Frioul*/
+
+.Ilekevin {
+  object-fit: cover;
+  border-radius: 20px/20px;
+  border-radius: 26px 26px 0px 0px;
+  width: 300px; /*image de l'ile*/
+  height: 130px;
+}
+
+#duFrioul {
+  width: 295px;
+  height: 180px;
+  position: relative;
+  bottom: 2300px;
+  left: 330px; /*contour image de l'ile*/
+  cursor: pointer;
+  box-shadow: 5px 2px 5px #fbfdfd;
+}
+
+.FortPomegues {
+  font-family: "Raleway-Bold.ttf";
+  cursor: pointer;
+  position: relative;
+  left: 10px;
+  bottom: 5px;
+}
