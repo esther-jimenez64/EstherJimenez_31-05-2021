@@ -858,14 +858,17 @@ figure {
 
 #titreActivité {
   position: relative;
-  bottom: 1540px;
-  left: 10px;
+  bottom: 1670px;
+  left: 15px;
   font-family: "Raleway-Bold.ttf";
 }
 
 #activite {
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: 110px;
+  right: 5px;
 }
 .port {
 }
@@ -881,18 +884,18 @@ figure {
   border-radius: 26px 26px 0px 0px;
   padding: bottom 100px;
   width: 330px; /*image vieux port*/
-  height: 430px;
+  height: 445px;
   position: relative;
-  bottom: 10px;
+  bottom: 157px;
   right: 4px;
   cursor: pointer;
 }
 
 #BateauxVieuPort {
   width: 325px;
-  height: 475px;
+  height: 337px;
   position: relative;
-  bottom: 1630px;
+  bottom: 1610px;
   right: 40px; /*contour image port*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -903,7 +906,7 @@ figure {
   cursor: pointer;
   position: relative;
   left: 25px;
-  bottom: 10px;
+  bottom: 160px;
 }
 
 /*Fort de Pomègues*/
@@ -913,14 +916,16 @@ figure {
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
   width: 300px; /*image fort*/
-  height: 200px;
+  height: 210px;
+  position: relative;
+  bottom: 5px;
 }
 
 #FortDePomegues {
   width: 295px;
-  height: 250px;
+  height: 260px;
   position: relative;
-  bottom: 2235px;
+  bottom: 2225px;
   left: 330px; /*contour image fort*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -948,7 +953,7 @@ figure {
   width: 295px;
   height: 180px;
   position: relative;
-  bottom: 2315px;
+  bottom: 2300px;
   left: 330px; /*contour image de l'ile*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -970,9 +975,9 @@ figure {
   border-radius: 26px 26px 0px 0px;
   padding: bottom 100px;
   width: 330px; /* image Parc National*/
-  height: 400px;
+  height: 440px;
   position: relative;
-  bottom: 10px;
+  bottom: 25px;
   right: 10px;
   cursor: pointer;
 }
@@ -981,7 +986,7 @@ figure {
   width: 325px;
   height: 465px;
   position: relative;
-  bottom: 2905px;
+  bottom: 2893px;
   left: 680px; /*contour image Parc National*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -992,5 +997,35 @@ figure {
   cursor: pointer;
   position: relative;
   left: 25px;
+  bottom: 30px;
+}
+
+/*Notre-Dame-de-la-Garde*/
+
+.FlorianNotreDame {
+  object-fit: cover;
+  border-radius: 20px/20px;
+  border-radius: 26px 26px 0px 0px;
+  width: 340px; /*image Notre Dame*/
+  height: 160px;
+  position: relative;
+  bottom: 5px;
+  right: 10px;
+}
+
+#deLaGarde {
+  width: 340px;
+  height: 200px;
+  position: relative;
+  bottom: 3500px;
+  left: 1065px; /*contour image Notre dame*/
+  cursor: pointer;
+  box-shadow: 5px 2px 5px #fbfdfd;
+}
+.NotreDameDeLaGarde {
+  font-family: "Raleway-Bold.ttf";
+  cursor: pointer;
+  position: relative;
+  left: 20px;
   bottom: 10px;
 }
