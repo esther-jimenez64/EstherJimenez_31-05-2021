@@ -957,14 +957,6 @@ figure {
   box-shadow: 5px 2px 5px #fbfdfd;
 }
 
-.FortPomegues {
-  font-family: "Raleway-Bold.ttf";
-  cursor: pointer;
-  position: relative;
-  left: 10px;
-  bottom: 5px;
-}
-
 /*Parc National des Calanques*/
 
 .parcKilyan {
@@ -1021,6 +1013,35 @@ figure {
 }
 
 .Notre-Dame-de-la-Garde {
+  font-family: "Raleway-Bold.ttf";
+  cursor: pointer;
+  position: relative;
+  left: 25px;
+  bottom: 22px;
+}
+/*Parc Longchamp*/
+
+.PaulinLongChamp {
+  object-fit: cover;
+  border-radius: 20px/20px;
+  border-radius: 26px 26px 0px 0px;
+  width: 300px; /*image Parc LONG Champ*/
+  height: 180px;
+  position: relative;
+  bottom: 8px;
+}
+
+#Longchamp {
+  width: 295px;
+  height: 220px;
+  position: relative;
+  bottom: 3560px;
+  left: 1050px; /*contour image Parc LONG Champ*/
+  cursor: pointer;
+  box-shadow: 5px 2px 5px #fbfdfd;
+}
+
+.ParcLongchamp {
   font-family: "Raleway-Bold.ttf";
   cursor: pointer;
   position: relative;
