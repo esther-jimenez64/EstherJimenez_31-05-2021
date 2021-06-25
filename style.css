@@ -956,6 +956,13 @@ figure {
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
 }
+.Frioul {
+  font-family: "Raleway-Bold.ttf";
+  cursor: pointer;
+  position: relative;
+  position: relative;
+  left: 20px;
+}
 
 /*Parc National des Calanques*/
 
@@ -1047,4 +1054,57 @@ figure {
   position: relative;
   left: 25px;
   bottom: 22px;
+}
+
+/*** footer        ***/
+
+/*a propos*/
+
+footer {
+  position: relative;
+  bottom: 3450px; /*bouger la structure*/
+  right: 25px;
+}
+
+.Apropos {
+  font-family: "Raleway-ExtraBold.ttf";
+  color: #181818; /*titre */
+  position: relative;
+  left: 40px;
+  bottom: 10px;
+}
+
+#direction {
+  font-family: "Raleway", sans-serif;
+  list-style-type: none;
+  display: flex; /*direction de la ul*/
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer li {
+  margin-bottom: 15px; /*l'espace entre les li*/
+}
+
+/*Nos hébergements*/
+
+#bougerHebergements {
+  position: relative;
+  left: 495px;
+  bottom: 175px;
+}
+
+.NosHebergements {
+  font-family: "Raleway-ExtraBold.ttf";
+  color: #181818; /*titre */
+  position: relative;
+  left: 20px;
+  bottom: 10px;
+}
+
+#directionDeHebergements {
+  font-family: "Raleway", sans-serif;
+  list-style-type: none;
+  display: flex; /*direction de la ul*/
+  flex-direction: column;
+  justify-content: space-between;
 }
