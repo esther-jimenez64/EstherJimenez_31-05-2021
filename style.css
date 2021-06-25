@@ -1108,3 +1108,27 @@ footer li {
   flex-direction: column;
   justify-content: space-between;
 }
+
+/** Assistance**/
+
+#bougerAssistance {
+  position: relative;
+  left: 980px;
+  bottom: 312px;
+}
+
+.Assistance {
+  font-family: "Raleway-ExtraBold.ttf";
+  color: #181818; /*titre */
+  position: relative;
+  left: 20px;
+  bottom: 10px;
+}
+
+#directionAssistance {
+  font-family: "Raleway", sans-serif;
+  list-style-type: none;
+  display: flex; /*direction de la ul*/
+  flex-direction: column;
+  justify-content: space-between;
+}
