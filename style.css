@@ -997,3 +997,33 @@ figure {
   left: 25px;
   bottom: 10px;
 }
+
+/*Notre-Dame-de-la-Garde*/
+
+.NotreDameFlorian {
+  object-fit: cover;
+  border-radius: 20px/20px;
+  border-radius: 26px 26px 0px 0px;
+  width: 300px; /*image Notre Dame*/
+  height: 150px;
+  position: relative;
+  bottom: 15px;
+}
+
+#deLaGarde {
+  width: 300px;
+  height: 180px;
+  position: relative;
+  bottom: 3485px;
+  left: 1050px; /*contour image Notre Dame*/
+  cursor: pointer;
+  box-shadow: 5px 2px 5px #fbfdfd;
+}
+
+.Notre-Dame-de-la-Garde {
+  font-family: "Raleway-Bold.ttf";
+  cursor: pointer;
+  position: relative;
+  left: 25px;
+  bottom: 22px;
+}
