@@ -822,8 +822,8 @@ figure {
   position: relative;
   left: 975px;
   bottom: 1600px;
-  cursor: pointer; /*contour de l'image hotel bleu et blanc*/
-  background-color: #181818;
+  cursor: pointer;
+  /*contour de l'image hotel bleu et blanc*/
 }
 
 .HotelToutBleuEtBlanc {
@@ -859,17 +859,14 @@ figure {
 
 #titreActivité {
   position: relative;
-  bottom: 1670px;
-  left: 15px;
+  bottom: 1540px;
+  left: 10px;
   font-family: "Raleway-Bold.ttf";
 }
 
 #activite {
   display: flex;
   flex-direction: column;
-  position: relative;
-  top: 310px;
-  right: 5px;
 }
 .port {
 }
@@ -885,18 +882,18 @@ figure {
   border-radius: 26px 26px 0px 0px;
   padding: bottom 100px;
   width: 330px; /*image vieux port*/
-  height: 445px;
+  height: 430px;
   position: relative;
-  bottom: 157px;
+  bottom: 10px;
   right: 4px;
   cursor: pointer;
 }
 
 #BateauxVieuPort {
   width: 325px;
-  height: 337px;
+  height: 475px;
   position: relative;
-  bottom: 1610px;
+  bottom: 1630px;
   right: 40px; /*contour image port*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -907,7 +904,7 @@ figure {
   cursor: pointer;
   position: relative;
   left: 25px;
-  bottom: 160px;
+  bottom: 10px;
 }
 
 /*Fort de Pomègues*/
@@ -917,16 +914,16 @@ figure {
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
   width: 300px; /*image fort*/
-  height: 210px;
+  height: 200px;
   position: relative;
-  bottom: 5px;
+  bottom: 8px;
 }
 
 #FortDePomegues {
   width: 295px;
-  height: 260px;
+  height: 245px;
   position: relative;
-  bottom: 2225px;
+  bottom: 2235px;
   left: 330px; /*contour image fort*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -954,7 +951,7 @@ figure {
   width: 295px;
   height: 180px;
   position: relative;
-  bottom: 2300px;
+  bottom: 2315px;
   left: 330px; /*contour image de l'ile*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -976,18 +973,18 @@ figure {
   border-radius: 26px 26px 0px 0px;
   padding: bottom 100px;
   width: 330px; /* image Parc National*/
-  height: 440px;
+  height: 420px;
   position: relative;
-  bottom: 25px;
+  bottom: 10px;
   right: 10px;
   cursor: pointer;
 }
 
 #desCalanques {
   width: 325px;
-  height: 465px;
+  height: 460px;
   position: relative;
-  bottom: 2893px;
+  bottom: 2905px;
   left: 680px; /*contour image Parc National*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -998,66 +995,5 @@ figure {
   cursor: pointer;
   position: relative;
   left: 25px;
-  bottom: 30px;
-}
-
-/*Notre-Dame-de-la-Garde*/
-
-.FlorianNotreDame {
-  object-fit: cover;
-  border-radius: 20px/20px;
-  border-radius: 26px 26px 0px 0px;
-  width: 340px; /*image Notre Dame*/
-  height: 160px;
-  position: relative;
-  bottom: 5px;
-  right: 10px;
-}
-
-#deLaGarde {
-  width: 340px;
-  height: 200px;
-  position: relative;
-  bottom: 3500px;
-  left: 1065px; /*contour image Notre dame*/
-  cursor: pointer;
-  box-shadow: 5px 2px 5px #fbfdfd;
-}
-.NotreDameDeLaGarde {
-  font-family: "Raleway-Bold.ttf";
-  cursor: pointer;
-  position: relative;
-  left: 20px;
   bottom: 10px;
-}
-
-/*Parc Longchamp*/
-
-.PaulinParcLongchamp {
-  object-fit: cover;
-  border-radius: 20px/20px;
-  border-radius: 26px 26px 0px 0px;
-  width: 340px; /*image Parc Longchamp*/
-  height: 180px;
-  position: relative;
-  bottom: 15px;
-  right: 4px;
-}
-
-#Longchamp {
-  width: 340px;
-  height: 220x;
-  position: relative;
-  bottom: 3560px;
-  left: 1065px; /*contour image Parc LONG champ*/
-  cursor: pointer;
-  box-shadow: 5px 2px 5px #fbfdfd;
-}
-
-.ParcLongchamp {
-  font-family: "Raleway-Bold.ttf";
-  cursor: pointer;
-  position: relative;
-  left: 20px;
-  bottom: 5px;
 }
