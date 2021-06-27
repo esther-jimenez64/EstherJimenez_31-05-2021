@@ -38,6 +38,39 @@ body {
   left: 20px;
 }
 
+/***Parti ipad   ***/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #bloc_page {
+    width: auto;
+  }
+
+  #Marseille {
+    position: relative;
+    top: 800px;
+  }
+
+  #Soleil {
+    position: relative;
+  }
+
+  #AuCeourDeLeau {
+    position: relative;
+  }
+
+  #toutBleuEtBlanc {
+    position: relative;
+    top: -1650px;
+    margin-left: -940px;
+  }
+
+  #populaire {
+    position: relative;
+    left: -1000px;
+    top: -750px;
+  }
+}
+
 /***  header ***/
 
 #logo img {
