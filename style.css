@@ -46,26 +46,26 @@ body {
   }
 
   #Marseille {
-    position: relative;
+    position: relative; /*parti hébergements*/
     top: 800px;
   }
 
   #Soleil {
-    position: relative;
+    position: relative; /*aside*/
   }
 
   #AuCeourDeLeau {
-    position: relative;
+    position: relative; /*aside*/
   }
 
   #toutBleuEtBlanc {
     position: relative;
-    top: -1650px;
+    top: -1650px; /*aside*/
     margin-left: -940px;
   }
 
   #populaire {
-    position: relative;
+    position: relative; /*parti populaire*/
     left: -1000px;
     top: -750px;
   }
