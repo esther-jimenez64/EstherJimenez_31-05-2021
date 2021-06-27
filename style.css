@@ -34,6 +34,8 @@ body {
   padding-left: 20px;
   height: 1080px;
   overflow-x: hidden;
+  position: relative;
+  left: 20px;
 }
 
 /***  header ***/
@@ -148,9 +150,9 @@ h1 {
   font-family: "Raleway-ExtraBold.ttf"; /*paragraphe filtres*/
   width: 16px;
   position: absolute;
-  bottom: 460px;
+  bottom: 780px;
   font-size: 19px;
-  right: 1480px;
+  right: 1470px;
 }
 
 .Economique a {
@@ -181,7 +183,7 @@ h1 {
   color: #0065fc;
   position: absolute;
   top: 240px;
-  left: 105px;
+  left: 90px;
   border-radius: 10px/20px;
   border-radius: 30px 30px 30px 30px; /*icon d'argent pour économique*/
   height: -110px;
@@ -224,7 +226,7 @@ h1 {
   color: #0065fc;
   position: absolute;
   top: 240px;
-  left: 348px;
+  left: 338px;
   border-radius: 10px/20px;
   border-radius: 30px 30px 30px 30px; /*icon d'enfant pour familial*/
   height: -110px;
@@ -267,7 +269,7 @@ h1 {
   color: #0065fc;
   position: absolute;
   top: 240px;
-  left: 540px;
+  left: 525px;
   border-radius: 10px/20px;
   border-radius: 30px 30px 30px 30px; /*icon d'un ceour pour Romantique*/
   height: -110px;
@@ -310,7 +312,7 @@ h1 {
   color: #0065fc;
   position: absolute;
   top: 240px;
-  left: 770px;
+  left: 760px;
   border-radius: 10px/20px;
   border-radius: 30px 30px 30px 30px; /*icon d'un ceour pour Romantique*/
   height: -110px;
@@ -345,7 +347,7 @@ h1 {
   font-size: 13px;
   position: absolute;
   top: 330px;
-  left: 20px;
+  left: 5px;
 }
 
 /*** Section hotel   ***/
@@ -372,8 +374,8 @@ figure {
   width: 235px;
   height: 140px;
   position: absolute;
-  top: 553px;
-  right: 1210px;
+  top: 545px;
+  right: 1202px;
 }
 
 #Hotel {
@@ -396,14 +398,14 @@ figure {
   color: black;
   font-family: "Raleway-Bold.ttf";
   position: relative;
-  top: 130px;
+  top: 135px;
   left: 15px;
 }
 .nuitAuberge {
   color: black;
   position: absolute;
-  top: 705px;
-  right: 1285px;
+  top: 700px;
+  right: 1275px;
   font-family: "Raleway", sans-serif;
 }
 #Marseille {
@@ -1058,8 +1060,8 @@ figure {
   background-color: #e8ebeb;
   position: relative;
   bottom: 3490px;
-  right: 5px;
-  width: 1490px;
+  right: 50px;
+  width: 1550px;
   height: 250px;
 }
 
