@@ -32,10 +32,13 @@
 body {
   max-width: 1920 px; /*config corps*/
   padding-left: 20px;
-  height: 1080px;
+
   overflow-x: hidden;
   position: relative;
   left: 20px;
+}
+div {
+  max-height: 210px;
 }
 
 /***Parti ipad   ***/
@@ -43,6 +46,12 @@ body {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   #bloc_page {
     width: auto;
+  }
+
+  /*les filtres*/
+
+  .Economique {
+    right: 200px;
   }
 
   #Marseille {
@@ -183,7 +192,7 @@ h1 {
   font-family: "Raleway-ExtraBold.ttf"; /*paragraphe filtres*/
   width: 16px;
   position: absolute;
-  bottom: 780px;
+  bottom: 1753px;
   font-size: 19px;
   right: 1470px;
 }
@@ -395,7 +404,7 @@ figure {
   font-family: "Raleway-Bold.ttf";
   position: absolute;
   top: 465px; /*hebergements a marseile*/
-  right: 1155px;
+  right: 1140px;
   background-color: #f2f2f2;
   background-size: 200px;
 }
@@ -483,7 +492,7 @@ figure {
 }
 #Port {
   position: relative;
-  bottom: 330px; /*contour de l'image fred*/
+  bottom: 305px; /*contour de l'image fred*/
   left: 280px;
 }
 .hotelDuPort {
@@ -526,7 +535,7 @@ figure {
 
 #lesMouettes {
   position: relative;
-  bottom: 660px; /*contour de l'image reisetopia*/
+  bottom: 610px; /*contour de l'image reisetopia*/
   left: 560px;
 }
 
@@ -566,13 +575,13 @@ figure {
   width: 235px;
   height: 140px;
   position: absolute;
-  bottom: 84px;
+  bottom: 62px;
   right: 647px;
   /*image la mer*/
 }
 #LaMer {
   position: relative;
-  bottom: 730px; /*contour de l'image annie la mer*/
+  bottom: 660px; /*contour de l'image annie la mer*/
   left: 5px;
 }
 
@@ -611,14 +620,14 @@ figure {
   width: 235px;
   height: 140px;
   position: absolute;
-  bottom: 84px;
+  bottom: 62px;
   right: 647px;
   /*image le Panier nicate*/
 }
 
 #LePanier {
   position: relative;
-  bottom: 1059px; /*contour de l'image Panier nicate*/
+  bottom: 965px; /*contour de l'image Panier nicate*/
   left: 282px;
 }
 
@@ -657,14 +666,14 @@ figure {
   width: 235px;
   height: 140px;
   position: absolute;
-  bottom: 84px;
+  bottom: 62px;
   right: 648px;
   /*image le Amina Fabien*/
 }
 
 #Amina {
   position: relative;
-  bottom: 1388px; /*contour de l'image Amina Fabien*/
+  bottom: 1270px; /*contour de l'image Amina Fabien*/
   left: 558px;
 }
 .ChezAmina {
@@ -696,7 +705,7 @@ figure {
 
 #AfficherPlus {
   position: relative;
-  bottom: 1375px;
+  bottom: 1205px;
   left: 50px;
   font-family: "Raleway-Bold.ttf";
   font-size: 19px;
@@ -851,7 +860,7 @@ figure {
   height: 160px;
   position: relative;
   left: 975px;
-  bottom: 1600px;
+  top: 630px;
   cursor: pointer;
   /*contour de l'image hotel bleu et blanc*/
 }
@@ -889,8 +898,8 @@ figure {
 
 #titreActivité {
   position: relative;
-  bottom: 1540px;
-  left: 10px;
+  top: 695px;
+  left: 15px;
   font-family: "Raleway-Bold.ttf";
 }
 
@@ -923,7 +932,7 @@ figure {
   width: 325px;
   height: 475px;
   position: relative;
-  bottom: 1630px;
+  margin-top: 700px;
   right: 40px; /*contour image port*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -953,7 +962,7 @@ figure {
   width: 295px;
   height: 245px;
   position: relative;
-  bottom: 2235px;
+  top: 394px;
   left: 330px; /*contour image fort*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -981,7 +990,7 @@ figure {
   width: 295px;
   height: 180px;
   position: relative;
-  bottom: 2315px;
+  top: 473px;
   left: 330px; /*contour image de l'ile*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1013,7 +1022,7 @@ figure {
   width: 325px;
   height: 460px;
   position: relative;
-  bottom: 2905px;
+  bottom: 24px;
   left: 680px; /*contour image Parc National*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1043,7 +1052,7 @@ figure {
   width: 300px;
   height: 180px;
   position: relative;
-  bottom: 3485px;
+  bottom: 230px;
   left: 1050px; /*contour image Notre Dame*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1072,7 +1081,7 @@ figure {
   width: 295px;
   height: 220px;
   position: relative;
-  bottom: 3560px;
+  bottom: 208px;
   left: 1050px; /*contour image Parc LONG Champ*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1093,15 +1102,21 @@ figure {
 #footerBouge {
   background-color: #e8ebeb;
   position: relative;
-  bottom: 3490px;
+  bottom: 15px;
+
   right: 50px;
   width: 1550px;
-  height: 250px;
+}
+
+#footerBack {
+  position: relative;
+  top: 55px;
+  left: 20px;
 }
 
 footer {
   position: relative;
-  top: 60px; /*bouger la structure*/
+  top: 25px; /*bouger la structure*/
   left: 10px;
 }
 
@@ -1129,7 +1144,7 @@ footer li {
 #bougerHebergements {
   position: relative;
   left: 495px;
-  bottom: 175px;
+  bottom: 120px;
 }
 
 .NosHebergements {
@@ -1153,7 +1168,7 @@ footer li {
 #bougerAssistance {
   position: relative;
   left: 980px;
-  bottom: 312px;
+  bottom: 260px;
 }
 
 .Assistance {
@@ -1174,4 +1189,9 @@ footer li {
 
 footer li {
   cursor: pointer;
+}
+
+footer {
+  background-color: #e8ebeb;
+  height: 280px;
 }
