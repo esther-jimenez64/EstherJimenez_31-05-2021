@@ -32,54 +32,14 @@
 body {
   max-width: 1920 px; /*config corps*/
   padding-left: 20px;
-
+  margin: 0px;
   overflow-x: hidden;
   position: relative;
-  left: 85px;
+  left: 25px;
 }
-div {
-  max-height: 210px;
+#bloc_page {
+  margin: auto;
 }
-
-/***Parti ipad   ***/
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #bloc_page {
-    width: auto;
-  }
-
-  /*les filtres*/
-
-  .Economique {
-    right: 200px;
-  }
-
-  #Marseille {
-    position: relative; /*parti hébergements*/
-    top: 800px;
-  }
-
-  #Soleil {
-    position: relative; /*aside*/
-  }
-
-  #AuCeourDeLeau {
-    position: relative; /*aside*/
-  }
-
-  #toutBleuEtBlanc {
-    position: relative;
-    top: -1650px; /*aside*/
-    margin-left: -940px;
-  }
-
-  #populaire {
-    position: relative; /*parti populaire*/
-    left: -1000px;
-    top: -750px;
-  }
-}
-
 /***  header ***/
 
 #logo img {
@@ -404,7 +364,7 @@ figure {
   font-family: "Raleway-Bold.ttf";
   position: absolute;
   top: 465px; /*hebergements a marseile*/
-  right: 1140px;
+  right: 1150px;
   background-color: #f2f2f2;
   background-size: 200px;
 }
@@ -415,9 +375,7 @@ figure {
   padding: bottom 100px;
   width: 235px;
   height: 140px;
-  position: absolute;
-  top: 545px;
-  right: 1202px;
+  position: relative;
 }
 
 #Hotel {
@@ -429,7 +387,7 @@ figure {
   color: #0065fc;
   font-size: 0.8em;
   position: relative;
-  top: 139px;
+  bottom: 40px;
   left: 15px;
 }
 
@@ -441,14 +399,14 @@ figure {
   color: black;
   font-family: "Raleway-Bold.ttf";
   position: relative;
-  top: 135px;
+  bottom: 10px;
   left: 15px;
 }
 .nuitAuberge {
   color: black;
-  position: absolute;
-  top: 700px;
-  right: 1275px;
+  position: relative;
+  bottom: 25px;
+  left: 15px;
   font-family: "Raleway", sans-serif;
 }
 #Marseille {
@@ -461,6 +419,7 @@ figure {
   border-top: 2.5px solid#ece9e9;
   border-bottom: 2.5px solid #ece9e9;
   border-right: 3px solid #ece9e9;
+  position: static;
 }
 figure {
   border: 7px solid rgb(252, 250, 250);
@@ -469,6 +428,7 @@ figure {
   border-top: 7px solid #f8f4f4;
   border-bottom: 7px solid #f3efef; /*contour de l'image marcus*/
   margin-top: 95px;
+  margin-right: 20px;
   width: 235px;
   height: 220px;
   background-color: rgb(252, 249, 252);
@@ -476,7 +436,7 @@ figure {
 #etoile .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
   position: relative;
-  top: 121px;
+  top: 91px;
   left: 90px;
 }
 
@@ -535,14 +495,14 @@ figure {
 
 #lesMouettes {
   position: relative;
-  bottom: 610px; /*contour de l'image reisetopia*/
+  bottom: 670px; /*contour de l'image reisetopia*/
   left: 560px;
 }
 
 .hotelDesMouettes {
   color: black;
   font-family: "Raleway-Bold.ttf";
-  position: relative;
+  position: absolute;
   top: 135px;
   left: 15px;
 }
@@ -577,6 +537,7 @@ figure {
   position: absolute;
   bottom: 62px;
   right: 647px;
+
   /*image la mer*/
 }
 #LaMer {
@@ -666,38 +627,38 @@ figure {
   width: 235px;
   height: 140px;
   position: absolute;
-  bottom: 62px;
-  right: 648px;
+  bottom: 100px;
+  right: 47px;
   /*image le Amina Fabien*/
 }
 
 #Amina {
-  position: relative;
-  bottom: 1270px; /*contour de l'image Amina Fabien*/
-  left: 558px;
+  position: absolute;
+  bottom: 3700px; /*contour de l'image Amina Fabien*/
+  left: 580px;
 }
 .ChezAmina {
   font-family: "Raleway-Bold.ttf";
-  position: relative;
-  top: 135px;
-  left: 15px;
+  position: absolute;
+  top: 240px;
+  left: 60px;
 }
 
 .nuitAmina {
-  position: relative;
-  top: 123px;
-  left: 15px;
+  position: absolute;
+  top: 263px;
+  left: 60px;
   font-family: "Raleway", sans-serif;
 }
 
 #starsAmina {
-  position: relative; /*etoile bleu*/
-  bottom: 30px;
+  position: absolute; /*etoile bleu*/
+  bottom: 165px;
 }
 #starsgriis .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
-  position: relative;
-  top: 120px;
+  position: absolute;
+  top: 142px;
   left: 88px;
 }
 
@@ -855,13 +816,14 @@ figure {
   cursor: pointer; /*image hotel bleu et blanc*/
 }
 
-#toutBleuEtBlanc {
+.toutBleuEtBlanc {
   width: 350px;
   height: 160px;
   position: relative;
-  left: 975px;
-  top: 630px;
+  bottom: 230px;
+  right: 10px;
   cursor: pointer;
+  position: auto;
   /*contour de l'image hotel bleu et blanc*/
 }
 
@@ -897,8 +859,8 @@ figure {
 /***Section   Activités à Marseille  **/
 
 #titreActivité {
-  position: relative;
-  top: 695px;
+  position: absolute;
+  top: 1300px;
   left: 15px;
   font-family: "Raleway-Bold.ttf";
 }
@@ -913,6 +875,7 @@ figure {
   display: flex;
 }
 
+/***PARTIS ACTIVITé***/
 /*Vieu Port*/
 
 .Bateaux {
@@ -931,9 +894,9 @@ figure {
 #BateauxVieuPort {
   width: 325px;
   height: 475px;
-  position: relative;
-  margin-top: 700px;
-  right: 40px; /*contour image port*/
+  position: absolute;
+  bottom: 2500px;
+  /*contour image port*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
 }
@@ -1194,4 +1157,56 @@ footer li {
 footer {
   background-color: #e8ebeb;
   height: 280px;
+}
+
+/***Parti ipad   ***/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /*les filtres*/
+  .Economique {
+    position: relative;
+    left: 1000px;
+  }
+  .Familial {
+    position: relative;
+    left: 1000px;
+  }
+  .Romantique {
+    margin-left: 200px;
+  }
+
+  #Soleil {
+    position: relative; /*aside*/
+  }
+
+  #AuCeourDeLeau {
+    position: relative; /*aside*/
+  }
+
+  #toutBleuEtBlanc {
+    position: relative;
+    top: -1650px; /*aside*/
+    margin-left: -940px;
+  }
+
+  #BateauxVieuPort {
+    position: relative; /*image bateaux*/
+    top: 900px;
+  }
+  #FortDePomegues {
+  }
+
+  #duFrioul {
+  }
+  #desCalanque {
+  }
+  #deLaGarde {
+  }
+  #Longchamp {
+  }
+
+  #footerBouge {
+    position: relative;
+    top: 1800px;
+  }
 }
