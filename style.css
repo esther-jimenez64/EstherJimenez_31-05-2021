@@ -358,6 +358,7 @@ h1 {
 
 figure {
   cursor: pointer;
+  overflow: hidden;
 }
 
 #titreMarseille {
@@ -436,7 +437,7 @@ figure {
 #etoile .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
   position: relative;
-  top: 91px;
+  bottom: 58px;
   left: 90px;
 }
 
@@ -447,38 +448,35 @@ figure {
   padding: bottom 100px; /*image Hôtel du port*/
   width: 235px;
   height: 140px;
-  position: absolute;
-  right: 650px;
 }
 #Port {
   position: relative;
-  bottom: 305px; /*contour de l'image fred*/
+  bottom: 330px; /*contour de l'image fred*/
   left: 280px;
 }
 .hotelDuPort {
   color: black;
   font-family: "Raleway-Bold.ttf";
   position: relative;
-  top: 135px;
-  left: 10px;
+  bottom: 10px;
+  left: 14px;
 }
 
 .nuitPort {
   position: relative;
-  top: 122px;
-  left: 10px;
+  bottom: 26px;
+  left: 14px;
   font-family: "Raleway", sans-serif;
 }
 #starsPort {
   position: relative; /*etoile bleu*/
-  bottom: 30px;
 }
 
 #starsgrey .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
   position: relative;
-  top: 120px;
-  left: 88px;
+  bottom: 58px;
+  left: 90px;
 }
 
 /*Hôtel Les mouettes*/
@@ -489,41 +487,41 @@ figure {
   padding: bottom 100px;
   width: 235px;
   height: 140px;
-  position: absolute;
+  position: relative;
+
   /*image les mouettes*/
 }
 
 #lesMouettes {
   position: relative;
-  bottom: 670px; /*contour de l'image reisetopia*/
+  bottom: 660px; /*contour de l'image reisetopia*/
   left: 560px;
 }
 
 .hotelDesMouettes {
   color: black;
   font-family: "Raleway-Bold.ttf";
-  position: absolute;
-  top: 135px;
-  left: 15px;
+  position: relative;
+  bottom: 10px;
+  left: 14px;
 }
 
 .nuitMouettes {
   position: relative;
-  top: 122px;
-  left: 15px;
+  bottom: 26px;
+  left: 14px;
   font-family: "Raleway", sans-serif;
 }
 
 #starsMouettes {
   position: relative; /*etoile bleu*/
-  bottom: 30px;
 }
 
 #starsgrise .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
   position: relative;
-  top: 120px;
-  left: 88px;
+  bottom: 58px;
+  left: 90px;
 }
 
 /*Hôtel de la mer*/
@@ -534,42 +532,39 @@ figure {
   padding: bottom 100px;
   width: 235px;
   height: 140px;
-  position: absolute;
-  bottom: 62px;
-  right: 647px;
+  position: relative;
 
   /*image la mer*/
 }
 #LaMer {
   position: relative;
-  bottom: 660px; /*contour de l'image annie la mer*/
-  left: 5px;
+  bottom: 730px; /*contour de l'image annie la mer*/
+  right: 5 px;
 }
 
 .hotelDeLaMer {
   font-family: "Raleway-Bold.ttf";
   position: relative;
-  top: 135px;
-  left: 10px;
+  bottom: 10px;
+  left: 14px;
 }
 
 .nuitMer {
   position: relative;
-  top: 123px;
-  left: 10px;
+  bottom: 26px;
+  left: 14px;
   font-family: "Raleway", sans-serif;
 }
 
 #starsMer {
   position: relative; /*etoile bleu*/
-  bottom: 30px;
 }
 
 #starssilver .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
   position: relative;
-  top: 120px;
-  left: 88px;
+  bottom: 58px;
+  left: 90px;
 }
 
 /*Auberge Le Panier*/
@@ -580,42 +575,40 @@ figure {
   padding: bottom 100px;
   width: 235px;
   height: 140px;
-  position: absolute;
-  bottom: 62px;
-  right: 647px;
+  position: relative;
+
   /*image le Panier nicate*/
 }
 
 #LePanier {
   position: relative;
-  bottom: 965px; /*contour de l'image Panier nicate*/
+  bottom: 1060px; /*contour de l'image Panier nicate*/
   left: 282px;
 }
 
 .AubergePanier {
   font-family: "Raleway-Bold.ttf";
   position: relative;
-  top: 135px;
-  left: 10px;
+  bottom: 10px;
+  left: 14px;
 }
 
 .nuitPanier {
   position: relative;
-  top: 123px;
-  left: 10px;
+  bottom: 26px;
+  left: 14px;
   font-family: "Raleway", sans-serif;
 }
 
 #starsPanier {
   position: relative; /*etoile bleu*/
-  bottom: 30px;
 }
 
 #starsgrisito .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
   position: relative;
-  top: 120px;
-  left: 88px;
+  bottom: 58px;
+  left: 90px;
 }
 
 /*Hôtel chez Amina*/
@@ -626,40 +619,38 @@ figure {
   padding: bottom 100px;
   width: 235px;
   height: 140px;
-  position: absolute;
-  bottom: 100px;
-  right: 47px;
+  position: relative;
+
   /*image le Amina Fabien*/
 }
 
 #Amina {
-  position: absolute;
-  bottom: 3700px; /*contour de l'image Amina Fabien*/
-  left: 580px;
+  position: relative;
+  bottom: 1390px; /*contour de l'image Amina Fabien*/
+  left: 565px;
 }
 .ChezAmina {
   font-family: "Raleway-Bold.ttf";
-  position: absolute;
-  top: 240px;
-  left: 60px;
+  position: relative;
+  bottom: 10px;
+  left: 14px;
 }
 
 .nuitAmina {
-  position: absolute;
-  top: 263px;
-  left: 60px;
+  position: relative;
+  bottom: 26px;
+  left: 14px;
   font-family: "Raleway", sans-serif;
 }
 
 #starsAmina {
-  position: absolute; /*etoile bleu*/
-  bottom: 165px;
+  position: relative; /*etoile bleu*/
 }
 #starsgriis .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
-  position: absolute;
-  top: 142px;
-  left: 88px;
+  position: relative;
+  bottom: 58px;
+  left: 90px;
 }
 
 /*Afficher plus*/
