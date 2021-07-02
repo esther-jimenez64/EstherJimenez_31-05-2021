@@ -35,7 +35,7 @@ body {
   margin: 0px;
   overflow-x: hidden;
   position: relative;
-  left: 25px;
+  left: 45px;
 }
 #bloc_page {
   margin: auto;
@@ -657,7 +657,7 @@ figure {
 
 #AfficherPlus {
   position: relative;
-  bottom: 1205px;
+  bottom: 1350px;
   left: 50px;
   font-family: "Raleway-Bold.ttf";
   font-size: 19px;
@@ -703,9 +703,8 @@ figure {
   padding: bottom 100px;
   width: 140px;
   height: 158px;
-  position: absolute;
-  top: 1px;
-  right: 20px px;
+  position: relative;
+
   cursor: pointer; /*image emile SOLEIL*/
 }
 #Soleil {
@@ -721,14 +720,14 @@ figure {
 .soleilDuMatin {
   font-family: "Raleway-Bold.ttf";
   position: relative;
-  bottom: 20 px;
+  bottom: 165px;
   left: 150px;
   cursor: pointer;
 }
 
 .nuitSoleil {
   position: relative;
-  bottom: 5px;
+  bottom: 170px;
   left: 150px;
   font-family: "Raleway", sans-serif;
   cursor: pointer;
@@ -749,9 +748,8 @@ figure {
   padding: bottom 100px;
   width: 140px;
   height: 158px;
-  position: absolute;
-  top: 1px;
-  right: 210px;
+  position: relative;
+
   cursor: pointer; /*image chambre aux ceour de l'eau*/
 }
 
@@ -767,13 +765,13 @@ figure {
 .chambreAuCeour {
   font-family: "Raleway-Bold.ttf";
   position: relative;
-  bottom: 20 px;
+  bottom: 165px;
   left: 150px;
   cursor: pointer;
 }
 .nuitAuCeour {
   position: relative;
-  bottom: 5px;
+  bottom: 170px;
   left: 150px;
   font-family: "Raleway", sans-serif;
   cursor: pointer;
@@ -801,9 +799,7 @@ figure {
   padding: bottom 100px;
   width: 140px;
   height: 158px;
-  position: absolute;
-  bottom: 2px;
-  right: 210px;
+  position: relative;
   cursor: pointer; /*image hotel bleu et blanc*/
 }
 
@@ -821,13 +817,13 @@ figure {
 .HotelToutBleuEtBlanc {
   font-family: "Raleway-Bold.ttf";
   position: relative;
-  bottom: 10px;
+  bottom: 165px;
   left: 150px;
   cursor: pointer;
 }
 .nuitBleuEtBlanc {
   position: relative;
-  bottom: 10px;
+  bottom: 170px;
   left: 150px;
   font-family: "Raleway", sans-serif;
   cursor: pointer;
@@ -850,9 +846,9 @@ figure {
 /***Section   Activités à Marseille  **/
 
 #titreActivité {
-  position: absolute;
-  top: 1300px;
-  left: 15px;
+  position: relative;
+  bottom: 1350px;
+  left: 10px;
   font-family: "Raleway-Bold.ttf";
 }
 
@@ -870,7 +866,6 @@ figure {
 /*Vieu Port*/
 
 .Bateaux {
-  object-fit: cover;
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
   padding: bottom 100px;
@@ -882,11 +877,12 @@ figure {
   cursor: pointer;
 }
 
-#BateauxVieuPort {
+.BateauxVieuPort {
   width: 325px;
   height: 475px;
-  position: absolute;
-  bottom: 2500px;
+  position: relative;
+  bottom: 1455px;
+  right: 40px;
   /*contour image port*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -912,11 +908,11 @@ figure {
   bottom: 8px;
 }
 
-#FortDePomegues {
+.FortDePomegues {
   width: 295px;
   height: 245px;
   position: relative;
-  top: 394px;
+  bottom: 2050px;
   left: 330px; /*contour image fort*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -926,8 +922,8 @@ figure {
   font-family: "Raleway-Bold.ttf";
   cursor: pointer;
   position: relative;
-  left: 10px;
-  bottom: 5px;
+  left: 25px;
+  bottom: 10px;
 }
 
 /*Île du Frioul*/
@@ -940,11 +936,11 @@ figure {
   height: 130px;
 }
 
-#duFrioul {
+.duFrioul {
   width: 295px;
   height: 180px;
   position: relative;
-  top: 473px;
+  bottom: 2138px;
   left: 330px; /*contour image de l'ile*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -954,7 +950,8 @@ figure {
   cursor: pointer;
   position: relative;
   position: relative;
-  left: 20px;
+  left: 25px;
+  bottom: 1px;
 }
 
 /*Parc National des Calanques*/
@@ -972,11 +969,11 @@ figure {
   cursor: pointer;
 }
 
-#desCalanques {
+.desCalanques {
   width: 325px;
   height: 460px;
   position: relative;
-  bottom: 24px;
+  bottom: 2728px;
   left: 680px; /*contour image Parc National*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -987,7 +984,7 @@ figure {
   cursor: pointer;
   position: relative;
   left: 25px;
-  bottom: 10px;
+  bottom: 15px;
 }
 
 /*Notre-Dame-de-la-Garde*/
@@ -1002,11 +999,11 @@ figure {
   bottom: 15px;
 }
 
-#deLaGarde {
+.deLaGarde {
   width: 300px;
   height: 180px;
   position: relative;
-  bottom: 230px;
+  bottom: 3315px;
   left: 1050px; /*contour image Notre Dame*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1017,7 +1014,7 @@ figure {
   cursor: pointer;
   position: relative;
   left: 25px;
-  bottom: 22px;
+  bottom: 25px;
 }
 /*Parc Longchamp*/
 
@@ -1031,11 +1028,11 @@ figure {
   bottom: 8px;
 }
 
-#Longchamp {
+.Longchamp {
   width: 295px;
   height: 220px;
   position: relative;
-  bottom: 208px;
+  bottom: 3382px;
   left: 1050px; /*contour image Parc LONG Champ*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1046,7 +1043,7 @@ figure {
   cursor: pointer;
   position: relative;
   left: 25px;
-  bottom: 22px;
+  bottom: 13px;
 }
 
 /*** footer        ***/
