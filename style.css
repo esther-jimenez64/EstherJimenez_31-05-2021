@@ -114,9 +114,9 @@ h1 {
   text-align: center;
   padding: 17px;
   font-family: "Raleway-Bold.ttf";
-  position: absolute;
-  left: 339px;
-  top: 150px;
+  position: relative;
+  left: 320px;
+  bottom: 40px;
   cursor: pointer;
 }
 .Recherche a {
@@ -131,18 +131,18 @@ h1 {
   border-radius: 10px 0px 0px 10px;
   text-align: center;
   height: 29px;
-  position: absolute;
-  top: 150px;
-  left: 20px;
+  position: relative;
+  bottom: 90px;
 }
 #pseudo {
   font-size: 17px;
   height: 47px;
   font-family: "Raleway-ExtraBold.ttf"; /*le formulaire*/
   width: 264px;
-  position: absolute;
-  left: 71px;
-  top: 150px;
+  position: relative;
+  bottom: 155px;
+  left: 50px;
+
   text-decoration: none;
   text-decoration-color: black;
   border: transparent;
@@ -151,10 +151,9 @@ h1 {
 .Filtres {
   font-family: "Raleway-ExtraBold.ttf"; /*paragraphe filtres*/
   width: 16px;
-  position: absolute;
-  bottom: 1753px;
+  position: relative;
+  bottom: 130px;
   font-size: 19px;
-  right: 1470px;
 }
 
 .Economique a {
@@ -163,16 +162,18 @@ h1 {
   border-top: 2.5px solid #d1d0d0;
   border-bottom: 2.5px solid #d1d0d0;
   border-right: 3px solid #d1d0d0;
+
+  padding: 13px;
   text-decoration: none; /*Economique forme ronde et background  */
   font-family: "Raleway-Bold.ttf";
   font-size: 20px;
   color: black;
-  position: absolute;
-  right: 1200px;
-  top: 240px;
-  width: 180px;
-  padding: 13px;
 
+  width: 120px;
+  padding-left: 70px;
+  position: relative;
+  bottom: 170px;
+  left: 95px;
   cursor: pointer;
   text-align: right;
 }
@@ -183,9 +184,6 @@ h1 {
 
 .money {
   color: #0065fc;
-  position: absolute;
-  top: 240px;
-  left: 90px;
   border-radius: 10px/20px;
   border-radius: 30px 30px 30px 30px; /*icon d'argent pour économique*/
   height: -110px;
@@ -198,6 +196,9 @@ h1 {
   background-color: #deebff;
   cursor: pointer;
   font-size: 17px;
+  position: relative;
+  bottom: 210px;
+  left: 95px;
 }
 
 .Familial a {
@@ -210,11 +211,12 @@ h1 {
   font-family: "Raleway-Bold.ttf";
   font-size: 20px;
   color: black;
-  position: absolute;
-  right: 1010px;
-  top: 240px;
+  position: relative;
+  bottom: 250px;
+  left: 320px;
   width: 120px;
   padding: 13px;
+  padding-left: 70px;
   cursor: pointer;
   text-align: right;
 }
@@ -226,9 +228,9 @@ h1 {
 
 .enfant {
   color: #0065fc;
-  position: absolute;
-  top: 240px;
-  left: 338px;
+  position: relative;
+  bottom: 290px;
+  left: 320px;
   border-radius: 10px/20px;
   border-radius: 30px 30px 30px 30px; /*icon d'enfant pour familial*/
   height: -110px;
@@ -255,9 +257,10 @@ h1 {
   color: black;
   width: 180px;
   padding: 13px;
-  position: absolute;
-  right: 767px;
-  top: 240px;
+  padding-left: 74px;
+  position: relative;
+  bottom: 334px;
+  left: 500px;
   cursor: pointer;
   text-align: right;
 }
@@ -269,9 +272,9 @@ h1 {
 
 .ceour {
   color: #0065fc;
-  position: absolute;
-  top: 240px;
-  left: 525px;
+  position: relative;
+  bottom: 375px;
+  left: 500px;
   border-radius: 10px/20px;
   border-radius: 30px 30px 30px 30px; /*icon d'un ceour pour Romantique*/
   height: -110px;
@@ -298,9 +301,10 @@ h1 {
   color: black;
   width: 220px;
   padding: 13px;
-  position: absolute;
-  right: 494px;
-  top: 240px;
+  padding-left: 72px;
+  position: relative;
+  bottom: 418px;
+  left: 730px;
   cursor: pointer;
   text-align: right;
 }
@@ -312,9 +316,9 @@ h1 {
 
 .dog {
   color: #0065fc;
-  position: absolute;
-  top: 240px;
-  left: 760px;
+  position: relative;
+  bottom: 458px;
+  left: 730px;
   border-radius: 10px/20px;
   border-radius: 30px 30px 30px 30px; /*icon d'un ceour pour Romantique*/
   height: -110px;
@@ -331,9 +335,9 @@ h1 {
 
 #petiteinfo {
   font-family: "Raleway";
-  position: absolute; /*infos*/
-  top: 320px;
-  right: 1045px;
+  position: relative; /*infos*/
+  bottom: 440px;
+  left: 40px;
 }
 
 .I {
@@ -347,9 +351,8 @@ h1 {
   text-align: center;
   padding: 3px;
   font-size: 13px;
-  position: absolute;
-  top: 330px;
-  left: 5px;
+  position: relative;
+  bottom: 480px;
 }
 
 /*** Section hotel   ***/
@@ -363,9 +366,9 @@ figure {
 
 #titreMarseille {
   font-family: "Raleway-Bold.ttf";
-  position: absolute;
-  top: 465px; /*hebergements a marseile*/
-  right: 1150px;
+  position: relative;
+  /*hebergements a marseile*/
+
   background-color: #f2f2f2;
   background-size: 200px;
 }
@@ -422,14 +425,13 @@ figure {
   border-right: 3px solid #ece9e9;
   position: static;
 }
-figure {
+.marcusFigure {
   border: 7px solid rgb(252, 250, 250);
   border-radius: 20px/20px;
   border-radius: 30px 30px 30px 30px;
   border-top: 7px solid #f8f4f4;
   border-bottom: 7px solid #f3efef; /*contour de l'image marcus*/
-  margin-top: 95px;
-  margin-right: 20px;
+
   width: 235px;
   height: 220px;
   background-color: rgb(252, 249, 252);
@@ -442,6 +444,18 @@ figure {
 }
 
 /* Hôtel du port*/
+
+.figureFred {
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+
+  width: 235px;
+  height: 220px;
+  background-color: rgb(252, 249, 252);
+}
 .fred {
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
@@ -480,6 +494,18 @@ figure {
 }
 
 /*Hôtel Les mouettes*/
+
+.figureMouettes {
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+
+  width: 235px;
+  height: 220px;
+  background-color: rgb(252, 249, 252);
+}
 
 .reisetopia {
   border-radius: 20px/20px;
@@ -526,6 +552,17 @@ figure {
 
 /*Hôtel de la mer*/
 
+.figureLaMer {
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+
+  width: 235px;
+  height: 220px;
+  background-color: rgb(252, 249, 252);
+}
 .annie {
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
@@ -568,6 +605,18 @@ figure {
 }
 
 /*Auberge Le Panier*/
+
+.figureLePanier {
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+
+  width: 235px;
+  height: 220px;
+  background-color: rgb(252, 249, 252);
+}
 
 .nicate {
   border-radius: 20px/20px;
@@ -612,6 +661,18 @@ figure {
 }
 
 /*Hôtel chez Amina*/
+
+.figureChezAmina {
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+
+  width: 235px;
+  height: 220px;
+  background-color: rgb(252, 249, 252);
+}
 
 .AminaFabien {
   border-radius: 20px/20px;
@@ -715,6 +776,15 @@ figure {
   right: 10px;
   bottom: 50px;
   cursor: pointer;
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+
+  width: 355px;
+  height: 160px;
+  background-color: rgb(252, 249, 252);
 }
 
 .soleilDuMatin {
@@ -760,6 +830,15 @@ figure {
   right: 10px;
   bottom: 160px;
   cursor: pointer; /*contour de l'image chambre au ceour de l'eau*/
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+
+  width: 355px;
+  height: 160px;
+  background-color: rgb(252, 249, 252);
 }
 
 .chambreAuCeour {
@@ -812,6 +891,15 @@ figure {
   cursor: pointer;
   position: auto;
   /*contour de l'image hotel bleu et blanc*/
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+
+  width: 355px;
+  height: 160px;
+  background-color: rgb(252, 249, 252);
 }
 
 .HotelToutBleuEtBlanc {
@@ -886,6 +974,11 @@ figure {
   /*contour image port*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef;
 }
 
 .VieuxPort {
@@ -916,6 +1009,11 @@ figure {
   left: 330px; /*contour image fort*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef;
 }
 
 .FortPomegues {
@@ -944,6 +1042,11 @@ figure {
   left: 330px; /*contour image de l'ile*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef;
 }
 .Frioul {
   font-family: "Raleway-Bold.ttf";
@@ -977,6 +1080,11 @@ figure {
   left: 680px; /*contour image Parc National*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef;
 }
 
 .ParcNationalDesCalanques {
@@ -1007,6 +1115,11 @@ figure {
   left: 1050px; /*contour image Notre Dame*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef;
 }
 
 .Notre-Dame-de-la-Garde {
@@ -1036,6 +1149,11 @@ figure {
   left: 1050px; /*contour image Parc LONG Champ*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef;
 }
 
 .ParcLongchamp {
@@ -1191,6 +1309,8 @@ footer {
   #deLaGarde {
   }
   #Longchamp {
+  }
+  figure {
   }
 
   #footerBouge {
