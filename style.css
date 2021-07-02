@@ -415,7 +415,7 @@ figure {
 }
 #Marseille {
   background-color: #eeeaea;
-  margin-top: 260px;
+
   height: 700px; /*background d'hébergements */
   width: 930px;
   border-radius: 20px/20px;
@@ -423,7 +423,8 @@ figure {
   border-top: 2.5px solid#ece9e9;
   border-bottom: 2.5px solid #ece9e9;
   border-right: 3px solid #ece9e9;
-  position: static;
+  position: relative;
+  bottom: 400px;
 }
 .marcusFigure {
   border: 7px solid rgb(252, 250, 250);
@@ -734,7 +735,7 @@ figure {
   margin-left: 1000px;
   position: relative;
   right: 15px;
-  bottom: 705px;
+  bottom: 1105px;
   height: 700px; /*background Populaire */
   width: 430px;
   border-radius: 20px/20px;
@@ -748,13 +749,13 @@ figure {
 .LesPlusPopulaires {
   font-family: "Raleway-Bold.ttf"; /*titre populaire*/
   position: relative;
+  left: 50px;
   top: 20px;
-  left: 45px;
 }
 .fa-chart-line {
   font-size: 25px; /*icon a coter du titre populaire*/
   position: relative;
-  bottom: 290px;
+  bottom: 220px;
   left: 365px;
 }
 
@@ -774,7 +775,7 @@ figure {
   /*contour de l'image emile Soleil*/
   position: relative;
   right: 10px;
-  bottom: 50px;
+  top: 20px;
   cursor: pointer;
   border: 7px solid rgb(252, 250, 250);
   border-radius: 20px/20px;
@@ -828,7 +829,7 @@ figure {
   height: 160px;
   position: relative;
   right: 10px;
-  bottom: 160px;
+  bottom: 18px;
   cursor: pointer; /*contour de l'image chambre au ceour de l'eau*/
   border: 7px solid rgb(252, 250, 250);
   border-radius: 20px/20px;
@@ -886,7 +887,7 @@ figure {
   width: 350px;
   height: 160px;
   position: relative;
-  bottom: 230px;
+  bottom: 1px;
   right: 10px;
   cursor: pointer;
   position: auto;
