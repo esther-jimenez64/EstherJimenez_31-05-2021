@@ -367,7 +367,8 @@ figure {
 #titreMarseille {
   font-family: "Raleway-Bold.ttf";
   position: relative;
-  /*hebergements a marseile*/
+  top: 18px; /*hebergements a marseile*/
+  left: 43px;
 
   background-color: #f2f2f2;
   background-size: 200px;
@@ -432,7 +433,8 @@ figure {
   border-radius: 30px 30px 30px 30px;
   border-top: 7px solid #f8f4f4;
   border-bottom: 7px solid #f3efef; /*contour de l'image marcus*/
-
+  position: relative;
+  top: 20px;
   width: 235px;
   height: 220px;
   background-color: rgb(252, 249, 252);
@@ -452,6 +454,8 @@ figure {
   border-radius: 30px 30px 30px 30px;
   border-top: 7px solid #f8f4f4;
   border-bottom: 7px solid #f3efef; /*figure de l'image*/
+  position: relative;
+  top: 10px;
 
   width: 235px;
   height: 220px;
@@ -559,7 +563,7 @@ figure {
   border-radius: 30px 30px 30px 30px;
   border-top: 7px solid #f8f4f4;
   border-bottom: 7px solid #f3efef; /*figure de l'image*/
-
+  position: relative;
   width: 235px;
   height: 220px;
   background-color: rgb(252, 249, 252);
@@ -576,7 +580,7 @@ figure {
 }
 #LaMer {
   position: relative;
-  bottom: 730px; /*contour de l'image annie la mer*/
+  bottom: 470px; /*contour de l'image annie la mer*/
   right: 5 px;
 }
 
@@ -613,7 +617,7 @@ figure {
   border-radius: 30px 30px 30px 30px;
   border-top: 7px solid #f8f4f4;
   border-bottom: 7px solid #f3efef; /*figure de l'image*/
-
+  position: relative;
   width: 235px;
   height: 220px;
   background-color: rgb(252, 249, 252);
@@ -719,12 +723,15 @@ figure {
 
 #AfficherPlus {
   position: relative;
-  bottom: 1350px;
+  bottom: 1100px;
   left: 50px;
   font-family: "Raleway-Bold.ttf";
   font-size: 19px;
   cursor: pointer;
   max-width: 120px;
+  position: relative;
+  bottom: 950px;
+  left: 50px;
 }
 
 /***Aside POPULAIRE**/
