@@ -30,16 +30,19 @@
 
 /* largeur par la hauteur : 1920 x 1080*/
 body {
-  max-width: 1920 px; /*config corps*/
+  max-width: 1920 px;
+  /*config corps*/
   padding-left: 20px;
   margin: 0px;
-  overflow-x: hidden;
+
   position: relative;
   left: 45px;
 }
+
 #bloc_page {
   margin: auto;
 }
+
 /***  header ***/
 
 #logo img {
@@ -312,6 +315,7 @@ h1 {
 .Animaux a:hover {
   color: white; /* Animaux lorsqu'elle devient cliquable   */
   background-color: #0065fc;
+  position: relative;
 }
 
 .dog {
@@ -942,19 +946,15 @@ figure {
 
 #titreActivité {
   position: relative;
-  bottom: 1350px;
+  bottom: 1760px;
   left: 10px;
   font-family: "Raleway-Bold.ttf";
 }
 
-#activite {
-  display: flex;
-  flex-direction: column;
-}
-.port {
-}
-#sectionActivite {
-  display: flex;
+.LesActivite {
+  height: 200px;
+  position: relative;
+  top: 800px;
 }
 
 /***PARTIS ACTIVITé***/
@@ -976,7 +976,7 @@ figure {
   width: 325px;
   height: 475px;
   position: relative;
-  bottom: 1455px;
+  bottom: 1760px;
   right: 40px;
   /*contour image port*/
   cursor: pointer;
@@ -1012,7 +1012,7 @@ figure {
   width: 295px;
   height: 245px;
   position: relative;
-  bottom: 2050px;
+  bottom: 2265px;
   left: 330px; /*contour image fort*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1045,7 +1045,7 @@ figure {
   width: 295px;
   height: 180px;
   position: relative;
-  bottom: 2138px;
+  bottom: 2252px;
   left: 330px; /*contour image de l'ile*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1083,7 +1083,7 @@ figure {
   width: 325px;
   height: 460px;
   position: relative;
-  bottom: 2728px;
+  bottom: 2750px;
   left: 680px; /*contour image Parc National*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1118,7 +1118,7 @@ figure {
   width: 300px;
   height: 180px;
   position: relative;
-  bottom: 3315px;
+  bottom: 3240px;
   left: 1050px; /*contour image Notre Dame*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1152,7 +1152,7 @@ figure {
   width: 295px;
   height: 220px;
   position: relative;
-  bottom: 3382px;
+  bottom: 3213px;
   left: 1050px; /*contour image Parc LONG Champ*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1221,6 +1221,8 @@ footer li {
   position: relative;
   left: 495px;
   bottom: 120px;
+  margin: 0;
+  padding: 0;
 }
 
 .NosHebergements {
@@ -1229,6 +1231,8 @@ footer li {
   position: relative;
   left: 35px;
   bottom: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 #directionDeHebergements {
@@ -1270,6 +1274,8 @@ footer li {
 footer {
   background-color: #e8ebeb;
   height: 280px;
+  margin: 0;
+  padding: 0;
 }
 
 /***Parti ipad   ***/
