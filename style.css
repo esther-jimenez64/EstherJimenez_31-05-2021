@@ -370,7 +370,6 @@ figure {
   top: 18px; /*hebergements a marseile*/
   left: 43px;
 
-  background-color: #f2f2f2;
   background-size: 200px;
 }
 
@@ -470,7 +469,7 @@ figure {
 }
 #Port {
   position: relative;
-  bottom: 330px; /*contour de l'image fred*/
+  bottom: 240px; /*contour de l'image fred*/
   left: 280px;
 }
 .hotelDuPort {
@@ -525,7 +524,7 @@ figure {
 
 #lesMouettes {
   position: relative;
-  bottom: 660px; /*contour de l'image reisetopia*/
+  bottom: 484px; /*contour de l'image reisetopia*/
   left: 560px;
 }
 
@@ -636,7 +635,7 @@ figure {
 
 #LePanier {
   position: relative;
-  bottom: 1060px; /*contour de l'image Panier nicate*/
+  bottom: 722px; /*contour de l'image Panier nicate*/
   left: 282px;
 }
 
@@ -692,7 +691,7 @@ figure {
 
 #Amina {
   position: relative;
-  bottom: 1390px; /*contour de l'image Amina Fabien*/
+  bottom: 974px; /*contour de l'image Amina Fabien*/
   left: 565px;
 }
 .ChezAmina {
