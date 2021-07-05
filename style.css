@@ -1277,9 +1277,60 @@ footer {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   /*les filtres*/
-
+  body {
+    left: 0px;
+  }
   #bloc_page {
     margin: auto;
-    height: 10px;
+    height: auto;
+  }
+
+  /*** header***/
+  #logo img {
+    position: relative;
+    bottom: 80%;
+  }
+
+  #navigation {
+    position: relative;
+    left: 30%;
+  }
+
+  /******/
+  h1 {
+    margin-top: 8%;
+    font-size: 19px;
+  }
+
+  .Filtres {
+    position: relative;
+    bottom: 95px;
+    font-size: 19px;
+  }
+  .Romantique a {
+    position: relative;
+    bottom: 240px;
+    left: 100px;
+  }
+  .ceour {
+    position: relative;
+    bottom: 283px;
+    left: 100px;
+  }
+  .Animaux a {
+    position: relative;
+    bottom: 325px;
+    left: 315px;
+    padding-left: 10;
+  }
+
+  .dog {
+    position: relative;
+    bottom: 365px;
+    left: 315px;
+  }
+
+  #petiteinfo {
+    margin-top: 20%;
   }
 }
