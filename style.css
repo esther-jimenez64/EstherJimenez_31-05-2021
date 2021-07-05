@@ -1309,28 +1309,56 @@ footer {
   }
   .Romantique a {
     position: relative;
-    bottom: 240px;
+    bottom: 240px; /*contour icon romantique*/
     left: 100px;
   }
   .ceour {
     position: relative;
-    bottom: 283px;
+    bottom: 283px; /*icon romantique*/
     left: 100px;
   }
   .Animaux a {
     position: relative;
-    bottom: 325px;
+    bottom: 325px; /*contour icon chien*/
     left: 315px;
     padding-left: 10;
   }
 
   .dog {
     position: relative;
-    bottom: 365px;
+    bottom: 365px; /*icon chien*/
     left: 315px;
   }
 
   #petiteinfo {
     margin-top: 20%;
+  }
+
+  /*** Section Hébergements***/
+
+  #Marseille {
+    width: 800px;
+    position: relative;
+    top: 600px; /*background hébergements*/
+  }
+
+  /***Aside Populaire***/
+
+  #populaire {
+    position: relative;
+    right: 1000px;
+    width: 600px;
+  }
+
+  #Soleil {
+    width: 500px;
+  }
+
+  #AuCeourDeLeau {
+    width: 500px;
+  }
+
+  .toutBleuEtBlanc {
+    width: 500px;
   }
 }
