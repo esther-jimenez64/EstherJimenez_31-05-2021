@@ -1279,6 +1279,7 @@ footer {
   /*les filtres*/
   body {
     left: 0px;
+    max-height: 900px;
   }
   #bloc_page {
     margin: auto;
@@ -1336,8 +1337,14 @@ footer {
 
   /*** Section Hébergements***/
 
+  #titreMarseille {
+    position: relative;
+    top: 18px; /*hebergements a marseile*/
+    left: 60px;
+  }
+
   #Marseille {
-    width: 610px;
+    width: 670px;
     height: 960px;
     position: relative;
     top: 360px; /*background hébergements*/
@@ -1345,38 +1352,84 @@ footer {
   #lesMouettes {
     position: relative;
     top: 40px; /*contour de l'image reisetopia*/
-    left: 1px;
+    left: 25px;
   }
   #Amina {
     position: relative;
     bottom: 710px;
-    left: 280px; /*contour de l'image Amina Fabien*/
+    left: 305px; /*contour de l'image Amina Fabien*/
+  }
+
+  #LePanier {
+    position: relative;
+    bottom: 710px;
+    left: 305px;
+  }
+
+  #LaMer {
+    position: relative;
+    bottom: 460px; /*contour de l'image  hotel de la mer*/
+    left: 25px;
+  }
+
+  #Port {
+    position: relative; /*contour de l'image hotel du port*/
+    bottom: 243px;
+    left: 305px;
+  }
+
+  .marcusFigure {
+    position: relative;
+    bottom: 460px; /*contour de l'image marcus*/
+    left: 25px;
   }
 
   #AfficherPlus {
     position: relative;
     bottom: 680px;
-    left: 50px;
+    left: 70px;
   }
 
   /***Aside Populaire***/
+
+  .LesPlusPopulaires {
+    /*titre populaire*/
+    position: relative;
+    left: 80px;
+    top: 20px;
+  }
+  .fa-chart-line {
+    /*icon a coter du titre populaire*/
+    position: relative;
+    bottom: 220px;
+    left: 550px;
+  }
 
   #populaire {
     position: relative;
     right: 1000px;
     bottom: 1380px;
-    width: 600px;
+    width: 665px;
   }
 
   #Soleil {
     width: 500px; /*contour de l'image hotel solei du matin*/
+    position: relative;
+    left: 25px;
+    top: 20px;
   }
 
   #AuCeourDeLeau {
     width: 500px; /*contour de l'image hotel au ceour de l'eau*/
+    position: relative;
+    left: 25px;
+    bottom: 20px;
   }
 
   .toutBleuEtBlanc {
+    position: relative; /*figure de l'image hotel tout bleu et blanc*/
+    left: 25px;
+    bottom: 10px;
     width: 500px;
   }
 
@@ -1399,8 +1452,39 @@ footer {
   }
 
   .Longchamp {
-    position: relative;
+    position: relative; /*contour de l'image notre damme*/
     bottom: 790px;
     left: 315px;
+  }
+
+  /*** footer***/
+
+  #footerBouge {
+    position: relative; /*bouger le footer*/
+    bottom: 920px;
+    right: 50px;
+    width: 1550px;
+  }
+
+  .NosHebergements {
+    position: relative;
+    left: -160px;
+    bottom: 4px;
+  }
+
+  #directionDeHebergements {
+    position: relative;
+    right: 190px;
+  }
+
+  .Assistance {
+    position: relative;
+    left: -340px;
+    bottom: 1px;
+  }
+
+  #directionAssistance {
+    position: relative;
+    right: 380px;
   }
 }
