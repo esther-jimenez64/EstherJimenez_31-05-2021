@@ -1337,9 +1337,26 @@ footer {
   /*** Section Hébergements***/
 
   #Marseille {
-    width: 800px;
+    width: 610px;
+    height: 960px;
     position: relative;
-    top: 600px; /*background hébergements*/
+    top: 360px; /*background hébergements*/
+  }
+  #lesMouettes {
+    position: relative;
+    top: 40px; /*contour de l'image reisetopia*/
+    left: 1px;
+  }
+  #Amina {
+    position: relative;
+    bottom: 710px;
+    left: 280px; /*contour de l'image Amina Fabien*/
+  }
+
+  #AfficherPlus {
+    position: relative;
+    bottom: 680px;
+    left: 50px;
   }
 
   /***Aside Populaire***/
@@ -1347,18 +1364,43 @@ footer {
   #populaire {
     position: relative;
     right: 1000px;
+    bottom: 1380px;
     width: 600px;
   }
 
   #Soleil {
-    width: 500px;
+    width: 500px; /*contour de l'image hotel solei du matin*/
   }
 
   #AuCeourDeLeau {
-    width: 500px;
+    width: 500px; /*contour de l'image hotel au ceour de l'eau*/
   }
 
   .toutBleuEtBlanc {
     width: 500px;
+  }
+
+  /*** Section Activité***/
+  #flexActivite {
+    position: relative;
+    bottom: 1460px;
+    left: 20px;
+  }
+
+  .desCalanques {
+    position: relative; /*contour de l'image parc national calanques*/
+    bottom: 300px;
+    left: -8%;
+  }
+  .deLaGarde {
+    position: relative; /*contour de l'image notre dammes*/
+    bottom: 809px;
+    left: 315px;
+  }
+
+  .Longchamp {
+    position: relative;
+    bottom: 790px;
+    left: 315px;
   }
 }
