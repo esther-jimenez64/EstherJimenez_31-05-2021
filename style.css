@@ -877,8 +877,8 @@ figure {
 #starsgreyy .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
   position: relative;
-  top: 120px;
-  left: 88px;
+  bottom: 59px;
+  left: 90px;
   cursor: pointer;
 }
 
@@ -938,8 +938,8 @@ figure {
 #starsgrie .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
   position: relative;
-  top: 120px;
-  left: 88px;
+  bottom: 59px;
+  left: 90px;
   cursor: pointer;
 }
 
@@ -1280,7 +1280,6 @@ footer {
   /*les filtres*/
   body {
     left: 0px;
-    max-height: 900px;
   }
   #bloc_page {
     margin: auto;
@@ -1290,7 +1289,7 @@ footer {
   /*** header***/
   #logo img {
     position: relative;
-    bottom: 80%;
+    bottom: -23px;
   }
 
   #navigation {
@@ -1301,7 +1300,7 @@ footer {
   /******/
   h1 {
     margin-top: 8%;
-    font-size: 19px;
+    font-size: 23px;
   }
 
   .Filtres {
@@ -1396,65 +1395,190 @@ footer {
   .LesPlusPopulaires {
     /*titre populaire*/
     position: relative;
-    left: 80px;
+    left: 70px;
     top: 20px;
+    font-size: 28px;
   }
   .fa-chart-line {
     /*icon a coter du titre populaire*/
     position: relative;
     bottom: 220px;
-    left: 550px;
+    left: 540px;
+    font-size: 28px;
   }
 
   #populaire {
     position: relative;
-    right: 1000px;
+    right: 1020px;
     bottom: 1380px;
-    width: 665px;
+    width: 623px;
   }
 
   #Soleil {
-    width: 500px; /*contour de l'image hotel solei du matin*/
+    width: 530px; /*contour de l'image hotel solei du matin*/
     position: relative;
-    left: 25px;
+    right: 10px;
     top: 20px;
+  }
+  .emile {
+    border-radius: 20px/20px;
+    border-radius: 26px 0px 0px 26px;
+    padding: bottom 100px;
+    width: 140px;
+    height: 158px;
+    position: relative;
+
+    cursor: pointer; /*image emile SOLEIL*/
+  }
+
+  .soleilDuMatin {
+    font-family: "Raleway-Bold.ttf";
+    position: relative;
+    bottom: 165px;
+    left: 150px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .nuitSoleil {
+    position: relative;
+    bottom: 175px;
+    left: 150px;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+    font-size: 19px;
+  }
+
+  #starsSoleil {
+    cursor: pointer;
+    position: relative;
+    bottom: 140px;
+    left: 145px;
+    font-size: 19px;
+  }
+
+  /*Au coeur de l'eau Chambres d'hôtes*/
+
+  .creative {
+    border-radius: 20px/20px;
+    border-radius: 26px 0px 0px 26px;
+    padding: bottom 100px;
+    width: 140px;
+    height: 158px;
+    position: relative;
+
+    cursor: pointer; /*image chambre aux ceour de l'eau*/
   }
 
   #AuCeourDeLeau {
-    width: 500px; /*contour de l'image hotel au ceour de l'eau*/
+    width: 530px;
+  }
+  .chambreAuCeour {
+    font-family: "Raleway-Bold.ttf";
     position: relative;
-    left: 25px;
-    bottom: 20px;
+    bottom: 165px;
+    left: 150px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .nuitAuCeour {
+    position: relative;
+    bottom: 170px;
+    left: 150px;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+    font-size: 19px;
+  }
+
+  #starsCeour {
+    cursor: pointer;
+    position: relative; /*etoile bleu*/
+    bottom: 140px;
+    left: 145px;
+    font-size: 19px;
+  }
+  #starsgreyy .fa-star {
+    color: rgb(223, 221, 221); /*l'étoile gris*/
+    position: relative;
+    bottom: 62px;
+    left: 100px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  /*Hôtel Tout bleu et Blanc*/
+
+  .bleuEtBlanc {
+    border-radius: 20px/20px;
+    border-radius: 26px 0px 0px 26px;
+    padding: bottom 100px;
+    width: 140px;
+    height: 158px;
+    position: relative;
+    cursor: pointer; /*image hotel bleu et blanc*/
   }
 
   .toutBleuEtBlanc {
     position: relative; /*figure de l'image hotel tout bleu et blanc*/
-    left: 25px;
+    right: 5px;
     bottom: 10px;
-    width: 500px;
+    width: 530px;
+  }
+
+  .HotelToutBleuEtBlanc {
+    font-family: "Raleway-Bold.ttf";
+    position: relative;
+    bottom: 165px;
+    left: 150px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .nuitBleuEtBlanc {
+    position: relative;
+    bottom: 170px;
+    left: 150px;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+    font-size: 19px;
+  }
+
+  #starsBleuEtBlanc {
+    cursor: pointer;
+    position: relative; /*etoile bleu*/
+    bottom: 115px;
+    left: 145px;
+    font-size: 19px;
+  }
+  #starsgrie .fa-star {
+    color: rgb(223, 221, 221); /*l'étoile gris*/
+    position: relative;
+    left: 100px;
+    bottom: 62px;
+    cursor: pointer;
+    font-size: 16px;
   }
 
   /*** Section Activité***/
   #flexActivite {
     position: relative;
-    bottom: 1460px;
+    bottom: 1850px;
     left: 20px;
   }
 
   .desCalanques {
     position: relative; /*contour de l'image parc national calanques*/
-    bottom: 300px;
-    left: -8%;
+    top: 380px;
+    left: -46px;
   }
   .deLaGarde {
     position: relative; /*contour de l'image notre dammes*/
-    bottom: 809px;
+    bottom: 126px;
     left: 315px;
   }
 
   .Longchamp {
     position: relative; /*contour de l'image notre damme*/
-    bottom: 790px;
+    bottom: 110px;
     left: 315px;
   }
 
@@ -1462,11 +1586,14 @@ footer {
 
   #footerBouge {
     position: relative; /*bouger le footer*/
-    bottom: 920px;
+    bottom: 90px;
     right: 50px;
     width: 1550px;
+    height: 300px;
   }
-
+  footer {
+    height: 300px;
+  }
   .NosHebergements {
     position: relative;
     left: -160px;
