@@ -35,9 +35,8 @@ body {
   /*config corps*/
   padding-left: 20px;
   margin: 0px;
-
   position: relative;
-  left: 45px;
+  left: 15px;
 }
 
 #bloc_page {
@@ -948,14 +947,15 @@ figure {
 
 #titreActivité {
   position: relative;
-  top: 150px;
-  right: 10px;
+  left: 2px;
+  top: 828px;
   font-family: "Raleway-Bold.ttf";
 }
 
 #flexActivite {
-  margin-top: 1000px;
-  height: 740px;
+  position: relative;
+  bottom: 2600px;
+  height: 200px;
 }
 
 /***PARTIS ACTIVITé***/
@@ -975,8 +975,8 @@ figure {
   width: 325px;
   height: 475px;
   position: relative;
-  right: 60px;
-  top: 155px;
+  right: 50px;
+  top: 830px;
   /*contour image port*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1009,8 +1009,8 @@ figure {
   width: 295px;
   height: 245px;
   position: relative;
-  bottom: 348px;
-  left: 315px;
+  left: 320px;
+  top: 327px;
   /*contour image fort*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1043,8 +1043,8 @@ figure {
   width: 295px;
   height: 180px;
   position: relative;
-  bottom: 330px;
-  left: 314px;
+  left: 320px;
+  top: 345px;
   /*contour image de l'ile*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1079,8 +1079,8 @@ figure {
   width: 325px;
   height: 475px;
   position: relative;
-  bottom: 835px;
   left: 660px;
+  bottom: 160px;
   /*contour image Parc National*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1113,8 +1113,8 @@ figure {
   width: 300px;
   height: 195px;
   position: relative;
-  bottom: 1342px;
-  left: 1035px;
+  left: 1040px;
+  bottom: 670px;
   /*contour image Notre Dame*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1146,8 +1146,8 @@ figure {
   width: 295px;
   height: 235px;
   position: relative;
-  bottom: 1327px;
-  left: 1035px;
+  bottom: 650px;
+  left: 1045px;
   /*contour image Parc LONG Champ*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
@@ -1173,10 +1173,11 @@ figure {
 #footerBouge {
   background-color: #e8ebeb;
   position: relative;
-  bottom: 15px;
-
+  bottom: 1400px;
+  margin: 0px;
   right: 50px;
   width: 1550px;
+  margin-bottom: 0px;
 }
 
 #footerBack {

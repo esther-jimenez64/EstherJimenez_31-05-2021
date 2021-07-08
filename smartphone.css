@@ -1,0 +1,26 @@
+/*** Partis Smartphone***/
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  body {
+    height: auto;
+  }
+
+  /*** header***/
+
+  #logo img {
+    position: relative;
+    bottom: 10px;
+    left: -60px;
+  }
+
+  /*** header***/
+
+  h1 {
+    /*Trouvez votre hébergement */
+
+    position: relative;
+    bottom: 45px;
+    width: 380px;
+    right: 8px;
+  }
+}
