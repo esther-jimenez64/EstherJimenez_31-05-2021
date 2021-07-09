@@ -1903,8 +1903,8 @@ footer {
     font-family: "Raleway-ExtraBold.ttf";
     color: #181818; /*titre */
     position: relative;
-    left: 40px;
-    bottom: 10px;
+    left: 20px;
+    bottom: 15px;
   }
 
   #direction {
@@ -1913,27 +1913,32 @@ footer {
     display: flex; /*direction de la ul*/
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    right: 19px;
+    bottom: 5px;
   }
 
   .NosHebergements {
     position: relative;
     left: -160px;
-    bottom: 4px;
+    bottom: 34px;
   }
 
   #directionDeHebergements {
     position: relative;
     right: 190px;
+    bottom: 24px;
   }
 
   .Assistance {
     position: relative;
-    left: -340px;
-    bottom: 1px;
+    left: -640px;
+    top: 110px;
   }
 
   #directionAssistance {
     position: relative;
-    right: 380px;
+    left: -680px;
+    top: 120px;
   }
 }
