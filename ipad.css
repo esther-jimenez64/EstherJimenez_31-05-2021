@@ -1,8 +1,9 @@
 /***Parti ipad   ***/
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   /*les filtres*/
   body {
-    left: 0px;
+    left: -10px;
   }
   #bloc_page {
     margin: auto;
@@ -10,7 +11,6 @@
   }
 
   /*** header***/
-
   #logo img {
     position: relative;
     bottom: -23px;
@@ -25,13 +25,6 @@
   h1 {
     margin-top: 8%;
     font-size: 23px;
-  }
-  .fa-search {
-    visibility: hidden; /*cacher la loupe smarthpone*/
-  }
-
-  .location {
-    width: 4%;
   }
 
   .Filtres {
@@ -64,6 +57,10 @@
 
   #petiteinfo {
     margin-top: 20%;
+  }
+
+  .fa-search {
+    visibility: hidden;
   }
 
   /*** Section Hébergements***/
@@ -582,6 +579,10 @@
     position: relative;
     bottom: 1845px;
     right: 16px;
+  }
+  #titreActivité {
+    position: relative;
+    left: 10px;
   }
   .BateauxVieuPort {
     width: 305px;

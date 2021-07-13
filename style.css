@@ -49,6 +49,7 @@ body {
 header {
   height: 72px;
 }
+
 #logo img {
   width: 95px;
   height: 50px;
@@ -103,9 +104,7 @@ h1 {
   width: 800px;
   right: 8px;
 }
-.fa-search {
-  visibility: hidden; /*cacher la loupe smarthpone*/
-}
+
 #centre {
   font-family: "Raleway", sans-serif; /* premier p   */
   position: relative;
@@ -127,6 +126,10 @@ h1 {
   left: 320px;
   bottom: 40px;
   cursor: pointer;
+}
+
+.fa-search {
+  visibility: hidden;
 }
 .Recherche a {
   text-decoration: none; /* le a premier lien pour rendre cliquable la barre recherche   */
@@ -1181,7 +1184,7 @@ figure {
   bottom: 1400px;
   margin: 0px;
   right: 50px;
-  width: 1550px;
+  width: 1500px;
   margin-bottom: 0px;
 }
 
@@ -1277,4 +1280,5 @@ footer {
   height: 280px;
   margin: 0;
   padding: 0;
+  width: 1490px;
 }
