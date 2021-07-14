@@ -749,7 +749,7 @@ figure {
   background-color: rgb(252, 249, 252);
 }
 
-.soleilDuMatin {
+.titrePop {
   font-family: "Raleway-Bold.ttf";
   position: relative;
   bottom: 165px;
@@ -757,7 +757,7 @@ figure {
   cursor: pointer;
 }
 
-.nuitSoleil {
+.nuitPop {
   position: relative;
   bottom: 170px;
   left: 150px;
@@ -803,20 +803,6 @@ figure {
   background-color: rgb(252, 249, 252);
 }
 
-.chambreAuCeour {
-  font-family: "Raleway-Bold.ttf";
-  position: relative;
-  bottom: 165px;
-  left: 150px;
-  cursor: pointer;
-}
-.nuitAuCeour {
-  position: relative;
-  bottom: 170px;
-  left: 150px;
-  font-family: "Raleway", sans-serif;
-  cursor: pointer;
-}
 .etoilegris .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
   position: relative;
@@ -855,21 +841,6 @@ figure {
   width: 355px;
   height: 160px;
   background-color: rgb(252, 249, 252);
-}
-
-.HotelToutBleuEtBlanc {
-  font-family: "Raleway-Bold.ttf";
-  position: relative;
-  bottom: 165px;
-  left: 150px;
-  cursor: pointer;
-}
-.nuitBleuEtBlanc {
-  position: relative;
-  bottom: 170px;
-  left: 150px;
-  font-family: "Raleway", sans-serif;
-  cursor: pointer;
 }
 
 /***Section   Activités à Marseille  **/

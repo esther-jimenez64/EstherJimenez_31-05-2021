@@ -389,7 +389,7 @@
     cursor: pointer; /*image emile SOLEIL*/
   }
 
-  .soleilDuMatin {
+  .titrePop {
     font-family: "Raleway-Bold.ttf";
     position: relative;
     bottom: 165px;
@@ -398,7 +398,7 @@
     font-size: 20px;
   }
 
-  .nuitSoleil {
+  .nuitPop {
     position: relative;
     bottom: 175px;
     left: 160px;
@@ -439,22 +439,6 @@
   #AuCeourDeLeau {
     width: 530px;
   }
-  .chambreAuCeour {
-    font-family: "Raleway-Bold.ttf";
-    position: relative;
-    bottom: 165px;
-    left: 160px;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  .nuitAuCeour {
-    position: relative;
-    bottom: 170px;
-    left: 160px;
-    font-family: "Raleway", sans-serif;
-    cursor: pointer;
-    font-size: 19px;
-  }
 
   /*Hôtel Tout bleu et Blanc*/
 
@@ -473,23 +457,6 @@
     right: 5px;
     bottom: 10px;
     width: 530px;
-  }
-
-  .HotelToutBleuEtBlanc {
-    font-family: "Raleway-Bold.ttf";
-    position: relative;
-    bottom: 165px;
-    left: 160px;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  .nuitBleuEtBlanc {
-    position: relative;
-    bottom: 170px;
-    left: 160px;
-    font-family: "Raleway", sans-serif;
-    cursor: pointer;
-    font-size: 19px;
   }
 
   /*** Section Activité***/
