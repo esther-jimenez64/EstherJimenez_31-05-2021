@@ -270,7 +270,7 @@ h1 {
   color: black;
   width: 180px;
   padding: 13px;
-  padding-left: 74px;
+  padding-left: 72px;
   position: relative;
   bottom: 334px;
   left: 500px;
@@ -400,18 +400,6 @@ figure {
   justify-content: space-around;
 }
 
-.fa-star {
-  color: #0065fc;
-  font-size: 0.8em;
-  position: relative;
-  bottom: 40px;
-  left: 15px;
-}
-
-#backmarcus a {
-  text-decoration: none;
-}
-
 .Auberge {
   color: black;
   font-family: "Raleway-Bold.ttf";
@@ -451,7 +439,14 @@ figure {
   height: 220px;
   background-color: rgb(252, 249, 252);
 }
-#etoile .fa-star {
+.fa-star {
+  color: #0065fc;
+  font-size: 0.8em;
+  position: relative;
+  bottom: 40px;
+  left: 15px;
+}
+.etoile .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
   position: relative;
   bottom: 58px;
@@ -498,16 +493,6 @@ figure {
   bottom: 26px;
   left: 14px;
   font-family: "Raleway", sans-serif;
-}
-#starsPort {
-  position: relative; /*etoile bleu*/
-}
-
-#starsgrey .fa-star {
-  color: rgb(223, 221, 221); /*l'étoile gris*/
-  position: relative;
-  bottom: 58px;
-  left: 90px;
 }
 
 /*Hôtel Les mouettes*/
@@ -556,17 +541,6 @@ figure {
   font-family: "Raleway", sans-serif;
 }
 
-#starsMouettes {
-  position: relative; /*etoile bleu*/
-}
-
-#starsgrise .fa-star {
-  color: rgb(223, 221, 221); /*l'étoile gris*/
-  position: relative;
-  bottom: 58px;
-  left: 90px;
-}
-
 /*Hôtel de la mer*/
 
 .figureLaMer {
@@ -608,17 +582,6 @@ figure {
   bottom: 26px;
   left: 14px;
   font-family: "Raleway", sans-serif;
-}
-
-#starsMer {
-  position: relative; /*etoile bleu*/
-}
-
-#starssilver .fa-star {
-  color: rgb(223, 221, 221); /*l'étoile gris*/
-  position: relative;
-  bottom: 58px;
-  left: 90px;
 }
 
 /*Auberge Le Panier*/
@@ -666,17 +629,6 @@ figure {
   font-family: "Raleway", sans-serif;
 }
 
-#starsPanier {
-  position: relative; /*etoile bleu*/
-}
-
-#starsgrisito .fa-star {
-  color: rgb(223, 221, 221); /*l'étoile gris*/
-  position: relative;
-  bottom: 58px;
-  left: 90px;
-}
-
 /*Hôtel chez Amina*/
 
 .figureChezAmina {
@@ -719,16 +671,6 @@ figure {
   bottom: 26px;
   left: 14px;
   font-family: "Raleway", sans-serif;
-}
-
-#starsAmina {
-  position: relative; /*etoile bleu*/
-}
-#starsgriis .fa-star {
-  color: rgb(223, 221, 221); /*l'étoile gris*/
-  position: relative;
-  bottom: 58px;
-  left: 90px;
 }
 
 /*Afficher plus*/
@@ -823,11 +765,11 @@ figure {
   cursor: pointer;
 }
 
-#starsSoleil {
+.starspop .fa-star {
   cursor: pointer;
   position: relative;
-  bottom: 115px;
-  left: 145px;
+  bottom: 158px;
+  left: 158px;
 }
 
 /*Au coeur de l'eau Chambres d'hôtes*/
@@ -875,18 +817,11 @@ figure {
   font-family: "Raleway", sans-serif;
   cursor: pointer;
 }
-
-#starsCeour {
-  cursor: pointer;
-  position: relative; /*etoile bleu*/
-  bottom: 115px;
-  left: 145px;
-}
-#starsgreyy .fa-star {
+.etoilegris .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
   position: relative;
-  bottom: 59px;
-  left: 90px;
+  bottom: 177px;
+  left: 232px;
   cursor: pointer;
 }
 
@@ -934,20 +869,6 @@ figure {
   bottom: 170px;
   left: 150px;
   font-family: "Raleway", sans-serif;
-  cursor: pointer;
-}
-
-#starsBleuEtBlanc {
-  cursor: pointer;
-  position: relative; /*etoile bleu*/
-  bottom: 115px;
-  left: 145px;
-}
-#starsgrie .fa-star {
-  color: rgb(223, 221, 221); /*l'étoile gris*/
-  position: relative;
-  bottom: 59px;
-  left: 90px;
   cursor: pointer;
 }
 
@@ -1215,6 +1136,7 @@ footer {
   flex-direction: column;
   justify-content: space-between;
 }
+
 footer li {
   margin-bottom: 15px; /*l'espace entre les li*/
 }

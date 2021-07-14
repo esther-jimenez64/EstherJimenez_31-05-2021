@@ -8,7 +8,7 @@
   /*** header***/
 
   header {
-    height: 140px;
+    height: 1400%;
   }
   #logo img {
     position: relative;
@@ -572,10 +572,10 @@
     left: 15px;
   }
 
-  #etoile .fa-star {
+  .etoile .fa-star {
     color: rgb(223, 221, 221); /*l'étoile gris*/
     position: relative;
-    bottom: 58px;
+    bottom: 59px;
     left: 90px;
   }
 
@@ -620,16 +620,6 @@
     bottom: 26px;
     left: 14px;
     font-family: "Raleway", sans-serif;
-  }
-  #starsPort {
-    position: relative; /*etoile bleu*/
-  }
-
-  #starsgrey .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
-    position: relative;
-    bottom: 58px;
-    left: 90px;
   }
 
   /*Hôtel Les mouettes*/
@@ -680,17 +670,6 @@
     font-family: "Raleway", sans-serif;
   }
 
-  #starsMouettes {
-    position: relative; /*etoile bleu*/
-  }
-
-  #starsgrise .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
-    position: relative;
-    bottom: 58px;
-    left: 90px;
-  }
-
   /*Hôtel de la mer*/
 
   .figureLaMer {
@@ -734,17 +713,6 @@
     bottom: 26px;
     left: 14px;
     font-family: "Raleway", sans-serif;
-  }
-
-  #starsMer {
-    position: relative; /*etoile bleu*/
-  }
-
-  #starssilver .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
-    position: relative;
-    bottom: 58px;
-    left: 90px;
   }
 
   /*Auberge Le Panier*/
@@ -794,17 +762,6 @@
     font-family: "Raleway", sans-serif;
   }
 
-  #starsPanier {
-    position: relative; /*etoile bleu*/
-  }
-
-  #starsgrisito .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
-    position: relative;
-    bottom: 58px;
-    left: 90px;
-  }
-
   /*Hôtel chez Amina*/
 
   .figureChezAmina {
@@ -849,16 +806,6 @@
     bottom: 26px;
     left: 14px;
     font-family: "Raleway", sans-serif;
-  }
-
-  #starsAmina {
-    position: relative; /*etoile bleu*/
-  }
-  #starsgriis .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
-    position: relative;
-    bottom: 58px;
-    left: 90px;
   }
 
   /*Afficher plus*/

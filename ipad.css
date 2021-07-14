@@ -123,7 +123,7 @@
     font-size: 16px;
   }
 
-  #etoile .fa-star {
+  .etoile .fa-star {
     color: rgb(223, 221, 221); /*l'étoile gris*/
     position: relative;
     bottom: 63px;
@@ -171,17 +171,6 @@
     font-size: 18px;
     font-family: "Raleway", sans-serif;
   }
-  #starsPort {
-    position: relative; /*etoile bleu*/
-  }
-
-  #starsgrey .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
-    position: relative;
-    bottom: 55px;
-    left: 102px;
-    font-size: 16px;
-  }
 
   /*Hôtel de la mer*/
 
@@ -224,18 +213,6 @@
     font-family: "Raleway", sans-serif;
   }
 
-  #starsMer {
-    position: relative; /*etoile bleu*/
-  }
-
-  #starssilver .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
-    position: relative;
-    bottom: 55px;
-    left: 102px;
-    font-size: 16px;
-  }
-
   /*Auberge Le Panier*/
 
   .figureLePanier {
@@ -276,18 +253,6 @@
     left: 15px;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
-  }
-
-  #starsPanier {
-    position: relative; /*etoile bleu*/
-  }
-
-  #starsgrisito .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
-    position: relative;
-    bottom: 55px;
-    left: 102px;
-    font-size: 16px;
   }
 
   /*Hôtel Les mouettes*/
@@ -334,18 +299,6 @@
     font-family: "Raleway", sans-serif;
   }
 
-  #starsMouettes {
-    position: relative; /*etoile bleu*/
-  }
-
-  #starsgrise .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
-    position: relative;
-    bottom: 55px;
-    left: 102px;
-    font-size: 16px;
-  }
-
   /*Hôtel chez Amina*/
 
   .figureChezAmina {
@@ -387,17 +340,6 @@
     left: 15px;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
-  }
-
-  #starsAmina {
-    position: relative; /*etoile bleu*/
-  }
-  #starsgriis .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
-    position: relative;
-    bottom: 55px;
-    left: 102px;
-    font-size: 16px;
   }
 
   #AfficherPlus {
@@ -451,7 +393,7 @@
     font-family: "Raleway-Bold.ttf";
     position: relative;
     bottom: 165px;
-    left: 150px;
+    left: 160px;
     cursor: pointer;
     font-size: 20px;
   }
@@ -459,18 +401,26 @@
   .nuitSoleil {
     position: relative;
     bottom: 175px;
-    left: 150px;
+    left: 160px;
     font-family: "Raleway", sans-serif;
     cursor: pointer;
     font-size: 19px;
   }
 
-  #starsSoleil {
+  .starspop {
     cursor: pointer;
     position: relative;
-    bottom: 140px;
-    left: 145px;
+    bottom: 10px;
+    left: 5px;
     font-size: 19px;
+  }
+
+  .etoilegris .fa-star {
+    color: rgb(223, 221, 221); /*l'étoile gris*/
+    position: relative;
+    bottom: 180px;
+    left: 248px;
+    cursor: pointer;
   }
 
   /*Au coeur de l'eau Chambres d'hôtes*/
@@ -493,33 +443,17 @@
     font-family: "Raleway-Bold.ttf";
     position: relative;
     bottom: 165px;
-    left: 150px;
+    left: 160px;
     cursor: pointer;
     font-size: 20px;
   }
   .nuitAuCeour {
     position: relative;
     bottom: 170px;
-    left: 150px;
+    left: 160px;
     font-family: "Raleway", sans-serif;
     cursor: pointer;
     font-size: 19px;
-  }
-
-  #starsCeour {
-    cursor: pointer;
-    position: relative; /*etoile bleu*/
-    bottom: 140px;
-    left: 145px;
-    font-size: 19px;
-  }
-  #starsgreyy .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
-    position: relative;
-    bottom: 57px;
-    left: 105px;
-    cursor: pointer;
-    font-size: 17px;
   }
 
   /*Hôtel Tout bleu et Blanc*/
@@ -545,33 +479,17 @@
     font-family: "Raleway-Bold.ttf";
     position: relative;
     bottom: 165px;
-    left: 150px;
+    left: 160px;
     cursor: pointer;
     font-size: 20px;
   }
   .nuitBleuEtBlanc {
     position: relative;
     bottom: 170px;
-    left: 150px;
+    left: 160px;
     font-family: "Raleway", sans-serif;
     cursor: pointer;
     font-size: 19px;
-  }
-
-  #starsBleuEtBlanc {
-    cursor: pointer;
-    position: relative; /*etoile bleu*/
-    bottom: 132px;
-    left: 142px;
-    font-size: 19px;
-  }
-  #starsgrie .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
-    position: relative;
-    left: 105px;
-    bottom: 56px;
-    cursor: pointer;
-    font-size: 18px;
   }
 
   /*** Section Activité***/
