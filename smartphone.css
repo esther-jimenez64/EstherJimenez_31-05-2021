@@ -1109,7 +1109,7 @@
     top: 1548px;
     right: 50px;
     width: 1550px;
-    height: 800px;
+    height: 630px;
   }
 
   .Apropos {
@@ -1136,7 +1136,7 @@
 
   #directionDeHebergements {
     position: relative;
-    left: -440px;
+    left: -500px;
     top: 200px;
   }
 
@@ -1144,7 +1144,8 @@
 
   #bougerAssistance {
     position: relative;
-    left: 980px;
+    left: 5px;
+    top: 125px;
   }
 
   .Assistance {
