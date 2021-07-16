@@ -21,21 +21,34 @@
     right: 78px;
   }
 
+  nav a:hover {
+    border: none;
+    color: #0065fc;
+    border-bottom: 3px solid#0065fc;
+    padding-bottom: 10px;
+  }
+  .Test a:hover {
+    border: none;
+    color: #0065fc;
+    border-bottom: 3px solid#0065fc;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
   .Test {
     position: relative;
     top: 50px;
   }
   .moveHebergements {
-    color: #0065fc;
     position: relative;
     right: 24px;
     top: 50px;
     text-align: center;
-    border-bottom: 4px solid #0065fc;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 10px;
   }
+
   nav {
     position: relative;
     right: 1060px;
@@ -55,7 +68,8 @@
     position: relative;
     bottom: 55px;
     right: 30px;
-    width: 800px;
+    max-width: 480px;
+    font-size: 18px;
   }
 
   .fa-search {
@@ -128,6 +142,8 @@
     bottom: 260px;
     left: 1px;
     font-size: 18px;
+    width: 340px;
+    white-space: pre-line;
   }
 
   .I {
@@ -197,7 +213,6 @@
   .emile {
     border-radius: 20px/20px;
     border-radius: 26px 0px 0px 26px;
-    padding: bottom 100px;
     width: 140px;
     height: 158px;
     position: relative;
@@ -236,7 +251,6 @@
   .creative {
     border-radius: 20px/20px;
     border-radius: 26px 0px 0px 26px;
-    padding: bottom 100px;
     width: 140px;
     height: 158px;
     position: relative;
@@ -262,7 +276,6 @@
   .bleuEtBlanc {
     border-radius: 20px/20px;
     border-radius: 26px 0px 0px 26px;
-    padding: bottom 100px;
     width: 140px;
     height: 158px;
     position: relative;
@@ -308,7 +321,7 @@
     color: #0065fc;
 
     border-radius: 50px 45px 50px 45px; /*icon d'argent pour économique*/
-    height: -110px;
+    height: 20px;
     width: 20px;
     padding: 14px;
     padding-bottom: 18px;
@@ -355,9 +368,8 @@
     bottom: 270px;
     left: -28px;
     border-radius: 50px 45px 50px 45px;
-    height: -110px;
     width: 20px;
-    height: -110px; /*icon d'un ceour pour Romantique*/
+    height: 20px; /*icon d'un ceour pour Romantique*/
     padding: 14px;
     padding-bottom: 18px;
     padding-left: 18px;
@@ -397,10 +409,10 @@
   .dog {
     color: #0065fc;
     position: relative;
-    bottom: 280px;
+    bottom: 278px;
     left: -28px;
     border-radius: 50px 45px 50px 45px; /*icon d'un ceour pour Romantique*/
-    height: -110px;
+    height: 20px;
     width: 20px;
     padding: 14px;
     padding-bottom: 18px;
@@ -443,7 +455,7 @@
     bottom: 262px;
     left: 183px;
     border-radius: 60px 55px 60px 55px; /*icon d'enfant pour familial*/
-    height: -110px;
+    height: 20px;
     width: 20px;
     padding: 14px;
     padding-bottom: 18px;
@@ -471,8 +483,7 @@
 
   .marcus {
     border-radius: 20px/20px;
-    border-radius: 26px 26px 0px 0px;
-    padding: bottom 100px; /*image*/
+    border-radius: 26px 26px 0px 0px; /*image*/
     width: 345px;
     height: 140px;
     position: relative;
@@ -540,8 +551,7 @@
   }
   .fred {
     border-radius: 20px/20px;
-    border-radius: 26px 26px 0px 0px;
-    padding: bottom 100px; /*image Hôtel du port*/
+    border-radius: 26px 26px 0px 0px; /*image Hôtel du port*/
     width: 345px;
     height: 140px;
   }
@@ -584,7 +594,6 @@
   .reisetopia {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
-    padding: bottom 100px;
     width: 345px;
     height: 140px;
     position: relative;
@@ -631,7 +640,6 @@
   .annie {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
-    padding: bottom 100px;
     width: 345px;
     height: 140px;
     position: relative;
@@ -677,11 +685,9 @@
   .nicate {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
-    padding: bottom 100px;
     width: 345px;
     height: 140px;
     position: relative;
-
     /*image le Panier nicate*/
   }
 
@@ -724,12 +730,9 @@
   .AminaFabien {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
-    padding: bottom 100px;
     width: 345px;
     height: 140px;
-    position: relative;
-
-    /*image le Amina Fabien*/
+    position: relative; /*image le Amina Fabien*/
   }
 
   #Amina {
@@ -788,7 +791,6 @@
   .Bateaux {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
-    padding: bottom 100px;
     width: 358px;
     height: 180px;
     cursor: pointer;
@@ -802,8 +804,6 @@
     top: 830px;
     /*contour image port*/
     cursor: pointer;
-    box-shadow: none;
-
     border: 7px solid rgb(252, 250, 250);
     border-radius: 20px/20px;
     border-radius: 30px 30px 30px 30px;
@@ -837,12 +837,12 @@
     top: 830px;
     /*contour image fort*/
     cursor: pointer;
-    box-shadow: 5px 2px 5px #fbfdfd;
+    box-shadow: none;
     border: 7px solid rgb(252, 250, 250);
     border-radius: 20px/20px;
     border-radius: 30px 30px 30px 30px;
     border-top: 7px solid #f8f4f4;
-    border-bottom: 20px solid #f3efef;
+    border-bottom: 13px solid #f3efef;
   }
 
   .FortPomegues {
@@ -869,7 +869,7 @@
     height: 245px;
     position: relative;
     left: -67px;
-    top: 807px;
+    top: 820px;
     /*contour image de l'ile*/
     cursor: pointer;
     box-shadow: 5px 2px 5px #fbfdfd;
@@ -893,7 +893,6 @@
   .parcKilyan {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
-    padding: bottom 100px;
     width: 358px;
     height: 180px; /* image Parc National*/
     cursor: pointer;
@@ -904,7 +903,7 @@
     height: 245px;
     position: relative;
     left: -67px;
-    top: 805px;
+    top: 820px;
     /*contour image Parc National*/
     cursor: pointer;
     box-shadow: 5px 2px 5px #fbfdfd;
@@ -939,7 +938,7 @@
     height: 245px;
     position: relative;
     left: -67px;
-    top: 805px;
+    top: 820px;
     /*contour image Notre Dame*/
     cursor: pointer;
     box-shadow: 5px 2px 5px #fbfdfd;
@@ -973,7 +972,7 @@
     height: 245px;
     position: relative;
     left: -67px;
-    top: 805px;
+    top: 820px;
     /*contour image Parc LONG Champ*/
     cursor: pointer;
     box-shadow: 5px 2px 5px #fbfdfd;
@@ -995,12 +994,16 @@
 
   /*** Footer***/
 
+  footer {
+    background: none;
+    background-color: #e8ebeb;
+  }
+
   #footerBouge {
     position: relative; /*bouger le footer*/
-    top: 1548px;
+    top: 1570px;
     right: 50px;
     width: 1550px;
-    height: 630px;
   }
 
   .Apropos {

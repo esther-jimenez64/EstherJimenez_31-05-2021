@@ -1,13 +1,7 @@
-/***Parti ipad   ***/
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   /*les filtres*/
   body {
     left: -10px;
-  }
-  #bloc_page {
-    margin: auto;
-    height: auto;
   }
 
   /*** header***/
@@ -39,14 +33,14 @@
   }
   .ceour {
     position: relative;
-    bottom: 283px; /*icon romantique*/
+    bottom: 281px; /*icon romantique*/
     left: 100px;
   }
   .Animaux a {
     position: relative;
-    bottom: 325px; /*contour icon chien*/
+    bottom: 322px; /*contour icon chien*/
     left: 315px;
-    padding-left: 10;
+    padding-right: 20px;
   }
 
   .dog {
@@ -91,7 +85,6 @@
   .marcus {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
-    padding: bottom 100px;
     width: 265px;
     height: 175px;
     position: relative;
@@ -136,8 +129,7 @@
 
   .fred {
     border-radius: 20px/20px;
-    border-radius: 26px 26px 0px 0px;
-    padding: bottom 100px; /*image Hôtel du port*/
+    border-radius: 26px 26px 0px 0px; /*image Hôtel du port*/
     width: 265px;
     height: 175px;
   }
@@ -190,12 +182,9 @@
   .annie {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
-    padding: bottom 100px;
     width: 265px;
     height: 175px;
-    position: relative;
-
-    /*image la mer*/
+    position: relative; /*image la mer*/
   }
 
   .hotelDeLaMer {
@@ -232,12 +221,9 @@
   .nicate {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
-    padding: bottom 100px;
     width: 265px;
     height: 175px;
-    position: relative;
-
-    /*image le Panier nicate*/
+    position: relative; /*image le Panier nicate*/
   }
 
   .AubergePanier {
@@ -275,7 +261,6 @@
   .reisetopia {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
-    padding: bottom 100px;
     width: 265px;
     height: 175px;
     position: relative;
@@ -320,7 +305,6 @@
   .AminaFabien {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
-    padding: bottom 100px;
     width: 265px;
     height: 175px;
 
@@ -345,7 +329,6 @@
   #AfficherPlus {
     position: relative;
     bottom: 880px;
-    left: px;
   }
 
   /***Aside Populaire***/
@@ -381,11 +364,9 @@
   .emile {
     border-radius: 20px/20px;
     border-radius: 26px 0px 0px 26px;
-    padding: bottom 100px;
     width: 140px;
     height: 158px;
     position: relative;
-
     cursor: pointer; /*image emile SOLEIL*/
   }
 
@@ -428,11 +409,9 @@
   .creative {
     border-radius: 20px/20px;
     border-radius: 26px 0px 0px 26px;
-    padding: bottom 100px;
     width: 140px;
     height: 158px;
     position: relative;
-
     cursor: pointer; /*image chambre aux ceour de l'eau*/
   }
 
@@ -445,7 +424,6 @@
   .bleuEtBlanc {
     border-radius: 20px/20px;
     border-radius: 26px 0px 0px 26px;
-    padding: bottom 100px;
     width: 140px;
     height: 158px;
     position: relative;
@@ -513,7 +491,7 @@
     height: 300px;
   }
   footer {
-    height: 300px;
+    height: 480px;
   }
 
   .Apropos {
@@ -521,7 +499,7 @@
     color: #181818; /*titre */
     position: relative;
     left: 20px;
-    bottom: 15px;
+    bottom: 42px;
   }
 
   #direction {
@@ -532,7 +510,7 @@
     justify-content: space-between;
     position: relative;
     right: 19px;
-    bottom: 5px;
+    bottom: 30px;
   }
 
   .NosHebergements {

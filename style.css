@@ -31,7 +31,7 @@
 /* largeur par la hauteur : 1920 x 1080*/
 body {
   overflow-x: hidden;
-  max-width: 1920 px;
+  max-width: 1900px;
   /*config corps*/
   padding-left: 20px;
   margin: 0px;
@@ -40,7 +40,6 @@ body {
 }
 
 #bloc_page {
-  margin: auto;
   height: 10px;
 }
 
@@ -127,7 +126,10 @@ h1 {
   bottom: 40px;
   cursor: pointer;
 }
-
+.Recherche a:hover {
+  margin-top: 20px;
+  font-size: 18px;
+}
 .fa-search {
   visibility: hidden;
 }
@@ -198,7 +200,7 @@ h1 {
   color: #0065fc;
 
   border-radius: 50px 45px 50px 45px; /*icon d'argent pour économique*/
-  height: -110px;
+  height: 20px;
   width: 20px;
   padding: 14px;
   padding-bottom: 18px;
@@ -210,7 +212,7 @@ h1 {
   font-size: 17px;
   position: relative;
   bottom: 210px;
-  left: 95px;
+  left: 94px;
 }
 
 .Familial a {
@@ -242,10 +244,10 @@ h1 {
   color: #0065fc;
   position: relative;
   bottom: 290px;
-  left: 320px;
+  left: 319px;
 
   border-radius: 60px 55px 60px 55px; /*icon d'enfant pour familial*/
-  height: -110px;
+  height: 20px;
   width: 20px;
   padding: 14px;
   padding-bottom: 18px;
@@ -272,7 +274,7 @@ h1 {
   padding: 13px;
   padding-left: 72px;
   position: relative;
-  bottom: 334px;
+  bottom: 331px;
   left: 500px;
   cursor: pointer;
   text-align: right;
@@ -286,12 +288,11 @@ h1 {
 .ceour {
   color: #0065fc;
   position: relative;
-  bottom: 375px;
+  bottom: 372px;
   left: 500px;
   border-radius: 50px 45px 50px 45px;
-  height: -110px;
-  width: 20px;
-  height: -110px; /*icon d'un ceour pour Romantique*/
+  height: 20px;
+  width: 20px; /*icon d'un ceour pour Romantique*/
   padding: 14px;
   padding-bottom: 18px;
   padding-left: 18px;
@@ -316,7 +317,7 @@ h1 {
   padding: 13px;
   padding-left: 72px;
   position: relative;
-  bottom: 418px;
+  bottom: 413px;
   left: 730px;
   cursor: pointer;
   text-align: right;
@@ -331,10 +332,10 @@ h1 {
 .dog {
   color: #0065fc;
   position: relative;
-  bottom: 458px;
-  left: 730px;
+  bottom: 453px;
+  left: 729px;
   border-radius: 50px 45px 50px 45px; /*icon d'un ceour pour Romantique*/
-  height: -110px;
+  height: 20px;
   width: 20px;
   padding: 14px;
   padding-bottom: 18px;
@@ -377,6 +378,13 @@ figure {
   overflow: hidden;
 }
 
+figure a:hover {
+  position: relative;
+  bottom: 10px;
+  top: 5px;
+  transition: 0.4s;
+}
+
 #titreMarseille {
   font-family: "Raleway-Bold.ttf";
   position: relative;
@@ -389,7 +397,6 @@ figure {
 .marcus {
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
-  padding: bottom 100px;
   width: 235px;
   height: 140px;
   position: relative;
@@ -470,8 +477,7 @@ figure {
 }
 .fred {
   border-radius: 20px/20px;
-  border-radius: 26px 26px 0px 0px;
-  padding: bottom 100px; /*image Hôtel du port*/
+  border-radius: 26px 26px 0px 0px; /*image Hôtel du port*/
   width: 235px;
   height: 140px;
 }
@@ -512,7 +518,6 @@ figure {
 .reisetopia {
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
-  padding: bottom 100px;
   width: 235px;
   height: 140px;
   position: relative;
@@ -557,7 +562,6 @@ figure {
 .annie {
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
-  padding: bottom 100px;
   width: 235px;
   height: 140px;
   position: relative;
@@ -567,7 +571,7 @@ figure {
 #LaMer {
   position: relative;
   bottom: 470px; /*contour de l'image annie la mer*/
-  right: 5 px;
+  right: 5px;
 }
 
 .hotelDeLaMer {
@@ -601,7 +605,6 @@ figure {
 .nicate {
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
-  padding: bottom 100px;
   width: 235px;
   height: 140px;
   position: relative;
@@ -646,7 +649,6 @@ figure {
 .AminaFabien {
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
-  padding: bottom 100px;
   width: 235px;
   height: 140px;
   position: relative;
@@ -701,9 +703,9 @@ figure {
   width: 430px;
   border-radius: 20px/20px;
   border-radius: 30px 30px 30px 30px;
-  border-top: 2.5px solid#ece9e9;
-  border-bottom: 2.5px solid #ece9e9;
-  border-right: 3px solid #ece9e9;
+  border-top: 2.5px solid#ece9e1;
+  border-bottom: 2.5px solid #ece9e1;
+  border-right: 3px solid #ece9e1;
   flex: 1.2;
 }
 
@@ -723,7 +725,6 @@ figure {
 .emile {
   border-radius: 20px/20px;
   border-radius: 26px 0px 0px 26px;
-  padding: bottom 100px;
   width: 140px;
   height: 158px;
   position: relative;
@@ -777,7 +778,6 @@ figure {
 .creative {
   border-radius: 20px/20px;
   border-radius: 26px 0px 0px 26px;
-  padding: bottom 100px;
   width: 140px;
   height: 158px;
   position: relative;
@@ -816,7 +816,6 @@ figure {
 .bleuEtBlanc {
   border-radius: 20px/20px;
   border-radius: 26px 0px 0px 26px;
-  padding: bottom 100px;
   width: 140px;
   height: 158px;
   position: relative;
@@ -830,7 +829,6 @@ figure {
   bottom: 1px;
   right: 10px;
   cursor: pointer;
-  position: auto;
   /*contour de l'image hotel bleu et blanc*/
   border: 7px solid rgb(252, 250, 250);
   border-radius: 20px/20px;
@@ -864,7 +862,6 @@ figure {
 .Bateaux {
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
-  padding: bottom 100px;
   width: 330px; /*image vieux port*/
   height: 430px;
 
@@ -968,10 +965,8 @@ figure {
   object-fit: cover;
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
-  padding: bottom 100px;
   width: 330px; /* image Parc National*/
   height: 425px;
-
   cursor: pointer;
 }
 
