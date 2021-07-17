@@ -1,24 +1,38 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   /*les filtres*/
   body {
-    left: -10px;
+    overflow-x: hidden;
+    position: relative;
+    left: 3%;
+    margin: auto;
+    max-width: 290%;
+    /*config corps*/
   }
 
   /*** header***/
   #logo img {
     position: relative;
-    bottom: -23px;
+    top:22px;
+    right:3%;
   }
 
   #navigation {
     position: relative;
-    left: 30%;
+    left: 18%;
   }
 
   /******/
   h1 {
     margin-top: 8%;
+    position: relative;
+    right:3%;
     font-size: 23px;
+  }
+
+  #centre
+  {
+    position: relative;
+    right:20px;
   }
 
   .Filtres {

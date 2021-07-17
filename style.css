@@ -30,15 +30,12 @@
 
 /* largeur par la hauteur : 1920 x 1080*/
 body {
+  max-width: 290%;
   overflow-x: hidden;
-  max-width: 1900px;
-  /*config corps*/
-  padding-left: 20px;
-  margin: 0px;
   position: relative;
-  left: 15px;
+  left: 3%; /*config corps*/
+  margin: auto;
 }
-
 #bloc_page {
   height: 10px;
 }
@@ -59,8 +56,8 @@ header {
 }
 #navigation {
   position: relative;
-  bottom: 30px;
-  left: 1010px;
+  bottom:30px;
+  left:66%;
 }
 
 .Sinscrire {
@@ -72,12 +69,10 @@ nav ul {
   list-style-type: none;
   display: flex;
   position: relative;
-  left: 1100px;
-  right: 400px;
 }
 
 nav li {
-  margin-right: 40px;
+  margin-right:3%;
 }
 
 nav a {
@@ -100,7 +95,7 @@ h1 {
   font-size: 25px;
   position: relative;
   bottom: 45px;
-  width: 800px;
+  font-size: 25px;
   right: 8px;
 }
 
@@ -109,7 +104,7 @@ h1 {
   position: relative;
   bottom: 55px;
   right: 2px;
-  width: 800px;
+  font-size: 16px;
 }
 
 .Recherche {
@@ -164,7 +159,6 @@ h1 {
 
 .Filtres {
   font-family: "Raleway-ExtraBold.ttf"; /*paragraphe filtres*/
-  width: 16px;
   position: relative;
   bottom: 130px;
   font-size: 19px;
@@ -228,7 +222,6 @@ h1 {
   position: relative;
   bottom: 250px;
   left: 320px;
-  width: 120px;
   padding: 13px;
   padding-left: 70px;
   cursor: pointer;
@@ -245,7 +238,6 @@ h1 {
   position: relative;
   bottom: 290px;
   left: 319px;
-
   border-radius: 60px 55px 60px 55px; /*icon d'enfant pour familial*/
   height: 20px;
   width: 20px;
@@ -270,7 +262,6 @@ h1 {
   font-family: "Raleway-Bold.ttf";
   font-size: 20px;
   color: black;
-  width: 180px;
   padding: 13px;
   padding-left: 72px;
   position: relative;
@@ -352,6 +343,7 @@ h1 {
   position: relative; /*infos*/
   bottom: 440px;
   left: 40px;
+  font-size: 16px;
 }
 
 .I {
