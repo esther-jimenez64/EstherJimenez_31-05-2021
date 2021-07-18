@@ -12,17 +12,18 @@
   /*** header***/
 
   header {
-    height: 1400%;
+    height: 1450%;
   }
   #logo img {
     position: relative;
-    bottom: 10px;
-    left: -18px;
+    bottom: 10%;
+    right:3%;
   }
 
   .Sinscrire {
     position: relative;
-    right: 78px;
+    right:80%;
+    bottom:390%;
   }
 
   nav a:hover {
@@ -41,22 +42,23 @@
   }
   .Test {
     position: relative;
-    top: 50px;
+    bottom: 130%;
+    right: 30%;
   }
   .moveHebergements {
     position: relative;
-    right: 24px;
-    top: 50px;
+    right: 50%;
+    bottom: 130%;
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 10px;
-  }
-
-  nav {
+  } 
+  
+  #navigation {
     position: relative;
-    right: 1060px;
-    bottom: 32px;
+    bottom: 10px;
+    left:1%;
   }
 
   h1 {
@@ -80,8 +82,8 @@
     visibility: visible;
     color: white;
     font-size: 20px;
-    left: 332px;
-    top: 248px;
+    left: 328px;
+    top: 255px;
     position: fixed;
     cursor: pointer;
   }
@@ -136,7 +138,7 @@
     width: 16px;
     position: relative;
     bottom: 148px;
-    right: 35px;
+    right: 7%;
     font-size: 19px;
   }
 

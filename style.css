@@ -43,20 +43,22 @@ body {
 /***  header ***/
 
 header {
-  height: 88px;
+  height:900%;
+  margin-bottom: 2%;
 }
 
 #logo img {
   width: 95px;
   height: 50px;
   position: relative;
-  bottom: 10px;
+  bottom: 10%;
   right: 10px;
+  margin-bottom:10%;
   /* Navigation */
 }
 #navigation {
   position: relative;
-  bottom:30px;
+  bottom: 180px;
   left:66%;
 }
 
@@ -90,21 +92,23 @@ nav a:hover {
 }
 
 h1 {
-  font-family: "Raleway-Bold.ttf";
-  font-family: "Raleway-Bold.ttf"; /*Trouvez votre hébergement */
-  font-size: 25px;
+  font-family: "Raleway-Bold.ttf";/*Trouvez votre hébergement */
+  font-size:155%;
   position: relative;
   bottom: 45px;
-  font-size: 25px;
-  right: 8px;
+  right:0.5%;
 }
 
 #centre {
   font-family: "Raleway", sans-serif; /* premier p   */
   position: relative;
   bottom: 55px;
-  right: 2px;
-  font-size: 16px;
+  left:0,9%;
+  font-size:100%;
+}
+
+.fa-search {
+  visibility: hidden;    /*loupe pour recherche smartphone*/
 }
 
 .Recherche {
