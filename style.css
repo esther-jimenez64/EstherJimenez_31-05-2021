@@ -31,7 +31,7 @@
 /* largeur par la hauteur : 1920 x 1080*/
 body {
   max-width: 290%;
-  overflow-x: hidden;
+
   position: relative;
   left: 3%; /*config corps*/
   margin: auto;
