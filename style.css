@@ -31,7 +31,7 @@
 /* largeur par la hauteur : 1920 x 1080*/
 body {
   max-width: 290%;
-
+  overflow-x: hidden;
   position: relative;
   left: 3%; /*config corps*/
   margin: auto;
@@ -103,7 +103,7 @@ h1 {
   font-family: "Raleway", sans-serif; /* premier p   */
   position: relative;
   bottom: 55px;
-  left:0,9%;
+  left: 0.0.1%;
   font-size:100%;
 }
 
@@ -155,7 +155,6 @@ h1 {
   position: relative;
   bottom: 155px;
   left: 50px;
-
   text-decoration: none;
   text-decoration-color: black;
   border: transparent;
@@ -165,7 +164,7 @@ h1 {
   font-family: "Raleway-ExtraBold.ttf"; /*paragraphe filtres*/
   position: relative;
   bottom: 130px;
-  font-size: 19px;
+  font-size: 120%;
 }
 
 .Economique a {
@@ -346,8 +345,8 @@ h1 {
   font-family: "Raleway";
   position: relative; /*infos*/
   bottom: 440px;
-  left: 40px;
-  font-size: 16px;
+  left:2.5%;
+  font-size: 100%;
 }
 
 .I {
@@ -376,17 +375,16 @@ figure {
 
 figure a:hover {
   position: relative;
-  bottom: 10px;
-  top: 5px;
+  bottom: 15%;
+  top:2%;
   transition: 0.5s;
 }
 
 #titreMarseille {
   font-family: "Raleway-Bold.ttf";
   position: relative;
-  top: 18px; /*hebergements a marseile*/
-  left: 43px;
-
+  top:2.7%; /*hebergements a marseile*/
+  left:4.6%;
   background-size: 200px;
 }
 
@@ -408,13 +406,13 @@ figure a:hover {
   font-family: "Raleway-Bold.ttf";
   position: relative;
   bottom: 10px;
-  left: 15px;
+  left:6%;
 }
 .nuitAuberge {
   color: black;
   position: relative;
   bottom: 25px;
-  left: 15px;
+  left:6%;
   font-family: "Raleway", sans-serif;
 }
 #Marseille {
@@ -437,7 +435,7 @@ figure a:hover {
   border-top: 7px solid #f8f4f4;
   border-bottom: 7px solid #f3efef; /*contour de l'image marcus*/
   position: relative;
-  top: 20px;
+  top:3%;
   width: 235px;
   height: 220px;
   background-color: rgb(252, 249, 252);
@@ -447,13 +445,13 @@ figure a:hover {
   font-size: 0.8em;
   position: relative;
   bottom: 40px;
-  left: 15px;
+  left:6%;
 }
 .etoile .fa-star {
   color: rgb(223, 221, 221); /*l'étoile gris*/
   position: relative;
   bottom: 58px;
-  left: 90px;
+  left:38%;
 }
 
 /* Hôtel du port*/
@@ -466,7 +464,6 @@ figure a:hover {
   border-bottom: 7px solid #f3efef; /*figure de l'image*/
   position: relative;
   top: 10px;
-
   width: 235px;
   height: 220px;
   background-color: rgb(252, 249, 252);
@@ -480,20 +477,20 @@ figure a:hover {
 #Port {
   position: relative;
   bottom: 240px; /*contour de l'image fred*/
-  left: 280px;
+  left:30%;
 }
 .hotelDuPort {
   color: black;
   font-family: "Raleway-Bold.ttf";
   position: relative;
   bottom: 10px;
-  left: 14px;
+  left:6%;
 }
 
 .nuitPort {
   position: relative;
   bottom: 26px;
-  left: 14px;
+  left:6%;
   font-family: "Raleway", sans-serif;
 }
 
@@ -505,7 +502,6 @@ figure a:hover {
   border-radius: 30px 30px 30px 30px;
   border-top: 7px solid #f8f4f4;
   border-bottom: 7px solid #f3efef; /*figure de l'image*/
-
   width: 235px;
   height: 220px;
   background-color: rgb(252, 249, 252);
@@ -516,15 +512,13 @@ figure a:hover {
   border-radius: 26px 26px 0px 0px;
   width: 235px;
   height: 140px;
-  position: relative;
-
-  /*image les mouettes*/
+  position: relative; /*image les mouettes*/
 }
 
 #lesMouettes {
   position: relative;
   bottom: 484px; /*contour de l'image reisetopia*/
-  left: 560px;
+  left: 60%;
 }
 
 .hotelDesMouettes {
@@ -532,13 +526,13 @@ figure a:hover {
   font-family: "Raleway-Bold.ttf";
   position: relative;
   bottom: 10px;
-  left: 14px;
+  left:6%;
 }
 
 .nuitMouettes {
   position: relative;
   bottom: 26px;
-  left: 14px;
+  left:6%;
   font-family: "Raleway", sans-serif;
 }
 
@@ -560,32 +554,29 @@ figure a:hover {
   border-radius: 26px 26px 0px 0px;
   width: 235px;
   height: 140px;
-  position: relative;
-
-  /*image la mer*/
+  position: relative;/*image la mer*/
 }
 #LaMer {
   position: relative;
   bottom: 470px; /*contour de l'image annie la mer*/
-  right: 5px;
+  left:0.2%;
 }
 
 .hotelDeLaMer {
   font-family: "Raleway-Bold.ttf";
   position: relative;
   bottom: 10px;
-  left: 14px;
+  left:6%;
 }
 
 .nuitMer {
   position: relative;
   bottom: 26px;
-  left: 14px;
+  left:6%;
   font-family: "Raleway", sans-serif;
 }
 
 /*Auberge Le Panier*/
-
 .figureLePanier {
   border: 7px solid rgb(252, 250, 250);
   border-radius: 20px/20px;
@@ -603,40 +594,36 @@ figure a:hover {
   border-radius: 26px 26px 0px 0px;
   width: 235px;
   height: 140px;
-  position: relative;
-
-  /*image le Panier nicate*/
+  position: relative; /*image le Panier nicate*/
 }
 
 #LePanier {
   position: relative;
   bottom: 722px; /*contour de l'image Panier nicate*/
-  left: 282px;
+  left:30%;
 }
 
 .AubergePanier {
   font-family: "Raleway-Bold.ttf";
   position: relative;
   bottom: 10px;
-  left: 14px;
+  left:6%;
 }
 
 .nuitPanier {
   position: relative;
   bottom: 26px;
-  left: 14px;
+  left:6%;
   font-family: "Raleway", sans-serif;
 }
 
 /*Hôtel chez Amina*/
-
 .figureChezAmina {
   border: 7px solid rgb(252, 250, 250);
   border-radius: 20px/20px;
   border-radius: 30px 30px 30px 30px;
   border-top: 7px solid #f8f4f4;
   border-bottom: 7px solid #f3efef; /*figure de l'image*/
-
   width: 235px;
   height: 220px;
   background-color: rgb(252, 249, 252);
@@ -647,47 +634,43 @@ figure a:hover {
   border-radius: 26px 26px 0px 0px;
   width: 235px;
   height: 140px;
-  position: relative;
-
-  /*image le Amina Fabien*/
+  position: relative;/*image le Amina Fabien*/
 }
 
 #Amina {
   position: relative;
   bottom: 974px; /*contour de l'image Amina Fabien*/
-  left: 565px;
+  left: 60%;
 }
 .ChezAmina {
   font-family: "Raleway-Bold.ttf";
   position: relative;
   bottom: 10px;
-  left: 14px;
+  left:6%;
 }
 
 .nuitAmina {
   position: relative;
   bottom: 26px;
-  left: 14px;
+  left:6%;
   font-family: "Raleway", sans-serif;
 }
 
 /*Afficher plus*/
-
 #AfficherPlus {
   position: relative;
   bottom: 1100px;
-  left: 50px;
+  left:5%;
   font-family: "Raleway-Bold.ttf";
-  font-size: 19px;
+  font-size:118%;
   cursor: pointer;
   max-width: 120px;
   position: relative;
   bottom: 950px;
-  left: 50px;
+  left: 5%;
 }
 
 /***Aside POPULAIRE**/
-
 #populaire {
   background-color: #ece9e9;
   margin-bottom: 700px;
