@@ -27,19 +27,18 @@
     margin-top: 8%;
     position: relative;
     right:3%;
-    font-size: 23px;
+    font-size:130%;
   }
-
   #centre
   {
     position: relative;
-    right:20px;
+    right:2.2%;
   }
 
   .Filtres {
     position: relative;
     bottom: 95px;
-    font-size: 19px;
+    font-size:125%;
   }
   .Romantique a {
     position: relative;
@@ -77,8 +76,8 @@
   #titreMarseille {
     position: relative;
     top: 18px; /*hebergements a marseile*/
-    left: 30px;
-    font-size: 28px;
+    left:4%;
+    font-size:155%;
   }
 
   #Marseille {
@@ -92,7 +91,7 @@
   .marcusFigure {
     position: relative;
     bottom: 460px; /*contour de l'image marcus*/
-    right: 20px;
+    right:4%;
     width: 265px;
     height: 280px;
   }
@@ -103,23 +102,23 @@
     width: 265px;
     height: 175px;
     position: relative;
-    left: 2px;
+    right:0.5%;
   }
   .Auberge {
     color: black;
     font-family: "Raleway-Bold.ttf";
     position: relative;
     bottom: 14px;
-    left: 15px;
-    font-size: 20px;
+    left:5%;
+    font-size:128%;
   }
   .nuitAuberge {
     color: black;
     position: relative;
     bottom: 30px;
-    left: 15px;
+    left:5%;
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
+    font-size:116%;
   }
 
   .fa-star {
@@ -127,19 +126,19 @@
     font-size: 0.8em;
     position: relative;
     bottom: 35px;
-    left: 15px;
-    font-size: 16px;
+    left:5%;
+    font-size:110%;
   }
 
   .etoile .fa-star {
     color: rgb(223, 221, 221); /*l'étoile gris*/
     position: relative;
     bottom: 63px;
-    left: 90px;
-    font-size: 15px;
+    left:25%;
+    font-size:109%;
     position: relative;
-    left: 102px;
-    bottom: 55px;
+    left: 110px;
+    bottom: 55.5px;
   }
 
   .fred {
@@ -158,7 +157,8 @@
     width: 265px;
     height: 280px;
     position: relative;
-    top: -50px;
+    top:-38px;
+    left: 13%;
     background-color: rgb(252, 249, 252);
   }
 
@@ -167,20 +167,17 @@
     font-family: "Raleway-Bold.ttf";
     position: relative;
     bottom: 14px;
-    left: 15px;
-    font-size: 20px;
+    left:5%;
+    font-size:120%;
   }
-
   .nuitPort {
     position: relative;
     bottom: 30px;
-    left: 15px;
-    font-size: 18px;
+    left:5%;
+    font-size:116%;
     font-family: "Raleway", sans-serif;
   }
-
   /*Hôtel de la mer*/
-
   .figureLaMer {
     border: 7px solid rgb(252, 250, 250);
     border-radius: 20px/20px;
@@ -190,8 +187,8 @@
     width: 265px;
     height: 280px;
     position: relative;
-    bottom: 130px;
-    right: 18px;
+    bottom: 120px;
+    right:4%;
     background-color: rgb(252, 249, 252);
   }
   .annie {
@@ -205,20 +202,18 @@
   .hotelDeLaMer {
     font-family: "Raleway-Bold.ttf";
     bottom: 14px;
-    left: 15px;
-    font-size: 20px;
+    left:5%;
+    font-size:128%;
   }
 
   .nuitMer {
     position: relative;
     bottom: 30px;
-    left: 15px;
-    font-size: 18px;
+    left:5%;
+    font-size:116%;
     font-family: "Raleway", sans-serif;
   }
-
   /*Auberge Le Panier*/
-
   .figureLePanier {
     border: 7px solid rgb(252, 250, 250);
     border-radius: 20px/20px;
@@ -228,8 +223,8 @@
     width: 265px;
     height: 280px;
     position: relative;
-    bottom: 190px;
-    right: 5px;
+    bottom: 180px;
+    left: 13%;
     background-color: rgb(252, 249, 252);
   }
 
@@ -244,20 +239,18 @@
   .AubergePanier {
     font-family: "Raleway-Bold.ttf";
     bottom: 14px;
-    left: 15px;
-    font-size: 20px;
+    left:5%;
+    font-size:128%;
   }
 
   .nuitPanier {
     position: relative;
     bottom: 30px;
-    left: 15px;
-    font-size: 18px;
+    left:5%;
+    font-size:128%;
     font-family: "Raleway", sans-serif;
   }
-
   /*Hôtel Les mouettes*/
-
   .figureMouettes {
     border: 7px solid rgb(252, 250, 250);
     border-radius: 20px/20px;
@@ -267,9 +260,8 @@
     width: 265px;
     height: 280px;
     position: relative;
-
-    top: 510px; /*contour de l'image reisetopia*/
-    right: 580px;
+    top: 510px;
+    right: 17%;
     background-color: rgb(252, 249, 252);
   }
 
@@ -287,15 +279,15 @@
     font-family: "Raleway-Bold.ttf";
     position: relative;
     bottom: 14px;
-    left: 15px;
-    font-size: 20px;
+    left:5%;
+    font-size:128%;
   }
 
   .nuitMouettes {
     position: relative;
     bottom: 30px;
-    left: 15px;
-    font-size: 18px;
+    left:5%;
+    font-size:116%;
     font-family: "Raleway", sans-serif;
   }
 
@@ -307,13 +299,11 @@
     border-radius: 30px 30px 30px 30px;
     border-top: 7px solid #f8f4f4;
     border-bottom: 7px solid #f3efef; /*figure de l'image*/
-
     width: 265px;
     height: 280px;
     position: relative;
-
-    top: 70px; /*contour de l'image reisetopia*/
-    right: 295px;
+    top: 70px; 
+    right:64%;
     background-color: rgb(252, 249, 252);
   }
 
@@ -321,23 +311,21 @@
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
     width: 265px;
-    height: 175px;
-
-    /*image le Amina Fabien*/
+    height: 175px; /*image le Amina Fabien*/
   }
 
   .ChezAmina {
     font-family: "Raleway-Bold.ttf";
     bottom: 14px;
-    left: 15px;
-    font-size: 20px;
+    left:5%;
+    font-size:128%;
   }
 
   .nuitAmina {
     position: relative;
     bottom: 30px;
-    left: 15px;
-    font-size: 18px;
+    left:5%;
+    font-size:116%;
     font-family: "Raleway", sans-serif;
   }
 
