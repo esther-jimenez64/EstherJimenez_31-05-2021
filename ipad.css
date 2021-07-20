@@ -67,6 +67,12 @@
     margin-top: 20%;
   }
 
+  .I
+  {
+    position: relative;
+    right:3%;
+  }
+
   .fa-search {
     visibility: hidden;
   }
@@ -335,25 +341,22 @@
   }
 
   /***Aside Populaire***/
-
-  .LesPlusPopulaires {
-    /*titre populaire*/
-    position: relative;
-    left: 70px;
-    top: 20px;
-    font-size: 28px;
+  .LesPlusPopulaires {                      
+    position: relative;   /*titre populaire*/
+    left:10%;
+    top:3%;
+    font-size:180%;
   }
   .fa-chart-line {
-    /*icon a coter du titre populaire*/
-    position: relative;
-    bottom: 220px;
-    left: 540px;
-    font-size: 28px;
+    position: relative;       /*icon a coter du titre populaire*/
+    bottom: 225px;
+    left:87%;
+    font-size:190%;
   }
 
   #populaire {
     position: relative;
-    right: 1020px;
+    right: 69.2%;
     bottom: 1550px;
     width: 623px;
   }
@@ -361,8 +364,8 @@
   #Soleil {
     width: 530px; /*contour de l'image hotel solei du matin*/
     position: relative;
-    right: 10px;
-    top: 20px;
+    right:1.8%;
+    top:3%;
   }
   .emile {
     border-radius: 20px/20px;
@@ -377,33 +380,33 @@
     font-family: "Raleway-Bold.ttf";
     position: relative;
     bottom: 165px;
-    left: 160px;
+    left:30%;
     cursor: pointer;
-    font-size: 20px;
+    font-size:125%;
   }
 
   .nuitPop {
     position: relative;
     bottom: 175px;
-    left: 160px;
+    left:30%;
     font-family: "Raleway", sans-serif;
     cursor: pointer;
-    font-size: 19px;
+    font-size:122%;
   }
 
   .starspop {
     cursor: pointer;
     position: relative;
-    bottom: 10px;
-    left: 5px;
-    font-size: 19px;
+    bottom: 22px;
+    right:13%;
+    font-size:122%;
   }
 
   .etoilegris .fa-star {
     color: rgb(223, 221, 221); /*l'étoile gris*/
     position: relative;
-    bottom: 180px;
-    left: 248px;
+    bottom: 168.5px;
+    left:65%;
     cursor: pointer;
   }
 
@@ -421,9 +424,7 @@
   #AuCeourDeLeau {
     width: 530px;
   }
-
   /*Hôtel Tout bleu et Blanc*/
-
   .bleuEtBlanc {
     border-radius: 20px/20px;
     border-radius: 26px 0px 0px 26px;
@@ -435,7 +436,7 @@
 
   .toutBleuEtBlanc {
     position: relative; /*figure de l'image hotel tout bleu et blanc*/
-    right: 5px;
+    right:2%;
     bottom: 10px;
     width: 530px;
   }
@@ -443,7 +444,7 @@
   /*** Section Activité***/
   #flexActivite {
     position: relative;
-    bottom: 1845px;
+    bottom: 1500px;
     right: 16px;
   }
   #titreActivité {
@@ -488,10 +489,10 @@
 
   #footerBouge {
     position: relative; /*bouger le footer*/
-    top: -110px;
+    bottom: -240px;
     right: 50px;
-    width: 1550px;
-    height: 300px;
+    width: 1800px;
+    height:450px;
   }
   footer {
     height: 480px;
