@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 744px) and (max-width: 1024px) {
   /*les filtres*/
   body {
     overflow-x: hidden;
@@ -445,46 +445,52 @@
   #flexActivite {
     position: relative;
     bottom: 1500px;
-    right: 16px;
+    right:2%;
   }
   #titreActivité {
     position: relative;
-    left: 10px;
+    left:1%;
   }
   .BateauxVieuPort {
     width: 305px;
     height: 475px;
+    position: relative;
+    top:420%;
+    right:6.3%;
+  }
+
+  .FortDePomegues {
+    position: relative;
+    left: 34.5%;
+    top:168%;
+  }
+
+  .duFrioul {
+    position: relative; 
+    top:179.2%;
+    left: 34.5%;
+    width: 295px;
+    height: 175px;
   }
 
   .desCalanques {
     position: relative; /*contour de l'image parc national calanques*/
-    top: 380px;
-    left: -46px;
+    top:190%;
+    left: -49px;
     width: 305px;
   }
   .deLaGarde {
     position: relative; /*contour de l'image notre dammes*/
     bottom: 126px;
-    left: 270px;
+    left:35%;
   }
 
   .Longchamp {
     position: relative; /*contour de l'image notre damme*/
     bottom: 110px;
-    left: 270px;
+    left:35%;
   }
-  .FortDePomegues {
-    position: relative;
-    left: 270px;
-  }
-
-  .duFrioul {
-    position: relative;
-    left: 270px;
-    width: 295px;
-    height: 180px;
-  }
-
+  
   /*** footer***/
 
   #footerBouge {
