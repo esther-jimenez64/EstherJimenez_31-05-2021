@@ -980,21 +980,21 @@ figure a:hover {
   position: relative;
   bottom: 1400px;
   margin: 0px;
-  right: 50px;
+  right: 3%;
   width: 1500px;
   margin-bottom: 0px;
 }
 
 #footerBack {
   position: relative;
-  top: 55px;
-  left: 20px;
+  top:25px;
+  left:0.5%;
 }
 
 footer {
   position: relative;
   top: 25px; /*bouger la structure*/
-  left: 10px;
+  left: 0.5%;
 }
 
 .Apropos {
@@ -1002,7 +1002,7 @@ footer {
   color: #181818; /*titre */
   position: relative;
   left: 40px;
-  bottom: 10px;
+  top:15px;
 }
 
 #direction {
@@ -1011,6 +1011,8 @@ footer {
   display: flex; /*direction de la ul*/
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
+  top:18px;
 }
 
 footer li {
@@ -1020,7 +1022,7 @@ footer li {
 /*Nos hébergements*/
 #bougerHebergements {
   position: relative;
-  left: 495px;
+  left:33%;
   bottom: 120px;
   margin: 0;
   padding: 0;
@@ -1030,7 +1032,7 @@ footer li {
   font-family: "Raleway-ExtraBold.ttf";
   color: #181818; /*titre */
   position: relative;
-  left: 35px;
+  left:2.5%;
   bottom: 10px;
   margin: 0;
   padding: 0;
@@ -1047,15 +1049,15 @@ footer li {
 /** Assistance**/
 #bougerAssistance {
   position: relative;
-  left: 980px;
-  bottom: 260px;
+  left:65%;
+  bottom: 255px;
 }
 
 .Assistance {
   font-family: "Raleway-ExtraBold.ttf";
   color: #181818; /*titre */
   position: relative;
-  left: 35px;
+  left:2.5%;
   bottom: 10px;
 }
 

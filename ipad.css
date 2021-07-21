@@ -496,7 +496,7 @@
   #footerBouge {
     position: relative; /*bouger le footer*/
     bottom: -240px;
-    right: 50px;
+    right: 5.5%;
     width: 1800px;
     height:450px;
   }
@@ -508,10 +508,9 @@
     font-family: "Raleway-ExtraBold.ttf";
     color: #181818; /*titre */
     position: relative;
-    left: 20px;
-    bottom: 42px;
+    left:1.5%;
+    top:-10px;
   }
-
   #direction {
     font-family: "Raleway", sans-serif;
     list-style-type: none;
@@ -519,8 +518,8 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    right: 19px;
-    bottom: 30px;
+    right:1%;
+    top:-1px;
   }
 
   .NosHebergements {
@@ -531,19 +530,19 @@
 
   #directionDeHebergements {
     position: relative;
-    right: 190px;
+    right: 13%;
     bottom: 24px;
   }
 
   .Assistance {
     position: relative;
-    left: -640px;
+    left: -629px;
     top: 110px;
   }
 
   #directionAssistance {
     position: relative;
-    left: -680px;
+    left: -670px;
     top: 120px;
   }
 }
