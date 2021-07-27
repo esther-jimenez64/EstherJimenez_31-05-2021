@@ -27,14 +27,13 @@
     url("fontfamily/Raleway-Bold.ttf") format("truetype"),
     url("fontfamily/Raleway-Bold.ttf") format("svg");
 }
-
 /* largeur par la hauteur : 1920 x 1080*/
 body {
   overflow-x: hidden;
   position: relative;
   left: 3%; /*config corps*/
-  margin: auto;
-  max-width: 1 080px;
+  margin: 0px;
+  max-width: 1920px;
 }
 #bloc_page {
   height: 10px;
@@ -42,9 +41,9 @@ body {
 /***  header ***/
 header {
   height: 900%;
+  height: 900%;
   margin-bottom: 2%;
 }
-
 #logo img {
   width: 104px;
   height: 50px;
@@ -85,16 +84,13 @@ nav a {
   font-family: "Raleway", sans-serif;
 }
 
-#navigation :nth-child(1) a:hover {
+nav a:hover {
   color: #0065fc;
   border-top: 3px solid#0065fc;
   padding-top: 30px;
 }
-
-#navigation :nth-child(2) a:hover {
-  color: #0065fc;
-  border-top: 3px solid#0065fc;
-  padding-top: 30px;
+#navigation :nth-child(3) a:hover {
+  border: transparent;
 }
 
 h1 {
@@ -380,6 +376,7 @@ figure a:hover {
   width: 235px;
   height: 140px;
   position: relative;
+  object-fit: cover;
 }
 
 .hotelHebergements {
@@ -451,6 +448,8 @@ figure a:hover {
 
 #Port {
   position: relative;
+  bottom: 240px; /*contour de l'image fred*/
+  left: 30%;
   bottom: 240px; /*contour l'image fred*/
   left: 30%;
 }
@@ -470,8 +469,8 @@ figure a:hover {
   bottom: 484px; /*contour de l'image reisetopia*/
   left: 60%;
 }
-/*Hôtel de la mer*/
 
+/*Hôtel de la mer*/
 .figureLaMer {
   border: 7px solid rgb(252, 250, 250);
   border-radius: 20px/20px;
@@ -483,13 +482,11 @@ figure a:hover {
   height: 220px;
   background-color: rgb(252, 249, 252);
 }
-
 #LaMer {
   position: relative;
   bottom: 470px; /*contour de l'image annie la mer*/
   left: 0.2%;
 }
-
 /*Auberge Le Panier*/
 .figureLePanier {
   border: 7px solid rgb(252, 250, 250);
@@ -508,7 +505,6 @@ figure a:hover {
   bottom: 722px; /*contour de l'image Panier nicate*/
   left: 30%;
 }
-
 /*Hôtel chez Amina*/
 .figureChezAmina {
   border: 7px solid rgb(252, 250, 250);
@@ -573,13 +569,14 @@ figure a:hover {
   left: 85%;
 }
 
-.emile {
+.imagePop {
   border-radius: 20px/20px;
   border-radius: 26px 0px 0px 26px;
   width: 140px;
   height: 158px;
   position: relative;
   cursor: pointer; /*image emile SOLEIL*/
+  object-fit: cover;
 }
 #Soleil {
   width: 350px;
@@ -621,15 +618,6 @@ figure a:hover {
   left: 43%;
 }
 /*Au coeur de l'eau Chambres d'hôtes*/
-.creative {
-  border-radius: 20px/20px;
-  border-radius: 26px 0px 0px 26px;
-  width: 140px;
-  height: 158px;
-  position: relative;
-  cursor: pointer; /*image chambre aux ceour de l'eau*/
-}
-
 #AuCeourDeLeau {
   width: 350px;
   height: 160px;
@@ -656,15 +644,6 @@ figure a:hover {
 }
 
 /*Hôtel Tout bleu et Blanc*/
-.bleuEtBlanc {
-  border-radius: 20px/20px;
-  border-radius: 26px 0px 0px 26px;
-  width: 140px;
-  height: 158px;
-  position: relative;
-  cursor: pointer; /*image hotel bleu et blanc*/
-}
-
 .toutBleuEtBlanc {
   width: 350px;
   height: 160px;
@@ -698,12 +677,13 @@ figure a:hover {
 
 /***PARTIS ACTIVITé***/
 /*Vieu Port*/
-.Bateaux {
+.ImgBateauxAndCalanques {
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
   width: 330px; /*image vieux port*/
   height: 430px;
   cursor: pointer;
+  object-fit: cover;
 }
 
 .BateauxVieuPort {
@@ -776,14 +756,6 @@ figure a:hover {
 }
 
 /*Parc National des Calanques*/
-.parcKilyan {
-  object-fit: cover;
-  border-radius: 20px/20px;
-  border-radius: 26px 26px 0px 0px;
-  width: 330px; /* image Parc National*/
-  height: 425px;
-  cursor: pointer;
-}
 
 .desCalanques {
   width: 325px;

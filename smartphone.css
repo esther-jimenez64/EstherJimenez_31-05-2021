@@ -5,7 +5,7 @@
     width: auto;
     overflow-x: hidden;
     height: auto;
-    margin: auto;
+    margin: 0px;
     max-width: 290%;
     padding-left: 5%;
   }
@@ -43,9 +43,6 @@
     padding-bottom: 10px;
   }
 
-  nav a:hover {
-    border: none;
-  }
   #navigation :nth-child(1) a:hover {
     color: #0065fc;
     border-bottom: 3px solid#0065fc;
@@ -57,11 +54,13 @@
     border-bottom: 3px solid#0065fc;
     padding-bottom: 15px;
   }
-
   #navigation {
     position: relative;
     bottom: 10px;
     left: 1%;
+  }
+  nav a:hover {
+    border: transparent;
   }
 
   h1 {
@@ -73,7 +72,7 @@
   }
 
   #centre {
-    font-family: "Raleway", sans-serif; /* premier p   */
+    /* premier p   */
     position: relative;
     bottom: 55px;
     right: 3.7%;
@@ -124,19 +123,15 @@
 
   #pseudo {
     font-size: 17px;
-    height: 47px;
-    font-family: "Raleway-ExtraBold.ttf"; /*le formulaire*/
+    height: 47px; /*le formulaire*/
     width: 264px;
     position: relative;
     bottom: 155px;
     left: 10px;
-    text-decoration: none;
-    text-decoration-color: black;
-    border: transparent;
   }
 
   .Filtres {
-    font-family: "Raleway-ExtraBold.ttf"; /*paragraphe filtres*/
+    /*paragraphe filtres*/
     width: 16px;
     position: relative;
     bottom: 148px;
@@ -145,7 +140,6 @@
   }
 
   #petiteinfo {
-    font-family: "Raleway";
     position: relative; /*infos*/
     bottom: 260px;
     right: 3%;
@@ -181,24 +175,17 @@
     height: 700px; /*background Populaire */
     max-width: 400px;
     width: 623px;
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 2.5px solid#ece9e9;
-    border-bottom: 2.5px solid #ece9e9;
-    border-right: 3px solid #ece9e9;
   }
 
   .LesPlusPopulaires {
-    /*titre populaire*/
     position: relative;
-    left: 9%;
+    left: 9%; /*titre populaire*/
     top: 2.5%;
     font-size: 145%;
   }
 
   .fa-chart-line {
-    /*icon a coter du titre populaire*/
-    position: relative;
+    position: relative; /*icon a coter du titre populaire*/
     bottom: 220px;
     left: 86%;
     font-size: 145%;
@@ -210,7 +197,7 @@
     right: 2%;
     top: 4%;
   }
-  .emile {
+  .imagePop {
     border-radius: 20px/20px;
     border-radius: 26px 0px 0px 26px;
     width: 140px;
@@ -220,7 +207,6 @@
   }
 
   .titrePop {
-    font-family: "Raleway-Bold.ttf";
     position: relative;
     bottom: 165px;
     left: 45%;
@@ -232,7 +218,6 @@
     position: relative;
     bottom: 175px;
     left: 45%;
-    font-family: "Raleway", sans-serif;
     cursor: pointer;
     font-size: 120%;
   }
@@ -243,77 +228,44 @@
     bottom: 20px;
     left: 2%;
   }
-
   /*Au coeur de l'eau Chambres d'hôtes*/
-
-  .creative {
-    border-radius: 20px/20px;
-    border-radius: 26px 0px 0px 26px;
-    width: 140px;
-    height: 158px;
-    position: relative;
-    cursor: pointer; /*image chambre aux ceour de l'eau*/
-  }
-
   #AuCeourDeLeau {
     width: 340px;
   }
 
   .etoilegris .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
+    /*l'étoile gris*/
     position: relative;
     bottom: 164.8px;
     left: 69%;
     cursor: pointer;
   }
   /*Hôtel Tout bleu et Blanc*/
-  .bleuEtBlanc {
-    border-radius: 20px/20px;
-    border-radius: 26px 0px 0px 26px;
-    width: 140px;
-    height: 158px;
-    position: relative;
-    cursor: pointer; /*image hotel bleu et blanc*/
-  }
-
   .toutBleuEtBlanc {
     position: relative; /*figure de l'image hotel tout bleu et blanc*/
     right: 2%;
     bottom: 20px;
     width: 340px;
   }
-
   /** filtres**/
-
   .Economique a {
     border-radius: 10px/20px;
     border-radius: 40px 40px 40px 40px;
     border-top: 2.5px solid #d1d0d0;
     border-bottom: 2.5px solid #d1d0d0;
     border-right: 3px solid #d1d0d0;
-
     padding: 13px;
     text-decoration: none; /*Economique forme ronde et background  */
-    font-family: "Raleway-Bold.ttf";
     font-size: 20px;
-    color: black;
-
     width: 120px;
     padding-left: 70px;
     position: relative;
     bottom: 135px;
     left: -28px;
     cursor: pointer;
-    text-align: right;
   }
-  .Economique a:hover {
-    color: white; /*  économique lorsqu'elle devient cliquable   */
-    background-color: #0065fc;
-  }
-
   .money {
     color: #0065fc;
-
     border-radius: 50px 45px 50px 45px; /*icon d'argent pour économique*/
     height: 20px;
     width: 20px;
@@ -322,13 +274,11 @@
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 18px;
-    background-color: #deebff;
     cursor: pointer;
     font-size: 17px;
     position: relative;
     bottom: 175px;
     left: -29px;
-    font-size: 20px;
   }
 
   .Romantique a {
@@ -336,11 +286,8 @@
     border-radius: 40px 40px 40px 40px;
     border-top: 2.5px solid #d1d0d0;
     border-bottom: 2.5px solid #d1d0d0;
-    border-right: 3px solid #d1d0d0;
-    text-decoration: none; /*Romantique forme ronde et background  */
-    font-family: "Raleway-Bold.ttf";
+    border-right: 3px solid #d1d0d0; /*Romantique forme ronde et background  */
     font-size: 20px;
-    color: black;
     width: 180px;
     padding: 13px;
     padding-left: 74px;
@@ -348,12 +295,6 @@
     bottom: 228px;
     left: -28px;
     cursor: pointer;
-    text-align: right;
-  }
-
-  .Romantique a:hover {
-    color: white; /* Romantique lorsqu'elle devient cliquable   */
-    background-color: #0065fc;
   }
 
   .ceour {
@@ -381,9 +322,7 @@
     border-bottom: 2.5px solid #d1d0d0;
     border-right: 3px solid #d1d0d0;
     text-decoration: none; /*Animaux forme ronde et background  */
-    font-family: "Raleway-Bold.ttf";
     font-size: 20px;
-    color: black;
     width: 220px;
     padding: 13px;
     padding-left: 72px;
@@ -391,15 +330,7 @@
     bottom: 237px;
     left: -28px;
     cursor: pointer;
-    text-align: right;
   }
-
-  .Animaux a:hover {
-    color: white; /* Animaux lorsqu'elle devient cliquable   */
-    background-color: #0065fc;
-    position: relative;
-  }
-
   .dog {
     color: #0065fc;
     position: relative;
@@ -425,9 +356,7 @@
     border-bottom: 2.5px solid #d1d0d0;
     border-right: 3px solid #d1d0d0;
     text-decoration: none;
-    font-family: "Raleway-Bold.ttf";
     font-size: 20px;
-    color: black;
     position: relative;
     bottom: 220px;
     left: 183px;
@@ -435,12 +364,6 @@
     padding: 13px;
     padding-left: 70px;
     cursor: pointer;
-    text-align: right;
-  }
-
-  .Familial a:hover {
-    color: white; /* Familial lorsqu'elle devient cliquable   */
-    background-color: #0065fc;
   }
 
   .enfant {
@@ -463,7 +386,6 @@
   }
 
   /*** Hébergements à Marseille***/
-
   #Marseille {
     width: 620px;
     background-color: transparent;
@@ -474,7 +396,6 @@
   }
 
   /*auberge la cannebière*/
-
   .imageHebergements {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px; /*image*/
@@ -488,19 +409,15 @@
     left: 6.8%;
   }
   .hotelHebergements {
-    color: black;
-    font-family: "Raleway-Bold.ttf";
     position: relative;
     bottom: 10px;
     left: 4%;
     font-size: 119%;
   }
   .nuitHebergements {
-    color: black;
     position: relative;
     bottom: 25px;
     left: 4%;
-    font-family: "Raleway", sans-serif;
   }
 
   .marcusFigure {
@@ -518,7 +435,6 @@
   }
 
   .fa-star {
-    color: #0065fc;
     font-size: 100%;
     position: relative; /*etoile bleu*/
     bottom: 40px;
@@ -526,14 +442,13 @@
   }
 
   .etoile .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
+    /*l'étoile gris*/
     position: relative;
     bottom: 58.8px;
     left: 30%;
   }
 
   /* Hôtel du port*/
-
   .figureFred {
     border: 7px solid rgb(252, 250, 250);
     border-radius: 20px/20px;
@@ -545,7 +460,6 @@
     right: 31%;
     width: 346px;
     height: 220px;
-    background-color: rgb(252, 249, 252);
   }
 
   /*Hôtel Les mouettes*/
@@ -560,7 +474,6 @@
     position: relative;
     right: 60.7%;
     top: 498px;
-    background-color: rgb(252, 249, 252);
   }
 
   /*Hôtel de la mer*/
@@ -574,7 +487,6 @@
     right: 15px;
     width: 346px;
     height: 220px;
-    background-color: rgb(252, 249, 252);
   }
 
   #LaMer {
@@ -595,7 +507,6 @@
     right: 30.8%;
     width: 346px;
     height: 220px;
-    background-color: rgb(252, 249, 252);
   }
 
   /*Hôtel chez Amina*/
@@ -610,14 +521,12 @@
     right: 60.5%;
     width: 346px;
     height: 220px;
-    background-color: rgb(252, 249, 252);
   }
   /*Afficher plus*/
   #AfficherPlus {
     position: relative;
     top: 3%;
     left: 8%;
-    font-family: "Raleway-Bold.ttf";
     font-size: 123%;
     cursor: pointer;
   }
@@ -638,7 +547,7 @@
 
   /***PARTIS ACTIVITé***/
   /*Vieu Port*/
-  .Bateaux {
+  .ImgBateauxAndCalanques {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
     width: 358px;
@@ -699,14 +608,6 @@
   }
 
   /*Parc National des Calanques*/
-  .parcKilyan {
-    border-radius: 20px/20px;
-    border-radius: 26px 26px 0px 0px;
-    width: 358px;
-    height: 180px; /* image Parc National*/
-    cursor: pointer;
-  }
-
   .desCalanques {
     width: 350px;
     height: 245px;
@@ -755,7 +656,6 @@
   /*** Footer***/
 
   footer {
-    background-color: #e8ebeb;
     height: 600px;
   }
 
@@ -873,16 +773,14 @@
   h1 {
     position: relative;
     bottom: 45px;
-    width: 380px;
+    width: 380px; /*Trouvez votre hébergement */
     right: 3.7%;
-    /*Trouvez votre hébergement */
   }
 
   #centre {
-    font-family: "Raleway", sans-serif; /* premier p   */
     position: relative;
-    bottom: 55px;
-    right: 3.7%;
+    bottom: 55px; /* premier p   */
+    right: 1%;
     max-width: 480px;
     font-size: 18px;
   }
@@ -891,13 +789,13 @@
     visibility: visible;
     color: white;
     font-size: 123%;
-    left: 328px;
+    left: 348px; /*loupe pour smartphone*/
     top: 260px;
     position: fixed;
     cursor: pointer;
   }
   .Recherche a {
-    visibility: hidden;
+    visibility: hidden; /*le bouton recherche pour pc*/
   }
 
   .Recherche {
@@ -908,7 +806,6 @@
     width: 20px;
     text-align: center;
     padding: 17px;
-    font-family: "Raleway-Bold.ttf";
     position: relative;
     left: 280px;
     bottom: 40px;
@@ -930,19 +827,17 @@
 
   #pseudo {
     font-size: 17px;
-    height: 47px;
-    font-family: "Raleway-ExtraBold.ttf"; /*le formulaire*/
+    height: 47px; /*le formulaire*/
     width: 264px;
     position: relative;
     bottom: 155px;
     left: 10px;
     text-decoration: none;
-    text-decoration-color: black;
     border: transparent;
   }
 
   .Filtres {
-    font-family: "Raleway-ExtraBold.ttf"; /*paragraphe filtres*/
+    /*paragraphe filtres*/
     width: 16px;
     position: relative;
     bottom: 148px;
@@ -951,7 +846,6 @@
   }
 
   #petiteinfo {
-    font-family: "Raleway";
     position: relative; /*infos*/
     bottom: 260px;
     right: 3%;
@@ -975,9 +869,7 @@
     bottom: 320px;
     right: 7.2%;
   }
-
   /*** Aside Populaire***/
-
   #populaire {
     background-color: #ece9e9;
     margin-bottom: 700px;
@@ -1003,9 +895,8 @@
   }
 
   .fa-chart-line {
-    /*icon a coter du titre populaire*/
     position: relative;
-    bottom: 220px;
+    bottom: 220px; /*icon a coter du titre populaire*/
     left: 86%;
     font-size: 145%;
   }
@@ -1016,7 +907,7 @@
     right: 2%;
     top: 4%;
   }
-  .emile {
+  .imagePop {
     border-radius: 20px/20px;
     border-radius: 26px 0px 0px 26px;
     width: 140px;
@@ -1026,9 +917,8 @@
   }
 
   .titrePop {
-    font-family: "Raleway-Bold.ttf";
     position: relative;
-    bottom: 165px;
+    bottom: 165px; /*titre sous image populaire*/
     left: 45%;
     cursor: pointer;
     font-size: 125%;
@@ -1036,31 +926,19 @@
 
   .nuitPop {
     position: relative;
-    bottom: 175px;
+    bottom: 175px; /* nuit a partir de ..populaire*/
     left: 45%;
-    font-family: "Raleway", sans-serif;
     cursor: pointer;
     font-size: 120%;
   }
 
   .starspop {
     cursor: pointer;
-    position: relative;
+    position: relative; /*étoile populaire*/
     bottom: 20px;
     left: 2%;
   }
-
   /*Au coeur de l'eau Chambres d'hôtes*/
-
-  .creative {
-    border-radius: 20px/20px;
-    border-radius: 26px 0px 0px 26px;
-    width: 140px;
-    height: 158px;
-    position: relative;
-    cursor: pointer; /*image chambre aux ceour de l'eau*/
-  }
-
   #AuCeourDeLeau {
     width: 340px;
   }
@@ -1073,24 +951,13 @@
     cursor: pointer;
   }
   /*Hôtel Tout bleu et Blanc*/
-  .bleuEtBlanc {
-    border-radius: 20px/20px;
-    border-radius: 26px 0px 0px 26px;
-    width: 140px;
-    height: 158px;
-    position: relative;
-    cursor: pointer; /*image hotel bleu et blanc*/
-  }
-
   .toutBleuEtBlanc {
     position: relative; /*figure de l'image hotel tout bleu et blanc*/
     right: 2%;
     bottom: 20px;
     width: 340px;
   }
-
   /** filtres**/
-
   .Economique a {
     border-radius: 10px/20px;
     border-radius: 40px 40px 40px 40px;
@@ -1099,22 +966,14 @@
     border-right: 3px solid #d1d0d0;
     padding: 13px;
     text-decoration: none; /*Economique forme ronde et background  */
-    font-family: "Raleway-Bold.ttf";
     font-size: 20px;
-    color: black;
     width: 120px;
     padding-left: 70px;
     position: relative;
     bottom: 135px;
     left: -28px;
     cursor: pointer;
-    text-align: right;
   }
-  .Economique a:hover {
-    color: white; /*  économique lorsqu'elle devient cliquable   */
-    background-color: #0065fc;
-  }
-
   .money {
     color: #0065fc;
     border-radius: 50px 45px 50px 45px; /*icon d'argent pour économique*/
@@ -1125,7 +984,6 @@
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 18px;
-    background-color: #deebff;
     cursor: pointer;
     font-size: 17px;
     position: relative;
@@ -1141,9 +999,7 @@
     border-bottom: 2.5px solid #d1d0d0;
     border-right: 3px solid #d1d0d0;
     text-decoration: none; /*Romantique forme ronde et background  */
-    font-family: "Raleway-Bold.ttf";
     font-size: 20px;
-    color: black;
     width: 180px;
     padding: 13px;
     padding-left: 74px;
@@ -1151,12 +1007,6 @@
     bottom: 228px;
     left: -28px;
     cursor: pointer;
-    text-align: right;
-  }
-
-  .Romantique a:hover {
-    color: white; /* Romantique lorsqu'elle devient cliquable   */
-    background-color: #0065fc;
   }
 
   .ceour {
@@ -1172,7 +1022,6 @@
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 18px;
-    background-color: #deebff;
     cursor: pointer;
     font-size: 20px;
   }
@@ -1184,9 +1033,7 @@
     border-bottom: 2.5px solid #d1d0d0;
     border-right: 3px solid #d1d0d0;
     text-decoration: none; /*Animaux forme ronde et background  */
-    font-family: "Raleway-Bold.ttf";
     font-size: 20px;
-    color: black;
     width: 220px;
     padding: 13px;
     padding-left: 72px;
@@ -1194,15 +1041,7 @@
     bottom: 237px;
     left: -28px;
     cursor: pointer;
-    text-align: right;
   }
-
-  .Animaux a:hover {
-    color: white; /* Animaux lorsqu'elle devient cliquable   */
-    background-color: #0065fc;
-    position: relative;
-  }
-
   .dog {
     color: #0065fc;
     position: relative;
@@ -1216,7 +1055,6 @@
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 18px;
-    background-color: #deebff;
     cursor: pointer;
     font-size: 22px;
   }
@@ -1228,9 +1066,7 @@
     border-bottom: 2.5px solid #d1d0d0;
     border-right: 3px solid #d1d0d0;
     text-decoration: none;
-    font-family: "Raleway-Bold.ttf";
     font-size: 20px;
-    color: black;
     position: relative;
     bottom: 220px;
     left: 183px;
@@ -1238,12 +1074,6 @@
     padding: 13px;
     padding-left: 70px;
     cursor: pointer;
-    text-align: right;
-  }
-
-  .Familial a:hover {
-    color: white; /* Familial lorsqu'elle devient cliquable   */
-    background-color: #0065fc;
   }
 
   .enfant {
@@ -1259,14 +1089,11 @@
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 18px;
-    background-color: #deebff;
     cursor: pointer;
     font-size: 20px;
-    text-align: center;
   }
 
   /*** Hébergements à Marseille***/
-
   #Marseille {
     width: 620px;
     background-color: transparent;
@@ -1275,9 +1102,7 @@
     top: 455px; /*background hébergements*/
     left: -64px;
   }
-
   /*auberge la cannebière*/
-
   .imageHebergements {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px; /*image*/
@@ -1303,7 +1128,6 @@
     position: relative;
     bottom: 25px;
     left: 4%;
-    font-family: "Raleway", sans-serif;
   }
 
   .marcusFigure {
@@ -1321,7 +1145,6 @@
   }
 
   .fa-star {
-    color: #0065fc;
     font-size: 100%;
     position: relative; /*etoile bleu*/
     bottom: 40px;
@@ -1329,14 +1152,13 @@
   }
 
   .etoile .fa-star {
-    color: rgb(223, 221, 221); /*l'étoile gris*/
+    /*l'étoile gris*/
     position: relative;
     bottom: 58.8px;
     left: 30%;
   }
 
   /* Hôtel du port*/
-
   .figureFred {
     border: 7px solid rgb(252, 250, 250);
     border-radius: 20px/20px;
@@ -1348,9 +1170,7 @@
     right: 31%;
     width: 346px;
     height: 220px;
-    background-color: rgb(252, 249, 252);
   }
-
   /*Hôtel Les mouettes*/
   .figureMouettes {
     border: 7px solid rgb(252, 250, 250);
@@ -1363,7 +1183,6 @@
     position: relative;
     right: 60.7%;
     top: 498px;
-    background-color: rgb(252, 249, 252);
   }
 
   /*Hôtel de la mer*/
@@ -1377,7 +1196,6 @@
     right: 15px;
     width: 346px;
     height: 220px;
-    background-color: rgb(252, 249, 252);
   }
 
   #LaMer {
@@ -1397,7 +1215,6 @@
     right: 30.8%;
     width: 346px;
     height: 220px;
-    background-color: rgb(252, 249, 252);
   }
   /*Hôtel chez Amina*/
   .figureChezAmina {
@@ -1411,20 +1228,16 @@
     right: 60.5%;
     width: 346px;
     height: 220px;
-    background-color: rgb(252, 249, 252);
   }
   /*Afficher plus*/
   #AfficherPlus {
     position: relative;
     top: 3%;
     left: 8%;
-    font-family: "Raleway-Bold.ttf";
     font-size: 123%;
     cursor: pointer;
   }
-
   /***Section Activité***/
-
   #titreActivité {
     position: relative;
     left: -20px;
@@ -1436,10 +1249,10 @@
     bottom: 830px;
     height: 200px;
   }
-
   /***PARTIS ACTIVITé***/
-  /*Vieu Port*/
-  .Bateaux {
+
+  .ImgBateauxAndCalanques {
+    /*image bateaux et clanques*/
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
     width: 358px;
@@ -1817,7 +1630,7 @@
     right: 2%;
     top: 4%;
   }
-  .emile {
+  .imagePop {
     border-radius: 20px/20px;
     border-radius: 26px 0px 0px 26px;
     width: 140px;
@@ -1852,16 +1665,6 @@
   }
 
   /*Au coeur de l'eau Chambres d'hôtes*/
-
-  .creative {
-    border-radius: 20px/20px;
-    border-radius: 26px 0px 0px 26px;
-    width: 140px;
-    height: 158px;
-    position: relative;
-    cursor: pointer; /*image chambre aux ceour de l'eau*/
-  }
-
   #AuCeourDeLeau {
     width: 340px;
   }
@@ -1874,15 +1677,6 @@
     cursor: pointer;
   }
   /*Hôtel Tout bleu et Blanc*/
-  .bleuEtBlanc {
-    border-radius: 20px/20px;
-    border-radius: 26px 0px 0px 26px;
-    width: 140px;
-    height: 158px;
-    position: relative;
-    cursor: pointer; /*image hotel bleu et blanc*/
-  }
-
   .toutBleuEtBlanc {
     position: relative; /*figure de l'image hotel tout bleu et blanc*/
     right: 2%;
@@ -2247,7 +2041,7 @@
 
   /***PARTIS ACTIVITé***/
   /*Vieu Port*/
-  .Bateaux {
+  .ImgBateauxAndCalanques {
     border-radius: 20px/20px;
     border-radius: 26px 26px 0px 0px;
     width: 358px;
@@ -2402,9 +2196,7 @@
     left: -500px;
     top: 200px;
   }
-
   /** Assistance**/
-
   #bougerAssistance {
     position: relative;
     left: 5px;
