@@ -84,7 +84,7 @@
     color: white;
     font-size: 123%;
     left: 328px; /*petite loupe barre recherche*/
-    top: 280px;
+    top: 285px;
     position: fixed;
     cursor: pointer;
   }
