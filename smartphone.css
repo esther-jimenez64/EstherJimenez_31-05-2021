@@ -10,9 +10,8 @@
     padding-left: 5%;
   }
   /*** header***/
-
   header {
-    height: 1450%;
+    height: 1540%;
   }
   #logo img {
     position: relative;
@@ -23,8 +22,8 @@
   .Sinscrire {
     border: none;
     position: relative;
-    right: 80%;
-    bottom: 390%;
+    right: 82%;
+    bottom: 420%;
   }
 
   .Test {
@@ -56,7 +55,7 @@
   }
   #navigation {
     position: relative;
-    bottom: 10px;
+    bottom: 5px;
     left: 1%;
   }
   nav a:hover {
@@ -84,8 +83,8 @@
     visibility: visible;
     color: white;
     font-size: 123%;
-    left: 328px;
-    top: 260px;
+    left: 328px; /*petite loupe barre recherche*/
+    top: 280px;
     position: fixed;
     cursor: pointer;
   }
@@ -96,7 +95,7 @@
   .Recherche {
     border-radius: 10px/20px;
     border-radius: 15px 15px 15px 15px;
-    background-color: #0065fc; /* le background de recherche   */
+    background-color: #0065fc;
     height: 20px;
     width: 20px;
     text-align: center;
@@ -131,9 +130,7 @@
   }
 
   .Filtres {
-    /*paragraphe filtres*/
-    width: 16px;
-    position: relative;
+    position: relative; /*paragraphe filtres*/
     bottom: 148px;
     right: 7%;
     font-size: 117%;
@@ -149,23 +146,14 @@
   }
 
   .I {
-    color: #0065fc;
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px; /*info icon*/
-    border-top: 2.5px solid #d1d0d0;
-    border-bottom: 2.5px solid #d1d0d0;
-    border-right: 3px solid #d1d0d0;
     width: 18px;
-    text-align: center;
-    padding: 3px;
+    padding: 3px; /*info icon*/
     font-size: 100%;
     position: relative;
     bottom: 320px;
     right: 7.2%;
   }
-
   /*** Aside Populaire***/
-
   #populaire {
     background-color: #ece9e9;
     margin-bottom: 700px;
@@ -234,9 +222,8 @@
   }
 
   .etoilegris .fa-star {
-    /*l'étoile gris*/
     position: relative;
-    bottom: 164.8px;
+    bottom: 164.8px; /*l'étoile gris*/
     left: 69%;
     cursor: pointer;
   }
@@ -394,7 +381,6 @@
     top: 455px; /*background hébergements*/
     left: -64px;
   }
-
   /*auberge la cannebière*/
   .imageHebergements {
     border-radius: 20px/20px;
@@ -442,8 +428,7 @@
   }
 
   .etoile .fa-star {
-    /*l'étoile gris*/
-    position: relative;
+    position: relative; /*l'étoile gris*/
     bottom: 58.8px;
     left: 30%;
   }
@@ -532,7 +517,6 @@
   }
 
   /***Section Activité***/
-
   #titreActivité {
     position: relative;
     left: -20px;
@@ -540,7 +524,7 @@
   }
 
   #flexActivite {
-    position: relative;
+    position: relative; /*div qui contient toute la partis activité*/
     bottom: 830px;
     height: 200px;
   }
@@ -549,7 +533,7 @@
   /*Vieu Port*/
   .ImgBateauxAndCalanques {
     border-radius: 20px/20px;
-    border-radius: 26px 26px 0px 0px;
+    border-radius: 26px 26px 0px 0px; /*image du bateaux et des Calanques*/
     width: 358px;
     height: 180px;
     cursor: pointer;
@@ -560,13 +544,13 @@
     height: 240px;
     position: relative;
     right: 19.5%;
-    top: 415%; /*contour image port*/
+    top: 415%; /*contour image bateaux*/
     cursor: pointer;
   }
 
   .TitreActivite {
     cursor: pointer;
-    position: relative;
+    position: relative; /*toutes les titres en dessous de chaque figure Activité*/
     left: 6%;
     bottom: 5px;
     font-size: 110%;
@@ -678,10 +662,8 @@
   }
 
   /** Nos Hébergements**/
-
   .NosHebergements {
-    /*titre */
-    position: relative;
+    position: relative; /*titre */
     left: -458px;
     top: 200px;
     margin: 0;
@@ -695,7 +677,6 @@
   }
 
   /** Assistance**/
-
   #bougerAssistance {
     position: relative;
     left: 5px;
@@ -708,7 +689,6 @@
     bottom: 10px;
   }
 }
-
 @media screen and (min-width: 667px) and (max-width: 744px) {
   body {
     width: auto;
@@ -721,7 +701,7 @@
   /*** header***/
 
   header {
-    height: 1450%;
+    height: 1600%;
   }
   #logo img {
     position: relative;
@@ -732,7 +712,7 @@
   .Sinscrire {
     position: relative;
     right: 80%;
-    bottom: 390%;
+    bottom: 480%;
   }
 
   nav a:hover {
@@ -766,21 +746,21 @@
 
   #navigation {
     position: relative;
-    bottom: 10px;
+    bottom: 18px;
     left: 1%;
   }
 
   h1 {
     position: relative;
     bottom: 45px;
-    width: 380px; /*Trouvez votre hébergement */
+    width: 330px; /*Trouvez votre hébergement */
     right: 3.7%;
   }
 
   #centre {
     position: relative;
     bottom: 55px; /* premier p   */
-    right: 1%;
+    left: -3.8%;
     max-width: 480px;
     font-size: 18px;
   }
@@ -874,7 +854,7 @@
     background-color: #ece9e9;
     margin-bottom: 700px;
     position: relative;
-    right: 81%;
+    right: 70%;
     top: -970px;
     height: 700px; /*background Populaire */
     max-width: 400px;
@@ -887,9 +867,8 @@
   }
 
   .LesPlusPopulaires {
-    /*titre populaire*/
     position: relative;
-    left: 9%;
+    left: 9%; /*titre populaire*/
     top: 2.5%;
     font-size: 145%;
   }
@@ -1264,7 +1243,7 @@
     width: 350px;
     height: 240px;
     position: relative;
-    right: 19.5%;
+    right: 11%;
     top: 415%; /*contour image port*/
     cursor: pointer;
   }
@@ -1435,7 +1414,7 @@
   /*** header***/
 
   header {
-    height: 1450%;
+    height: 1320%;
   }
   #logo img {
     position: relative;
@@ -1505,7 +1484,7 @@
     visibility: visible;
     color: white;
     font-size: 123%;
-    left: 328px;
+    left: 328px; /*petite loupe*/
     top: 260px;
     position: fixed;
     cursor: pointer;
@@ -1591,7 +1570,6 @@
   }
 
   /*** Aside Populaire***/
-
   #populaire {
     background-color: #ece9e9;
     margin-bottom: 700px;

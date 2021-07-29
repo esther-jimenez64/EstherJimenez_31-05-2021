@@ -31,54 +31,54 @@
 body {
   overflow-x: hidden;
   position: relative;
+  top: 15px;
   left: 3%; /*config corps*/
   margin: 0px;
   max-width: 1920px;
 }
 #bloc_page {
-  height: 10px;
+  height: 10px; /*spération entre la partis header et hébergements*/
 }
 /***  header ***/
 header {
-  height: 900%;
   height: 900%;
   margin-bottom: 2%;
 }
 #logo img {
   width: 104px;
   height: 50px;
-  position: relative;
+  position: relative; /*logo reservia*/
   bottom: 10%;
   right: 10px;
   margin-bottom: 10%;
 } /* Navigation */
 #navigation {
   position: relative;
-  bottom: 180px;
+  bottom: 200px; /*position du menu*/
   left: 66%;
 }
 img {
-  object-fit: cover;
+  object-fit: cover; /*toute les images passe mieux en responsives*/
 }
 
 .Sinscrire {
-  font-family: "Raleway-Bold.ttf";
+  font-family: "Raleway-Bold.ttf"; /*s'insicre menu*/
   color: #0065fc;
 }
 
 nav ul {
   list-style-type: none;
-  display: flex;
+  display: flex; /*position de la ul qui contient le menu*/
   position: relative;
 }
 
 nav li {
-  margin-right: 3%;
+  margin-right: 3%; /*espace entre les li menu*/
 }
 
 nav a {
   font-size: 1em;
-  color: #181818;
+  color: #181818; /*Police est détaille de la nav menu*/
   padding-bottom: 3px;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -373,7 +373,7 @@ figure a:hover {
 .imageHebergements {
   border-radius: 20px/20px;
   border-radius: 26px 26px 0px 0px;
-  width: 235px;
+  width: 235px; /*toutes les images d'herbegements*/
   height: 140px;
   position: relative;
   object-fit: cover;
@@ -381,14 +381,14 @@ figure a:hover {
 
 .hotelHebergements {
   color: black;
-  font-family: "Raleway-Bold.ttf";
+  font-family: "Raleway-Bold.ttf"; /*tout les titre d'herbergements*/
   position: relative;
   bottom: 10px;
   left: 6%;
 }
 .nuitHebergements {
   color: black;
-  position: relative;
+  position: relative; /*p nuit à partir de tout d'hergements*/
   bottom: 25px;
   left: 6%;
   font-family: "Raleway", sans-serif;
@@ -420,7 +420,7 @@ figure a:hover {
 .fa-star {
   color: #0065fc;
   font-size: 0.8em;
-  position: relative;
+  position: relative; /*etoile bleu*/
   bottom: 40px;
   left: 6%;
 }
@@ -450,7 +450,7 @@ figure a:hover {
   position: relative;
   bottom: 240px; /*contour de l'image fred*/
   left: 30%;
-  bottom: 240px; /*contour l'image fred*/
+  bottom: 240px;
   left: 30%;
 }
 /*Hôtel Les mouettes*/
@@ -598,7 +598,7 @@ figure a:hover {
 .titrePop {
   font-family: "Raleway-Bold.ttf";
   position: relative;
-  bottom: 165px;
+  bottom: 165px; /*tout les titres des figures dans la section Populaire*/
   left: 43%;
   cursor: pointer;
 }
@@ -607,12 +607,12 @@ figure a:hover {
   position: relative;
   bottom: 170px;
   left: 43%;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif; /*tout les p nuit à partir.. de Populaire*/
   cursor: pointer;
 }
 
 .starspop .fa-star {
-  cursor: pointer;
+  cursor: pointer; /*tout les étoile bleu*/
   position: relative;
   bottom: 145px;
   left: 43%;

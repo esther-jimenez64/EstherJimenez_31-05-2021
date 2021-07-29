@@ -3,8 +3,7 @@
   body {
     overflow-x: hidden;
     position: relative;
-    margin: 0px;
-    max-width: 768px;
+
     /*config corps*/
   }
   /*** header***/
@@ -396,79 +395,5 @@
     position: relative;
     left: 19.8%;
     bottom: 19%;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1366px) {
-  body {
-    position: relative;
-    right: 500px;
-  }
-
-  nav {
-    position: relative;
-    bottom: 0.5%;
-    right: 4%;
-  }
-  nav a:hover {
-    color: #0065fc;
-    border-top: 3px solid#0065fc;
-    padding-top: 30px;
-  }
-  #navigation :nth-child(3) a:hover {
-    border: transparent;
-  }
-
-  h1 {
-    position: relative;
-    top: 20%;
-  }
-
-  #centre {
-    position: relative;
-    left: -2.8%;
-  }
-  /****footer**/
-  #footerBouge {
-    height: 680px; /*bouger le footer*/
-    width: 643px;
-    background-color: #e8ebeb;
-  }
-
-  footer {
-    background-color: #e8ebeb;
-    width: 640px;
-  }
-  #footerBack {
-    /* bouger toute la structure a propos*/
-    position: relative;
-    left: 5%;
-  }
-
-  .Apropos {
-    position: relative;
-    left: 5%; /*titre*/
-  }
-
-  #bougerAssistance {
-    /*bouger la structure assistance*/
-    position: relative;
-    left: 55%;
-  }
-
-  .Assistance {
-    position: relative;
-    left: 5%; /*titre*/
-  }
-
-  .NosHebergements {
-    position: relative;
-    left: -42px; /*titre*/
-  }
-
-  #bougerHebergements {
-    /*bouger la structure herbegements footer*/
-    position: relative;
-    left: 65%;
   }
 }
