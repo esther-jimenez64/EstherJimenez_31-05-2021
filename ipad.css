@@ -29,9 +29,14 @@
     right: 2.2%;
   }
 
+  #BougerFiltre {
+    position: relative;
+    right: 6%;
+  }
   .Filtres {
     position: relative;
     bottom: 95px;
+    left: 3%;
     font-size: 125%;
   }
   .Romantique a {
@@ -48,7 +53,6 @@
     position: relative;
     bottom: 322px; /*contour icon chien*/
     left: 315px;
-    width: -50px;
   }
 
   .dog {
@@ -80,8 +84,8 @@
   }
 
   #Marseille {
-    width: 620px;
-    height: 1140px;
+    width: 550px;
+    height: 1100px;
     position: relative;
     top: 360px; /*background hébergements*/
     right: 20px;
@@ -91,8 +95,8 @@
     position: relative;
     bottom: 460px; /*contour de l'image marcus*/
     right: 4%;
-    width: 265px;
-    height: 280px;
+    width: 230px;
+    height: 260px;
   }
 
   .imageHebergements {
@@ -109,7 +113,7 @@
     position: relative;
     bottom: 14px;
     left: 5%;
-    font-size: 128%;
+    font-size: 121%;
   }
   .nuitHebergements {
     color: black;
@@ -117,16 +121,16 @@
     bottom: 30px;
     left: 5%;
     font-family: "Raleway", sans-serif;
-    font-size: 116%;
+    font-size: 112%;
   }
 
   .fa-star {
     color: #0065fc;
     font-size: 0.8em;
     position: relative;
-    bottom: 35px;
+    bottom: 45px;
     left: 5%;
-    font-size: 110%;
+    font-size: 100%;
   }
 
   .etoile .fa-star {
@@ -134,10 +138,10 @@
     position: relative;
     bottom: 63px;
     left: 25%;
-    font-size: 109%;
+    font-size: 107%;
     position: relative;
-    left: 110px;
-    bottom: 55.5px;
+    left: 101px;
+    bottom: 64px;
   }
 
   .figureFred {
@@ -146,11 +150,11 @@
     border-radius: 30px 30px 30px 30px;
     border-top: 7px solid #f8f4f4;
     border-bottom: 7px solid #f3efef; /*figure de l'image*/
-    width: 265px;
-    height: 280px;
+    width: 230px;
+    height: 260px;
     position: relative;
-    top: -38px;
-    left: 13%;
+    top: -17px;
+    left: 15%;
     background-color: rgb(252, 249, 252);
   }
   /*Hôtel de la mer*/
@@ -160,11 +164,11 @@
     border-radius: 30px 30px 30px 30px;
     border-top: 7px solid #f8f4f4;
     border-bottom: 7px solid #f3efef; /*figure de l'image*/
-    width: 265px;
-    height: 280px;
+    width: 230px;
+    height: 260px;
     position: relative;
-    bottom: 120px;
-    right: 4%;
+    bottom: 75px;
+    right: 3.4%;
     background-color: rgb(252, 249, 252);
   }
   /*Auberge Le Panier*/
@@ -174,11 +178,11 @@
     border-radius: 30px 30px 30px 30px;
     border-top: 7px solid #f8f4f4;
     border-bottom: 7px solid #f3efef; /*figure de l'image*/
-    width: 265px;
-    height: 280px;
+    width: 230px;
+    height: 260px;
     position: relative;
-    bottom: 180px;
-    left: 13%;
+    bottom: 112px;
+    left: 15%;
     background-color: rgb(252, 249, 252);
   }
   /*Hôtel Les mouettes*/
@@ -188,11 +192,11 @@
     border-radius: 30px 30px 30px 30px;
     border-top: 7px solid #f8f4f4;
     border-bottom: 7px solid #f3efef; /*figure de l'image*/
-    width: 265px;
-    height: 280px;
+    width: 230px;
+    height: 260px;
     position: relative;
-    top: 510px;
-    right: 17%;
+    top: 518px;
+    right: 15%;
     background-color: rgb(252, 249, 252);
   }
   /*Hôtel chez Amina*/
@@ -203,16 +207,16 @@
     border-radius: 30px 30px 30px 30px;
     border-top: 7px solid #f8f4f4;
     border-bottom: 7px solid #f3efef; /*figure de l'image*/
-    width: 265px;
-    height: 280px;
+    width: 230px;
+    height: 260px;
     position: relative;
-    top: 70px;
-    right: 64%;
+    top: 138px;
+    right: 63%;
     background-color: rgb(252, 249, 252);
   }
   #AfficherPlus {
     position: relative;
-    bottom: 880px;
+    bottom: 800px;
   }
 
   /***Aside Populaire***/
@@ -225,21 +229,21 @@
   .fa-chart-line {
     position: relative; /*icon a coter du titre populaire*/
     bottom: 225px;
-    left: 87%;
+    left: 83%;
     font-size: 190%;
   }
 
   #populaire {
     position: relative;
-    right: 69.2%;
+    right: 73%;
     bottom: 1550px;
     width: 623px;
   }
 
   #Soleil {
-    width: 530px; /*contour de l'image hotel solei du matin*/
+    width: 500px; /*contour de l'image hotel solei du matin*/
     position: relative;
-    right: 1.8%;
+    left: 1%;
     top: 3%;
   }
   .imagePop {
@@ -287,14 +291,17 @@
 
   /*Au coeur de l'eau Chambres d'hôtes*/
   #AuCeourDeLeau {
-    width: 530px;
+    width: 500px;
+    position: relative;
+    left: 1%;
+    bottom: 10px;
   }
   /*Hôtel Tout bleu et Blanc*/
   .toutBleuEtBlanc {
     position: relative; /*figure de l'image hotel tout bleu et blanc*/
-    right: 2%;
+    left: 1%;
     bottom: 10px;
-    width: 530px;
+    width: 500px;
   }
 
   /*** Section Activité***/
@@ -319,13 +326,14 @@
     position: relative;
     left: 34.5%;
     top: 168%;
+    width: 232px;
   }
 
   .duFrioul {
     position: relative;
     top: 179.2%;
     left: 34.5%;
-    width: 295px;
+    width: 232px;
     height: 175px;
   }
 
@@ -339,12 +347,14 @@
     position: relative; /*contour de l'image notre dammes*/
     bottom: 126px;
     left: 35%;
+    width: 225px;
   }
 
   .Longchamp {
     position: relative; /*contour de l'image notre damme*/
     bottom: 110px;
     left: 35%;
+    width: 225px;
   }
 
   /*** footer***/
