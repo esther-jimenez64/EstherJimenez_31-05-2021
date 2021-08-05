@@ -406,15 +406,23 @@ figure a:hover {
   bottom: 400px;
 }
 .marcusFigure {
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef; /*contour de l'image marcus*/
+  /*contour de l'image marcus*/
   position: relative;
   top: 3%;
   width: 235px;
   height: 220px;
+}
+.marcusFigure,
+.figureFred,
+.figureMouettes,
+.figureLaMer,
+.figureLePanier,
+.figureChezAmina {
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef;
   background-color: rgb(252, 249, 252);
 }
 .fa-star {
@@ -434,16 +442,11 @@ figure a:hover {
 /* Hôtel du port*/
 
 .figureFred {
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+  /*figure de l'image*/
   position: relative;
   top: 10px;
   width: 235px;
   height: 220px;
-  background-color: rgb(252, 249, 252);
 }
 
 #Port {
@@ -455,14 +458,9 @@ figure a:hover {
 }
 /*Hôtel Les mouettes*/
 .figureMouettes {
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+  /*figure de l'image*/
   width: 235px;
   height: 220px;
-  background-color: rgb(252, 249, 252);
 }
 #lesMouettes {
   position: relative;
@@ -472,15 +470,10 @@ figure a:hover {
 
 /*Hôtel de la mer*/
 .figureLaMer {
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+  /*figure de l'image*/
   position: relative;
   width: 235px;
   height: 220px;
-  background-color: rgb(252, 249, 252);
 }
 #LaMer {
   position: relative;
@@ -489,15 +482,10 @@ figure a:hover {
 }
 /*Auberge Le Panier*/
 .figureLePanier {
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+  /*figure de l'image*/
   position: relative;
   width: 235px;
   height: 220px;
-  background-color: rgb(252, 249, 252);
 }
 
 #LePanier {
@@ -507,14 +495,9 @@ figure a:hover {
 }
 /*Hôtel chez Amina*/
 .figureChezAmina {
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+  /*figure de l'image*/
   width: 235px;
   height: 220px;
-  background-color: rgb(252, 249, 252);
 }
 #Amina {
   position: relative;
@@ -584,17 +567,19 @@ figure a:hover {
   position: relative;
   right: 2.5%;
   top: 3%;
+}
+
+#Soleil,
+#AuCeourDeLeau,
+.toutBleuEtBlanc {
+  background-color: rgb(252, 249, 252);
   cursor: pointer;
   border: 7px solid rgb(252, 250, 250);
   border-radius: 20px/20px;
   border-radius: 30px 30px 30px 30px;
   border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef; /*figure de l'image*/
-  width: 355px;
-  height: 160px;
-  background-color: rgb(252, 249, 252);
+  border-bottom: 7px solid #f3efef;
 }
-
 .titrePop {
   font-family: "Raleway-Bold.ttf";
   position: relative;
@@ -623,16 +608,9 @@ figure a:hover {
   height: 160px;
   position: relative;
   right: 2%;
-  bottom: 18px;
-  cursor: pointer;
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+  bottom: 18px; /*figure de l'image*/
   width: 355px;
   height: 160px;
-  background-color: rgb(252, 249, 252);
 }
 
 .etoilegris .fa-star {
@@ -649,16 +627,9 @@ figure a:hover {
   height: 160px;
   position: relative;
   bottom: 1px;
-  right: 2%;
-  cursor: pointer;
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef; /*figure de l'image*/
+  right: 2%; /*figure de l'image*/
   width: 355px;
   height: 160px;
-  background-color: rgb(252, 249, 252);
 }
 
 /***Section   Activités à Marseille  **/
@@ -685,13 +656,10 @@ figure a:hover {
   cursor: pointer;
   object-fit: cover;
 }
-
-.BateauxVieuPort {
+.BateauxVieuPort,
+.desCalanques {
   width: 325px;
   height: 475px;
-  position: relative;
-  right: 3.2%;
-  top: 415%; /*contour image port*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
   border: 7px solid rgb(252, 250, 250);
@@ -699,6 +667,11 @@ figure a:hover {
   border-radius: 30px 30px 30px 30px;
   border-top: 7px solid #f8f4f4;
   border-bottom: 7px solid #f3efef;
+}
+.BateauxVieuPort {
+  position: relative;
+  right: 3.2%;
+  top: 415%; /*contour image port*/
 }
 
 .TitreActivite {
@@ -717,11 +690,11 @@ figure a:hover {
   height: 200px;
 }
 .FortDePomegues {
-  width: 295px;
-  height: 245px;
   position: relative;
   left: 21%;
-  top: 165%; /*contour image fort*/
+  top: 165%;
+  width: 295px;
+  height: 245px; /*contour image fort*/
   cursor: pointer;
   box-shadow: 5px 2px 5px #fbfdfd;
   border: 7px solid rgb(252, 250, 250);
@@ -758,18 +731,9 @@ figure a:hover {
 /*Parc National des Calanques*/
 
 .desCalanques {
-  width: 325px;
-  height: 475px;
   position: relative;
   left: 43.8%;
   bottom: 160px; /*contour image Parc National*/
-  cursor: pointer;
-  box-shadow: 5px 2px 5px #fbfdfd;
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef;
 }
 
 /*Notre-Dame-de-la-Garde*/

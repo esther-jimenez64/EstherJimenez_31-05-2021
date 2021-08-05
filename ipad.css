@@ -90,13 +90,19 @@
     top: 360px; /*background hébergements*/
     right: 20px;
   }
-
+  .marcusFigure,
+  .figureFred,
+  .figureMouettes,
+  .figureLaMer,
+  .figureLePanier,
+  .figureChezAmina {
+    width: 230px;
+    height: 260px;
+  }
   .marcusFigure {
     position: relative;
     bottom: 460px; /*contour de l'image marcus*/
     right: 4%;
-    width: 230px;
-    height: 260px;
   }
 
   .imageHebergements {
@@ -145,74 +151,39 @@
   }
 
   .figureFred {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
-    width: 230px;
-    height: 260px;
+    /*figure de l'image*/
     position: relative;
     top: -17px;
     left: 15%;
-    background-color: rgb(252, 249, 252);
   }
   /*Hôtel de la mer*/
   .figureLaMer {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
-    width: 230px;
-    height: 260px;
+    /*figure de l'image*/
     position: relative;
     bottom: 75px;
     right: 3.4%;
-    background-color: rgb(252, 249, 252);
   }
   /*Auberge Le Panier*/
   .figureLePanier {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
-    width: 230px;
-    height: 260px;
+    /*figure de l'image*/
     position: relative;
     bottom: 112px;
     left: 15%;
-    background-color: rgb(252, 249, 252);
   }
   /*Hôtel Les mouettes*/
   .figureMouettes {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
-    width: 230px;
-    height: 260px;
+    /*figure de l'image*/
     position: relative;
     top: 518px;
     right: 15%;
-    background-color: rgb(252, 249, 252);
   }
   /*Hôtel chez Amina*/
 
   .figureChezAmina {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
-    width: 230px;
-    height: 260px;
+    /*figure de l'image*/
     position: relative;
     top: 138px;
     right: 63%;
-    background-color: rgb(252, 249, 252);
   }
   #AfficherPlus {
     position: relative;

@@ -1109,18 +1109,26 @@
     left: 4%;
   }
 
-  .marcusFigure {
+  .marcusFigure,
+  .figureFred,
+  .figureMouettes,
+  .figureLaMer,
+  .figureLePanier,
+  .figureChezAmina {
+    background-color: rgb(252, 249, 252);
+    width: 346px;
+    height: 220px;
     border: 7px solid rgb(252, 250, 250);
     border-radius: 20px/20px;
     border-radius: 30px 30px 30px 30px;
     border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*contour de l'image marcus*/
+    border-bottom: 7px solid #f3efef;
+  }
+  .marcusFigure {
+    /*contour de l'image marcus*/
     position: relative;
     top: 2.8%;
     right: 1.1%;
-    width: 346px;
-    height: 220px;
-    background-color: rgb(252, 249, 252);
   }
 
   .fa-star {
@@ -1139,26 +1147,14 @@
 
   /* Hôtel du port*/
   .figureFred {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
+    /*figure de l'image*/
     position: relative;
     top: 255px;
     right: 31%;
-    width: 346px;
-    height: 220px;
   }
   /*Hôtel Les mouettes*/
   .figureMouettes {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
-    width: 346px;
-    height: 220px;
+    /*figure de l'image*/
     position: relative;
     right: 60.7%;
     top: 498px;
@@ -1166,15 +1162,9 @@
 
   /*Hôtel de la mer*/
   .figureLaMer {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
+    /*figure de l'image*/
     position: relative;
     right: 15px;
-    width: 346px;
-    height: 220px;
   }
 
   #LaMer {
@@ -1184,29 +1174,17 @@
   }
   /*Auberge Le Panier*/
   .figureLePanier {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
+    /*figure de l'image*/
     position: relative;
     top: 727px;
     right: 30.8%;
-    width: 346px;
-    height: 220px;
   }
   /*Hôtel chez Amina*/
   .figureChezAmina {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
+    /*figure de l'image*/
     position: relative;
     top: 980px;
     right: 60.5%;
-    width: 346px;
-    height: 220px;
   }
   /*Afficher plus*/
   #AfficherPlus {
@@ -1670,13 +1648,11 @@
     border-top: 2.5px solid #d1d0d0;
     border-bottom: 2.5px solid #d1d0d0;
     border-right: 3px solid #d1d0d0;
-
     padding: 13px;
     text-decoration: none; /*Economique forme ronde et background  */
     font-family: "Raleway-Bold.ttf";
     font-size: 20px;
     color: black;
-
     width: 120px;
     padding-left: 70px;
     position: relative;
@@ -1884,19 +1860,26 @@
     left: 4%;
     font-family: "Raleway", sans-serif;
   }
-
-  .marcusFigure {
+  .marcusFigure,
+  .figureFred,
+  .figureMouettes,
+  .figureLaMer,
+  .figureLePanier,
+  .figureChezAmina {
+    background-color: rgb(252, 249, 252);
+    width: 346px;
+    height: 220px;
     border: 7px solid rgb(252, 250, 250);
     border-radius: 20px/20px;
     border-radius: 30px 30px 30px 30px;
     border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*contour de l'image marcus*/
+    border-bottom: 7px solid #f3efef;
+  }
+  .marcusFigure {
+    /*contour de l'image marcus*/
     position: relative;
     top: 2.8%;
     right: 1.1%;
-    width: 346px;
-    height: 220px;
-    background-color: rgb(252, 249, 252);
   }
 
   .fa-star {
@@ -1917,46 +1900,26 @@
   /* Hôtel du port*/
 
   .figureFred {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
+    /*figure de l'image*/
     position: relative;
     top: 255px;
     right: 31%;
     width: 346px;
-    height: 220px;
-    background-color: rgb(252, 249, 252);
   }
 
   /*Hôtel Les mouettes*/
   .figureMouettes {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
-    width: 346px;
-    height: 220px;
+    /*figure de l'image*/
     position: relative;
     right: 60.7%;
     top: 498px;
-    background-color: rgb(252, 249, 252);
   }
 
   /*Hôtel de la mer*/
   .figureLaMer {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
+    /*figure de l'image*/
     position: relative;
     right: 15px;
-    width: 346px;
-    height: 220px;
-    background-color: rgb(252, 249, 252);
   }
 
   #LaMer {
@@ -1966,32 +1929,18 @@
   }
   /*Auberge Le Panier*/
   .figureLePanier {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
+    /*figure de l'image*/
     position: relative;
     top: 727px;
     right: 30.8%;
-    width: 346px;
-    height: 220px;
-    background-color: rgb(252, 249, 252);
   }
 
   /*Hôtel chez Amina*/
   .figureChezAmina {
-    border: 7px solid rgb(252, 250, 250);
-    border-radius: 20px/20px;
-    border-radius: 30px 30px 30px 30px;
-    border-top: 7px solid #f8f4f4;
-    border-bottom: 7px solid #f3efef; /*figure de l'image*/
+    /*figure de l'image*/
     position: relative;
     top: 980px;
     right: 60.5%;
-    width: 346px;
-    height: 220px;
-    background-color: rgb(252, 249, 252);
   }
   /*Afficher plus*/
   #AfficherPlus {
