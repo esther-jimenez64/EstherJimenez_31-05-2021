@@ -29,90 +29,83 @@
 }
 /* largeur par la hauteur : 1920 x 1080*/
 body {
-  overflow-x: hidden;
-  position: relative;
-  top: 15px;
-  left: 3%; /*config corps*/
+  font-family: "Raleway", sans-serif;
   margin: 0px;
+  color: black; /*config du corps*/
   max-width: 1920px;
 }
-#bloc_page {
-  height: 10px; /*spération entre la partis header et hébergements*/
+a {
+  text-decoration: none;
+  color: black;
 }
+
+figure /*all figures*/ {
+  border-radius: 20px;
+  margin: 15px;
+  padding: 5px;
+}
+#bloc_page {
+  width: 95%; /*div conteneur*/
+  margin: auto;
+}
+
 /***  header ***/
 header {
-  height: 900%;
-  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-#logo img {
-  width: 104px;
-  height: 50px;
-  position: relative; /*logo reservia*/
-  bottom: 10%;
-  right: 10px;
-  margin-bottom: 10%;
-} /* Navigation */
-#navigation {
-  position: relative;
-  bottom: 200px; /*position du menu*/
-  left: 66%;
+.logo {
+  width: 100px;
+  cursor: pointer;
 }
-img {
-  object-fit: cover; /*toute les images passe mieux en responsives*/
+/* Navigation */
+#menu {
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+  margin-right: 20px;
 }
-
-.Sinscrire {
-  font-family: "Raleway-Bold.ttf"; /*s'insicre menu*/
-  color: #0065fc;
-}
-
 nav ul {
+  display: flex;
+}
+li {
   list-style-type: none;
-  display: flex; /*position de la ul qui contient le menu*/
-  position: relative;
 }
-
-nav li {
-  margin-right: 3%; /*espace entre les li menu*/
-}
-
-nav a {
-  font-size: 1em;
-  color: #181818; /*Police est détaille de la nav menu*/
-  padding-bottom: 3px;
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
+li a {
+  padding: 20px 50px 20px 50px;
 }
 
 nav a:hover {
+  border-top: 2px solid #0065fc; /*lien au survol de la souris*/
   color: #0065fc;
-  border-top: 3px solid#0065fc;
-  padding-top: 30px;
+  font-weight: bold;
 }
-#navigation :nth-child(3) a:hover {
+.sinscrire a {
+  font-weight: bold;
+  color: #0065fc;
+  padding-left: 50px;
+}
+#Recherche {
+  display: flex;
+  height: 50px;
+}
+.fa-map-marker-alt/*location icon*/ {
+  background-color: #f2f2f2;
+  padding: 15px 15px 10px 20px;
+  border-radius: 15px 0px 0px 15px;
+}
+input {
+  height: 47px;
+  font: 17px "Raleway-ExtraBold.ttf"; /*le formulaire*/
+  width: 264px;
+  text-decoration: none;
+  text-decoration-color: black;
   border: transparent;
 }
-
-h1 {
-  font: 155% "Raleway-Bold.ttf"; /*Trouvez votre hébergement */
-  position: relative;
-  bottom: 45px;
-  right: 0.5%;
-}
-
-#centre {
-  font: 100% "Raleway", sans-serif; /* premier p   */
-  position: relative;
-  bottom: 55px;
-  left: 0.1%;
-  white-space: nowrap;
-}
-
-.fa-search {
-  visibility: hidden; /*loupe pour recherche smartphone*/
-}
-
-.Recherche {
+label {
   border-radius: 10px/20px;
   border-radius: 0px 15px 15px 0px;
   background-color: #0065fc; /* le background de recherche   */
@@ -121,262 +114,95 @@ h1 {
   text-align: center;
   padding: 17px;
   font-family: "Raleway-Bold.ttf";
-  position: relative;
-  left: 320px;
-  bottom: 40px;
   cursor: pointer;
-}
-.Recherche a:hover {
-  margin-top: 20px;
-  font-size: 18px;
-}
-.Recherche a {
-  text-decoration: none; /* le a premier lien pour rendre cliquable la barre recherche   */
   color: white;
+  position: relative;
+  bottom: 6%;
 }
 
-.location {
-  background-color: #f2f2f2;
-  width: 2%; /* icon localisasion*/
-  padding: 10px;
-  border-radius: 10px 0px 0px 10px;
-  text-align: center;
-  height: 29px;
-  position: relative;
-  bottom: 90px;
-}
-#pseudo {
-  height: 47px;
-  font: 17px "Raleway-ExtraBold.ttf"; /*le formulaire*/
-  width: 264px;
-  position: relative;
-  bottom: 155px;
-  left: 50px;
-  text-decoration: none;
-  text-decoration-color: black;
-  border: transparent;
-}
-
-.Filtres {
-  font: 120% "Raleway-ExtraBold.ttf"; /*paragraphe filtres*/
-  position: relative;
-  bottom: 130px;
-}
-
-.Economique a {
-  border-radius: 10px/20px;
-  border-radius: 40px 40px 40px 40px;
-  border-top: 2.5px solid #d1d0d0;
-  border-bottom: 2.5px solid #d1d0d0;
-  border-right: 3px solid #d1d0d0;
-  padding: 13px;
-  text-decoration: none; /*Economique forme ronde et background  */
-  font: 20px "Raleway-Bold.ttf";
-  color: black;
-  width: 120px;
-  padding-left: 70px;
-  position: relative;
-  bottom: 170px;
-  left: 95px;
+.recherche:hover {
   cursor: pointer;
-  text-align: right;
-}
-.Economique a:hover {
-  color: white; /*  économique lorsqu'elle devient cliquable   */
-  background-color: #0065fc;
-}
-
-.money {
-  color: #0065fc;
-  border-radius: 50px 45px 50px 45px; /*icon d'argent pour économique*/
-  height: 20px;
-  width: 20px;
-  padding: 14px;
-  padding-bottom: 18px;
-  padding-left: 18px;
-  padding-right: 18px;
-  padding-top: 18px;
-  background-color: #deebff;
-  cursor: pointer;
+  margin-top: 20px; /*bouton recherche au survol*/
   font-size: 17px;
-  position: relative;
-  bottom: 210px;
-  left: 94px;
+}
+.fa-search {
+  visibility: hidden; /*bouton pour smartphone*/
 }
 
-.Familial a {
-  border-radius: 10px/20px;
-  border-radius: 40px 40px 40px 40px;
-  border-top: 2.5px solid #d1d0d0;
-  border-bottom: 2.5px solid #d1d0d0;
-  border-right: 3px solid #d1d0d0;
-  text-decoration: none;
-  font: 20px "Raleway-Bold.ttf";
-  color: black;
-  position: relative;
-  bottom: 250px;
-  left: 320px;
-  padding: 13px;
-  padding-left: 70px;
-  cursor: pointer;
-  text-align: right;
+#BougerFiltre {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.Filtres {
+  margin: 5px 45px 0px 5px;
+}
+#boxfiltres {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Filtre /*four buttons*/ {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  border: 2px #f2f2f2 solid;
+  margin: 10px 40px 10px 00px;
+  padding-right: 35px;
 }
 
-.Familial a:hover {
-  color: white; /* Familial lorsqu'elle devient cliquable   */
-  background-color: #0065fc;
-}
-
-.enfant {
-  color: #0065fc;
-  position: relative;
-  bottom: 290px;
-  left: 319px;
-  border-radius: 60px 55px 60px 55px; /*icon d'enfant pour familial*/
-  height: 20px;
-  width: 20px;
-  padding: 14px;
-  padding-bottom: 18px;
-  padding-left: 18px;
-  padding-right: 18px;
-  padding-top: 18px;
+.Filtre i /*4 filter icon*/ {
   background-color: #deebff;
-  cursor: pointer;
-  font-size: 20px;
-  text-align: center;
-}
-
-.Romantique a {
-  border-radius: 10px/20px;
-  border-radius: 40px 40px 40px 40px;
-  border-top: 2.5px solid #d1d0d0;
-  border-bottom: 2.5px solid #d1d0d0;
-  border-right: 3px solid #d1d0d0;
-  text-decoration: none; /*Romantique forme ronde et background  */
-  font: 20px "Raleway-Bold.ttf";
-  color: black;
-  padding: 13px;
-  padding-left: 72px;
-  position: relative;
-  bottom: 331px;
-  left: 500px;
-  cursor: pointer;
-  text-align: right;
-}
-
-.Romantique a:hover {
-  color: white; /* Romantique lorsqu'elle devient cliquable   */
-  background-color: #0065fc;
-}
-
-.ceour {
   color: #0065fc;
+  font-size: 1.2em;
+  border-radius: 27px;
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+  width: 15px;
   position: relative;
-  bottom: 372px;
-  left: 500px;
-  border-radius: 50px 45px 50px 45px;
-  height: 20px;
-  width: 20px; /*icon d'un ceour pour Romantique*/
-  padding: 14px;
-  padding-bottom: 18px;
-  padding-left: 18px;
-  padding-right: 18px;
-  padding-top: 18px;
-  background-color: #deebff;
-  cursor: pointer;
-  font-size: 20px;
+  right: 10px;
 }
-
-.Animaux a {
-  border-radius: 10px/20px;
-  border-radius: 40px 40px 40px 40px;
-  border-top: 2.5px solid #d1d0d0;
-  border-bottom: 2.5px solid #d1d0d0;
-  border-right: 3px solid #d1d0d0;
-  text-decoration: none; /*Animaux forme ronde et background  */
-  font: 20px "Raleway-Bold.ttf";
-  color: black;
-  width: 220px;
-  padding: 13px;
-  padding-left: 72px;
-  position: relative;
-  bottom: 413px;
-  left: 730px;
-  cursor: pointer;
-  text-align: right;
-}
-
-.Animaux a:hover {
-  color: white; /* Animaux lorsqu'elle devient cliquable   */
+.Filtre:hover {
+  color: white;
   background-color: #0065fc;
-  position: relative;
-}
-
-.dog {
-  color: #0065fc;
-  position: relative;
-  bottom: 453px;
-  left: 729px;
-  border-radius: 50px 45px 50px 45px; /*icon d'un ceour pour Romantique*/
-  height: 20px;
-  width: 20px;
-  padding: 14px;
-  padding-bottom: 18px;
-  padding-left: 18px;
-  padding-right: 18px;
-  padding-top: 18px;
-  background-color: #deebff;
   cursor: pointer;
-  font-size: 20px;
 }
 
 #petiteinfo {
-  font: 100% "Raleway";
-  position: relative; /*infos*/
-  bottom: 440px;
-  left: 2.5%;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
 }
 
-.I {
+.fa-info /*info icon*/ {
   color: #0065fc;
+  border-radius: 30px;
+  padding: 4px 10px 5px 10px;
+  border: 2px #f2f2f2 solid;
+  margin-right: 10px;
+}
+
+/***Hébergements à marseille***/
+#Marseille {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
   border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px; /*info icon*/
-  border-top: 2.5px solid #d1d0d0;
-  border-bottom: 2.5px solid #d1d0d0;
-  border-right: 3px solid #d1d0d0;
-  width: 18px;
-  text-align: center;
-  padding: 4px;
-  font-size: 13px;
-  position: relative;
-  bottom: 480px;
-}
-/***Hébergements à marseile***/
-figure {
-  cursor: pointer;
-  overflow: hidden; /*curseur sur toute le figure sans debordements*/
-}
-figure a:hover {
-  position: relative;
-  bottom: 15%; /*toute les figure au survol*/
-  top: 2%;
-  transition: 0.5s;
+  border-radius: 30px 30px 30px 30px;
 }
 
 #titreMarseille {
-  font-family: "Raleway-Bold.ttf";
-  position: relative;
-  top: 2.7%; /*hebergements a marseile*/
-  left: 4.6%;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  margin-right: 10px;
+  padding: 20px 0px 30px 20px;
 }
-
-.imageHebergements {
-  border-radius: 20px/20px;
-  border-radius: 26px 26px 0px 0px;
-  width: 235px; /*toutes les images d'herbegements*/
-  height: 140px;
-  position: relative;
-  object-fit: cover;
+#titreMarseille h2 {
+  margin-left: 25px;
 }
 
 .hotelHebergements {
@@ -384,194 +210,100 @@ figure a:hover {
   font-family: "Raleway-Bold.ttf"; /*tout les titre d'herbergements*/
   position: relative;
   bottom: 10px;
-  left: 6%;
+  right: 2%;
 }
+
 .nuitHebergements {
   color: black;
-  position: relative; /*p nuit à partir de tout d'hergements*/
-  bottom: 25px;
-  left: 6%;
+  position: relative; /*p nuit à partir de tout d'hebergements*/
+  bottom: 21px;
+  right: 2%;
   font-family: "Raleway", sans-serif;
 }
-#Marseille {
-  background-color: #eeeaea;
-  height: 700px; /*background d'hébergements */
-  width: 930px;
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 2.5px solid#ece9e9;
-  border-bottom: 2.5px solid #ece9e9;
-  border-right: 3px solid #ece9e9;
-  position: relative;
-  bottom: 400px;
-}
-.marcusFigure {
-  /*contour de l'image marcus*/
-  position: relative;
-  top: 3%;
-  width: 235px;
-  height: 220px;
-}
-.marcusFigure,
-.figureFred,
-.figureMouettes,
-.figureLaMer,
-.figureLePanier,
-.figureChezAmina {
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef;
-  background-color: rgb(252, 249, 252);
-}
+
 .fa-star {
   color: #0065fc;
   font-size: 0.8em;
-  position: relative; /*etoile bleu*/
-  bottom: 40px;
-  left: 6%;
 }
-.etoile .fa-star {
-  color: rgb(223, 221, 221); /*l'étoile gris*/
-  position: relative;
-  bottom: 58px;
-  left: 38%;
+.greystar {
+  color: #f2f2f2;
 }
-
-/* Hôtel du port*/
-
-.figureFred {
-  /*figure de l'image*/
-  position: relative;
-  top: 10px;
-  width: 235px;
-  height: 220px;
-}
-
-#Port {
-  position: relative;
-  bottom: 240px; /*contour de l'image fred*/
-  left: 30%;
-  bottom: 240px;
-  left: 30%;
-}
-/*Hôtel Les mouettes*/
-.figureMouettes {
-  /*figure de l'image*/
-  width: 235px;
-  height: 220px;
-}
-#lesMouettes {
-  position: relative;
-  bottom: 484px; /*contour de l'image reisetopia*/
-  left: 60%;
-}
-
-/*Hôtel de la mer*/
-.figureLaMer {
-  /*figure de l'image*/
-  position: relative;
-  width: 235px;
-  height: 220px;
-}
-#LaMer {
-  position: relative;
-  bottom: 470px; /*contour de l'image annie la mer*/
-  left: 0.2%;
-}
-/*Auberge Le Panier*/
-.figureLePanier {
-  /*figure de l'image*/
-  position: relative;
-  width: 235px;
-  height: 220px;
-}
-
-#LePanier {
-  position: relative;
-  bottom: 722px; /*contour de l'image Panier nicate*/
-  left: 30%;
-}
-/*Hôtel chez Amina*/
-.figureChezAmina {
-  /*figure de l'image*/
-  width: 235px;
-  height: 220px;
-}
-#Amina {
-  position: relative;
-  bottom: 974px; /*contour de l'image Amina Fabien*/
-  left: 60%;
-}
-
 /*Afficher plus*/
 #AfficherPlus {
-  position: relative;
-  bottom: 1100px;
-  left: 5%;
-  font-family: "Raleway-Bold.ttf";
-  font-size: 118%;
+  margin-left: 25px;
+  font-weight: bold;
   cursor: pointer;
-  max-width: 120px;
-  position: relative;
-  bottom: 950px;
-  left: 5%;
+}
+/*cards*/
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  justify-content: space-around;
+}
+/*box size*/
+.boxcard {
+  width: 30%;
+  min-width: 200px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.boxcard figure {
+  background-color: white;
+  border: 7px solid rgb(252, 250, 250);
+  border-radius: 20px/20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: 7px solid #f8f4f4;
+  border-bottom: 7px solid #f3efef;
+  background-color: rgb(252, 249, 252);
+  width: 235px;
+  height: 220px;
+  box-shadow: #c3c3c3 10px 10px 10px;
+}
+.boxcard:hover {
+  transform: scale(1.05);
+}
+
+.boxcard figure img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.boxcard figcaption {
+  margin-left: 15px;
 }
 
 /***Aside POPULAIRE**/
-#populaire {
-  background-color: #ece9e9;
-  margin-bottom: 46%;
-  margin-left: 66%;
-  position: relative;
-  right: 1%;
-  bottom: 1108px;
-  height: 700px; /*background Populaire */
-  width: 430px;
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 2.5px solid#ece9e1;
-  border-bottom: 2.5px solid #ece9e1;
-  border-right: 3px solid #ece9e1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+aside {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+/*title-icone*/
+#populaires {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 35px 0px 35px;
+}
+#populaires i {
+  font-size: 1.3em;
 }
 
-.LesPlusPopulaires {
-  font-family: "Raleway-Bold.ttf"; /*titre populaire*/
-  position: relative;
-  left: 12%;
-  top: 3%;
+#cardspop {
+  margin: 0px 5px 20px 15px;
 }
-.fa-chart-line {
-  font-size: 149%; /*icon a coter du titre populaire*/
-  position: relative;
-  bottom: 220px;
-  left: 85%;
+.boxpop {
+  display: flex;
+  height: 200px;
+  min-width: 320px;
+  margin-right: 15px;
 }
-
-.imagePop {
-  border-radius: 20px/20px;
-  border-radius: 26px 0px 0px 26px;
-  width: 140px;
-  height: 158px;
-  position: relative;
-  cursor: pointer; /*image emile SOLEIL*/
-  object-fit: cover;
-}
-#Soleil {
-  width: 350px;
-  height: 160px;
-  position: relative;
-  right: 2.5%;
-  top: 3%;
-}
-
-#Soleil,
-#AuCeourDeLeau,
-.toutBleuEtBlanc {
+.boxpop figure {
+  display: flex;
+  background-color: white;
   background-color: rgb(252, 249, 252);
   cursor: pointer;
   border: 7px solid rgb(252, 250, 250);
@@ -579,314 +311,123 @@ figure a:hover {
   border-radius: 30px 30px 30px 30px;
   border-top: 7px solid #f8f4f4;
   border-bottom: 7px solid #f3efef;
+  box-shadow: #c3c3c3 10px 10px 10px;
 }
-.titrePop {
-  font-family: "Raleway-Bold.ttf";
-  position: relative;
-  bottom: 165px; /*tout les titres des figures dans la section Populaire*/
-  left: 43%;
-  cursor: pointer;
+.boxpop img {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 0px 0px 20px;
 }
-
+.boxpop figcaption {
+  margin-left: 15px;
+}
+.boxpop:hover {
+  transform: scale(1.03);
+}
+.hotelpop {
+  color: black;
+  font-family: "Raleway-Bold.ttf"; /*tout les titre Populaire*/
+}
 .nuitPop {
+  font-family: "Raleway", sans-serif; /*p nuit à partir Populaire*/
+  color: black;
+  white-space: nowrap;
+}
+.starsPop {
   position: relative;
-  bottom: 170px;
-  left: 43%;
-  font-family: "Raleway", sans-serif; /*tout les p nuit à partir.. de Populaire*/
-  cursor: pointer;
+  bottom: 13%;
 }
 
-.starspop .fa-star {
-  cursor: pointer; /*tout les étoile bleu*/
+.starsPopSeul {
   position: relative;
-  bottom: 145px;
-  left: 43%;
-}
-/*Au coeur de l'eau Chambres d'hôtes*/
-#AuCeourDeLeau {
-  width: 350px;
-  height: 160px;
-  position: relative;
-  right: 2%;
-  bottom: 18px; /*figure de l'image*/
-  width: 355px;
-  height: 160px;
+  bottom: 2%;
 }
 
-.etoilegris .fa-star {
-  color: rgb(223, 221, 221); /*l'étoile gris*/
-  position: relative;
-  bottom: 164px;
-  left: 64%;
-  cursor: pointer;
-}
-
-/*Hôtel Tout bleu et Blanc*/
-.toutBleuEtBlanc {
-  width: 350px;
-  height: 160px;
-  position: relative;
-  bottom: 1px;
-  right: 2%; /*figure de l'image*/
-  width: 355px;
-  height: 160px;
-}
-
-/***Section   Activités à Marseille  **/
-#titreActivité {
-  position: relative;
-  left: 0.3%;
-  top: 415%;
-  font-family: "Raleway-Bold.ttf";
-}
-
+/***PARTIE ACTIVITé***/
 #flexActivite {
-  position: relative;
-  bottom: 2600px;
-  height: 200px;
+  display: flex;
+  flex-direction: column;
 }
-
-/***PARTIS ACTIVITé***/
-/*Vieu Port*/
-.ImgBateauxAndCalanques {
-  border-radius: 20px/20px;
-  border-radius: 26px 26px 0px 0px;
-  width: 330px; /*image vieux port*/
-  height: 430px;
-  cursor: pointer;
-  object-fit: cover;
+#activites {
+  display: flex;
 }
-.BateauxVieuPort,
-.desCalanques {
-  width: 325px;
-  height: 475px;
-  cursor: pointer;
-  box-shadow: 5px 2px 5px #fbfdfd;
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef;
-}
-.BateauxVieuPort {
-  position: relative;
-  right: 3.2%;
-  top: 415%; /*contour image port*/
-}
-
 .TitreActivite {
-  font-family: "Raleway-Bold.ttf";
-  cursor: pointer;
-  position: relative;
-  left: 6%;
-  bottom: 5px;
+  font-family: "Raleway-ExtraBold.ttf";
 }
-/*Fort de Pomègues*/
-.PaulFort {
+#activites figcaption {
+  padding-left: 15px;
+}
+
+.boxactivite-A figure {
+  height: 550px;
+  box-shadow: #f2f2f2 10px 10px 10px;
+}
+.boxactivite-A {
+  width: 25%;
+}
+.boxactivite-A img {
+  width: 100%;
+  height: 500px;
   object-fit: cover;
-  border-radius: 20px/20px;
-  border-radius: 26px 26px 0px 0px;
-  width: 300px; /*image fort*/
-  height: 200px;
+  border-radius: 20px 20px 0px 0px;
 }
-.FortDePomegues {
-  position: relative;
-  left: 21%;
-  top: 165%;
-  width: 295px;
-  height: 245px; /*contour image fort*/
-  cursor: pointer;
-  box-shadow: 5px 2px 5px #fbfdfd;
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef;
+.boxactivite-B {
+  width: 25%;
 }
-
-/*Île du Frioul*/
-.Ilekevin {
+.activite1 {
+  height: 310px;
+}
+.activite1 img {
+  width: 100%;
+  height: 260px;
   object-fit: cover;
-  border-radius: 20px/20px;
-  border-radius: 26px 26px 0px 0px;
-  width: 300px; /*image de l'ile*/
-  height: 130px;
+  border-radius: 20px 20px 0px 0px;
 }
-
-.duFrioul {
-  width: 295px;
-  height: 180px;
-  position: relative;
-  left: 21%;
-  top: 173%; /*contour image de l'ile*/
-  cursor: pointer;
-  box-shadow: 5px 2px 5px #fbfdfd;
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef;
+.activite2 {
+  height: 210px;
 }
-
-/*Parc National des Calanques*/
-
-.desCalanques {
-  position: relative;
-  left: 43.8%;
-  bottom: 160px; /*contour image Parc National*/
-}
-
-/*Notre-Dame-de-la-Garde*/
-.NotreDameFlorian {
+.activite2 img {
+  width: 100%;
+  height: 160px;
   object-fit: cover;
-  border-radius: 20px/20px;
-  border-radius: 26px 26px 0px 0px;
-  width: 300px; /*image Notre Dame*/
-  height: 150px;
+  border-radius: 20px 20px 0px 0px;
 }
-
-.deLaGarde {
-  width: 300px;
-  height: 195px;
+.boxactivite-A:hover {
+  transform: scale(1.03);
+}
+.activite1:hover {
+  transform: scale(1.03);
+}
+.activite2:hover {
+  transform: scale(1.03);
+}
+.stars {
   position: relative;
-  left: 68.5%;
-  bottom: 668px; /*contour image Notre Dame*/
-  cursor: pointer;
-  box-shadow: 5px 2px 5px #fbfdfd;
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef;
+  bottom: 33px;
 }
-
-/*Parc Longchamp*/
-.PaulinLongChamp {
-  object-fit: cover;
-  border-radius: 20px/20px;
-  border-radius: 26px 26px 0px 0px;
-  width: 300px; /*image Parc LONG Champ*/
-  height: 185px;
-}
-
-.Longchamp {
-  width: 295px;
-  height: 235px;
+.StarPop {
   position: relative;
-  bottom: 650px;
-  left: 68.9%; /*contour image Parc LONG Champ*/
-  cursor: pointer;
-  box-shadow: 5px 2px 5px #fbfdfd;
-  border: 7px solid rgb(252, 250, 250);
-  border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
-  border-top: 7px solid #f8f4f4;
-  border-bottom: 7px solid #f3efef;
+  top: 10%;
 }
+.star_check {
+  color: #0065fc;
+}
+
+.star_uncheck {
+  color: #d9d9d9;
+}
+
 /*** footer        ***/
-/*a propos*/
-#footerBouge {
-  background-color: #e8ebeb;
-  position: relative;
-  bottom: 1400px;
-  margin: 0px;
-  right: 3%;
-  width: 1500px;
-  margin-bottom: 0px;
-}
-
-#footerBack {
-  position: relative;
-  top: 25px;
-  left: 0.5%;
-}
-
 footer {
-  position: relative;
-  top: 25px; /*bouger la structure*/
-  left: 0.5%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  padding-top: 30px;
 }
 
-.Apropos {
-  font-family: "Raleway-ExtraBold.ttf";
-  color: #181818; /*titre */
-  position: relative;
-  left: 40px;
-  top: 15px;
-}
-
-#direction {
-  font-family: "Raleway", sans-serif;
-  list-style-type: none;
-  display: flex; /*direction de la ul*/
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-  top: 18px;
-}
-
-footer li {
-  margin-bottom: 15px; /*l'espace entre les li*/
-}
-
-/*Nos hébergements*/
-#bougerHebergements {
-  position: relative;
-  left: 33%;
-  bottom: 120px;
-  margin: 0;
-  padding: 0;
-}
-
-.NosHebergements {
-  font-family: "Raleway-ExtraBold.ttf";
-  color: #181818; /*titre */
-  position: relative;
-  left: 2.5%;
-  bottom: 10px;
-  margin: 0;
-  padding: 0;
-}
-
-#directionDeHebergements {
-  font-family: "Raleway", sans-serif;
-  list-style-type: none;
-  display: flex; /*direction de la ul*/
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-/** Assistance**/
-#bougerAssistance {
-  position: relative;
-  left: 65%;
-  bottom: 255px;
-}
-
-.Assistance {
-  font-family: "Raleway-ExtraBold.ttf";
-  color: #181818; /*titre */
-  position: relative;
-  left: 2.5%;
-  bottom: 10px;
-}
-
-#directionAssistance {
-  font-family: "Raleway", sans-serif;
-  list-style-type: none;
-  display: flex; /*direction de la ul*/
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-footer li {
+footer p {
   cursor: pointer;
-}
-
-footer {
-  background-color: #e8ebeb;
-  height: 280px;
-  margin: 0;
-  padding: 0;
-  width: 1490px;
 }
