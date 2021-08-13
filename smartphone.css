@@ -37,6 +37,7 @@
   label/*button */ {
     border-radius: 15px 15px 15px 15px;
     margin-left: -5%;
+    width: 5%;
   }
   .fa-search {
     visibility: visible;
@@ -47,7 +48,7 @@
   .Filtre {
     margin: 5px 15px 5px 0px;
     padding-right: 5%;
-    font-size: 12px;
+    font-size: 14px;
     border: 1.8px solid #dddbdb;
   }
   /***Hébergements à marseille***/
@@ -71,6 +72,9 @@
   .boxpop img {
     min-width: 40%;
   }
+  #titreMarseille h2 {
+    margin-left: 7%;
+  }
   #titreMarseille {
     max-width: 100%;
     padding: 15px 10px 0px 0px;
@@ -79,8 +83,12 @@
     width: 100%;
     margin-left: 0px;
   }
+  #cards {
+    position: relative;
+    right: 22px;
+  }
   .boxcard figure {
-    width: 100%;
+    width: 90%;
     height: 180px;
     font-size: 13px;
   }
@@ -93,7 +101,9 @@
   .nuitHebergements {
     font-size: 1.2em;
   }
-
+  #AfficherPlus {
+    margin-left: 7%;
+  }
   .stars {
     font-size: 1.2em;
   }
