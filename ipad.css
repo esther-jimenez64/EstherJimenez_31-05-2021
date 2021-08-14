@@ -12,6 +12,9 @@
     margin-top: auto;
     margin-left: 50%;
   }
+  .Filtre {
+    border: 1.8px solid #dddbdb;
+  }
   /***Hébergements à marseille***/
   #Marseille {
     flex-direction: column-reverse;
