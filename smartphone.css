@@ -27,7 +27,7 @@
   }
   .sinscrire {
     position: absolute;
-    top: 4%;
+    top: 22px;
     right: 11%;
   }
 
@@ -50,6 +50,7 @@
     padding-right: 5%;
     font-size: 14px;
     border: 1.8px solid #dddbdb;
+    cursor: pointer;
   }
   /***Hébergements à marseille***/
   #Marseille {
@@ -141,14 +142,34 @@
   }
 
   /*** Footer***/
-  footer {
-    width: 100%;
-    flex-direction: column;
-    padding-left: 30px;
-    font-size: 0.9em;
-    margin-top: 10px;
+  #footerBouge {
+    position: relative;
+    top: 40px;
+    height: 500px;
   }
-  footer h2 {
-    margin-left: 0%;
+
+  .Apropos {
+    /*titre */
+    position: relative;
+    left: 30px;
+  }
+
+  #direction {
+    /*direction de la ul*/
+    position: relative;
+    right: 5.4%;
+    top: 20px;
+  }
+
+  #bougerHebergements {
+    position: relative;
+    right: 31.8%;
+    top: 180px;
+  }
+
+  #bougerAssistance {
+    position: relative;
+    right: 64.7%;
+    top: 310px;
   }
 }

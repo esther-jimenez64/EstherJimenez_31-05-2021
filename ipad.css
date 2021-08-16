@@ -6,7 +6,15 @@
   }
   nav a:hover {
     border-top: hidden;
-    border-bottom: 2px solid #0065fc;
+    color: #0065fc;
+    border-bottom: 3px solid#0065fc;
+    padding-top: 30px;
+  }
+  nav :nth-child(2) a:hover {
+    border-top: hidden;
+    color: #0065fc;
+    border-bottom: 3px solid#0065fc;
+    padding-top: 30px;
   }
   .sinscrire {
     margin-top: auto;
@@ -170,12 +178,35 @@
     box-shadow: #c3c3c3 10px 10px 10px;
   }
   /*** footer        ***/
-  footer {
-    width: 100%;
-    flex-direction: column;
-    margin: auto;
-    font-size: 0.9em;
-    padding-left: 2%;
+  #footerBouge {
+    position: relative;
+    top: 40px;
+    height: 500px;
+  }
+
+  .Apropos {
+    /*titre */
+    position: relative;
+    left: 30px;
+  }
+
+  #direction {
+    /*direction de la ul*/
+    position: relative;
+    right: 5.4%;
+    top: 20px;
+  }
+
+  #bougerHebergements {
+    position: relative;
+    right: 31.8%;
+    top: 180px;
+  }
+
+  #bougerAssistance {
+    position: relative;
+    right: 64.7%;
+    top: 310px;
   }
 }
 

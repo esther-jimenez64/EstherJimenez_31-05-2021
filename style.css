@@ -30,7 +30,7 @@
 /* largeur par la hauteur : 1920 x 1080*/
 body {
   font-family: "Raleway", sans-serif;
-  margin: 0px;
+  margin: 0;
   color: black; /*config du corps*/
   max-width: 1920px;
 }
@@ -47,6 +47,8 @@ figure /*all figures*/ {
 #bloc_page {
   width: 95%; /*div conteneur*/
   margin: auto;
+  position: relative;
+  top: 10px;
 }
 
 /***  header ***/
@@ -82,6 +84,7 @@ nav a:hover {
   border-top: 2px solid #0065fc; /*lien au survol de la souris*/
   color: #0065fc;
   font-weight: bold;
+  padding-top: 34px;
 }
 .sinscrire a {
   font-weight: bold;
@@ -354,7 +357,7 @@ aside {
   display: flex; /*align à droite de tout les figures*/
 }
 .TitreActivite {
-  font-family: "Raleway-ExtraBold.ttf";
+  font-family: "Raleway-Bold.ttf";
 }
 #flexActivite h2 {
   margin-left: 1.9%;
@@ -418,15 +421,97 @@ aside {
 }
 
 /*** footer        ***/
-footer {
-  display: flex;
-  justify-content: space-around;
+
+/*a propos*/
+
+#footerBouge {
   background-color: #f2f2f2;
-  margin-top: 40px; /*positionement des élements*/
-  padding-bottom: 40px;
-  padding-top: 30px;
+  position: relative;
+  right: 5px;
+  top: 40px;
+  width: 1490px;
+  height: 260px;
 }
 
-footer p {
+footer {
+  position: relative;
+  top: 60px; /*bouger la structure*/
+  left: 10px;
+  display: flex;
+}
+
+.Apropos {
+  font-family: "Raleway", sans-serif;
+  color: black; /*titre */
+  position: relative;
+  left: 4%;
+  bottom: 28px;
+}
+
+#direction {
+  font-family: "Raleway", sans-serif;
+  list-style-type: none;
+  display: flex; /*direction de la ul*/
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  right: 3.3%;
+  top: 20px;
+}
+footer li {
+  margin-bottom: 15px; /*l'espace entre les li*/
+}
+
+/*Nos hébergements*/
+
+#bougerHebergements {
+  position: relative;
+}
+
+.NosHebergements {
+  font-family: "Raleway", sans-serif;
+  color: black; /*titre */
+  position: relative;
+  left: 82%;
+  bottom: 20%;
+}
+
+#directionDeHebergements {
+  font-family: "Raleway", sans-serif;
+  list-style-type: none;
+  display: flex; /*direction de la ul*/
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  left: 63%;
+  bottom: 20%;
+}
+
+/** Assistance**/
+
+#bougerAssistance {
+  position: relative;
+}
+
+.Assistance {
+  font-family: "Raleway", sans-serif;
+  color: black; /*titre */
+  position: relative;
+  left: 295%;
+  bottom: 20%;
+}
+
+#directionAssistance {
+  font-family: "Raleway", sans-serif;
+  list-style-type: none;
+  display: flex; /*direction de la ul*/
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  left: 269%;
+  bottom: 20%;
+}
+
+footer li {
   cursor: pointer;
 }
