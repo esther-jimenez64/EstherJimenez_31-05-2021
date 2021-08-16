@@ -64,18 +64,18 @@ header {
 /* Navigation */
 #menu {
   display: flex;
-  align-items: center;
+  align-items: center; /*bouger le menu*/
   font-size: 1.1em;
   margin-right: 20px;
 }
 nav ul {
-  display: flex;
+  display: flex; /*align menu*/
 }
 li {
   list-style-type: none;
 }
 li a {
-  padding: 20px 50px 20px 50px;
+  padding: 20px 50px 20px 50px; /*menu espacé*/
 }
 
 nav a:hover {
@@ -85,11 +85,11 @@ nav a:hover {
 }
 .sinscrire a {
   font-weight: bold;
-  color: #0065fc;
+  color: #0065fc; /*espace et aparence d'inscrire*/
   padding-left: 50px;
 }
 #Recherche {
-  display: flex;
+  display: flex; /*postion de l'essemble de la barre de recherche*/
   height: 50px;
 }
 .fa-map-marker-alt/*location icon*/ {
@@ -108,7 +108,7 @@ input {
 label {
   border-radius: 10px/20px;
   border-radius: 0px 15px 15px 0px;
-  background-color: #0065fc; /* le background de recherche   */
+  background-color: #0065fc; /* le background du bouton recherche   */
   height: 20px;
   width: 105px;
   text-align: center;
@@ -138,13 +138,13 @@ label {
   margin: 5px 45px 0px 5px;
 }
 #boxfiltres {
-  display: flex;
+  display: flex; /*alignement des filtres*/
   flex-wrap: wrap;
 }
 .Filtre /*four buttons*/ {
   height: 50px;
   display: flex;
-  align-items: center;
+  align-items: center; /*positionement alignement des filtres */
   border-radius: 40px;
   border: 2px #f2f2f2 solid;
   margin: 10px 40px 10px 00px;
@@ -156,7 +156,7 @@ label {
   color: #0065fc;
   font-size: 1.2em;
   border-radius: 27px;
-  padding: 18px;
+  padding: 18px; /*apparence de tout les filtres*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,14 +190,14 @@ label {
 #Marseille {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 30px;
+  margin-bottom: 30px; /*positionement à l'interieure d'hébergements*/
   border-radius: 20px/20px;
   border-radius: 30px 30px 30px 30px;
 }
 
 #titreMarseille {
   background-color: #f2f2f2;
-  border-radius: 20px;
+  border-radius: 20px; /*positionnement des cards et background*/
   margin-right: 10px;
   padding: 20px 0px 30px 20px;
 }
@@ -222,10 +222,11 @@ label {
 }
 
 .fa-star {
-  color: #0065fc;
+  color: #0065fc; /*étoile*/
   font-size: 0.8em;
 }
 .greystar {
+  /*étoile gris*/
   color: #f2f2f2;
 }
 /*Afficher plus*/
@@ -236,13 +237,13 @@ label {
 }
 /*cards*/
 #cards {
-  display: flex;
+  display: flex; /*positionelent des cards*/
   flex-wrap: wrap;
 }
 /*box size*/
 .boxcard {
   width: 30%;
-  min-width: 200px;
+  min-width: 200px; /*bouger toute les figure d'hébergements*/
   position: relative;
   left: 4%;
 }
@@ -251,7 +252,7 @@ label {
   background-color: white;
   border: 7px solid rgb(252, 250, 250);
   border-radius: 20px/20px;
-  border-radius: 30px 30px 30px 30px;
+  border-radius: 30px 30px 30px 30px; /*figure de toute les cards hébergements*/
   border-top: 7px solid #f8f4f4;
   border-bottom: 7px solid #f3efef;
   background-color: rgb(252, 249, 252);
@@ -265,7 +266,7 @@ label {
 
 .boxcard figure img {
   width: 100%;
-  height: 140px;
+  height: 140px; /*toute les images d'hébergements*/
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
@@ -276,7 +277,7 @@ label {
 /***Aside POPULAIRE**/
 aside {
   background-color: #f2f2f2;
-  border-radius: 20px;
+  border-radius: 20px; /*positionnement des cards et background*/
   margin-left: 55px;
   padding-bottom: 20px;
 }
@@ -288,23 +289,23 @@ aside {
   padding: 20px 35px 0px 35px;
 }
 #populaires i {
-  font-size: 1.3em;
+  font-size: 1.3em; /*taille de l'icon pop*/
 }
 
 #cardspop {
-  margin: 0px 5px 20px 15px;
+  margin: 0px 5px 20px 15px; /*positionnement à droite de l'aside pop*/
 }
 .boxpop {
   display: flex;
   height: 200px;
-  min-width: 320px;
+  min-width: 320px; /*positionnement et espace entre les fig pop*/
   margin-right: 15px;
 }
 .boxpop figure {
   display: flex;
   background-color: white;
   background-color: rgb(252, 249, 252);
-  cursor: pointer;
+  cursor: pointer; /*toute figure pop*/
   border: 7px solid rgb(252, 250, 250);
   border-radius: 20px/20px;
   border-radius: 30px 30px 30px 30px;
@@ -315,7 +316,7 @@ aside {
 }
 .boxpop img {
   width: 40%;
-  height: 100%;
+  height: 100%; /*toute image pop*/
   object-fit: cover;
   border-radius: 20px 0px 0px 20px;
 }
@@ -335,22 +336,22 @@ aside {
   white-space: nowrap;
 }
 .starsPop {
-  position: relative;
+  position: relative; /*étoile pop*/
   bottom: 13%;
 }
 
 .starsPopSeul {
-  position: relative;
+  position: relative; /*étoile chambre de l'eau*/
   bottom: 2%;
 }
 
 /***PARTIE ACTIVITé***/
 #flexActivite {
-  display: flex;
+  display: flex; /*positionnement de toute la séction*/
   flex-direction: column;
 }
 #activites {
-  display: flex;
+  display: flex; /*align à droite de tout les figures*/
 }
 .TitreActivite {
   font-family: "Raleway-ExtraBold.ttf";
@@ -405,12 +406,8 @@ aside {
   transform: scale(1.03);
 }
 .stars {
-  position: relative;
+  position: relative; /*étoile */
   bottom: 33px;
-}
-.StarPop {
-  position: relative;
-  top: 10%;
 }
 .star_check {
   color: #0065fc;
@@ -425,7 +422,7 @@ footer {
   display: flex;
   justify-content: space-around;
   background-color: #f2f2f2;
-  margin-top: 40px;
+  margin-top: 40px; /*positionement des élements*/
   padding-bottom: 40px;
   padding-top: 30px;
 }
